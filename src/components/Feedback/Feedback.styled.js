@@ -61,7 +61,7 @@ width:100%;
   margin-left:0;
   flex-direction:column;
 #img2, #img3, #img4{
-  position:unset;
+  display:none;
   
 }
 }`
