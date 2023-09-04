@@ -1,6 +1,7 @@
 import {createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { Home } from "./pages";
+import { Footer } from "./components";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +12,9 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <RouterProvider router={router} />
+      <Footer/>
     </div>
   );
 }

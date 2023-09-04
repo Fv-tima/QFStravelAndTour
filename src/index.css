@@ -8,6 +8,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#subscribe{
+  background-image: url("./assets/images/subImg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  @media(max-width:868px){
+    padding: 50px 24px;
+  }
+}
+
+.container{
+  padding:3.125rem 6.25rem;
+  @media(max-width:868px){
+    padding: 50px 24px;
+  }
+}
 
 a {
   text-decoration: none;

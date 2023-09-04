@@ -5,50 +5,58 @@ import {
   SocialContainer,
   FooterLogo,
   AboutText,
+  FooterCon,
+  Copy,
+  Privacy
 } from "./Footer.styled";
-import Logo from "../../assets/images/F logo.png";
+import FLogo from "../../assets/images/Flogo.png"
 import Instagram from "../../assets/svg/instagram.svg";
-import Linkedin from "../../assets/svg/linkedin.svg";
 import Fb from "../../assets/svg/fb.svg";
 import Twitter from "../../assets/svg/twitter.svg";
 
 export default function Footer() {
   return (
+    <FooterCon>
     <FooterContainer>
-      <FooterContent id="about">
-        <FooterLogo>
-          <img src={Logo} />
+       <FooterLogo>
+          <img src={FLogo} />
         </FooterLogo>
         <AboutText>
-          Lorem ipsum dolor sit amet consectetur. Vestibulum tellus cras orci
-          natoque malesuada sed dictum lacinia. In vitae amet varius hendrerit
-          tincidunt. Sed id ac magna laoreet proin duis. Tristique lacus
-          pulvinar mi fermentum dignissim vel laoreet volutpat in. <br />
-          {/* details as discuss here */}
+          <h3>Explore Our Website</h3>
+        Ready to start planning your next adventure? Explore our website to learn more about our services and destinations. You can browse our tour packages, learn about our study abroad programs, and read our travel guides and tips.
+<p><span>Email:</span> jason@qfstravelandtourgh.com</p>
         </AboutText>
-        <p id="copyright">© 2023 QFS Travel & Tours. All Rights Reserved </p>
-      </FooterContent>
       <FooterContent>
-        <h3>Office</h3>
+        <h3>Accra Office</h3>
         <p>
-          Jln.Galau terus no 23. <br />
-          Jakarta selatan
+        C02 Manyo Close <br />
+        Adabraka
         </p>
-        <h3>Follow us</h3>
-        <SocialContainer>
-          <img src={Instagram} />
-          <img src={Linkedin} />
-          <img src={Fb} />
-          <img src={Twitter} />
+        <p>Tel: 0554791207/ 0533695188</p>
+        </FooterContent>
+          <FooterContent>
+            <h3>Sunyani Office</h3>
+            <p>Adjacent Fidelity Bank, off VRA Road</p>
+            <p>Tel: 0244967595</p>
+          </FooterContent>
+          <FooterContent>
+          <h3>Follow Us</h3>
+          <SocialContainer>
+          <a href=""><img src={Fb}/> <p>facebook</p></a>
+          <a href=""><img src={Twitter} /> <p>twitter</p></a>
+         <a href=""><img src={Instagram} /> <p>instagram</p> </a> 
         </SocialContainer>
-      </FooterContent>
-      <FooterContent>
-        <h3>Contact</h3>
-        <a href="#">Ipsum</a>
-        <a href="#">Lorem</a>
-        <a href="#">lorem Ipsum</a>
-        <a href="#">ipsumlorem</a>
-      </FooterContent>
+        </FooterContent>
     </FooterContainer>
+    <Copy>
+        <p id="copyright">© 2023 QFS Travel & Tours. All Rights Reserved </p>
+        <p>Designed with by ❤️ Fleet Labs Ghana</p>
+        <Privacy>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Service</a>
+          <a href="">Cookies Settings</a>
+        </Privacy>
+        </Copy>
+    </FooterCon>
   );
 }

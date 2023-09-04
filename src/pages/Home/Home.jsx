@@ -1,10 +1,17 @@
 import React from 'react'
-import { Footer } from '../../components'
+import { Nav, Footer, Hero, Services, AboutSection, SubscribeSec, Feedback } from '../../components'
 
 export default function Home() {
   return (
     <div>
-        <Footer/>
-    </div>
+    <div className="container">
+      <Nav/>
+      <Hero/>
+      <Services/>
+      <AboutSection/>
+      <Feedback/>
+      </div>
+      <SubscribeSec/>
+      </div>
   )
 }
