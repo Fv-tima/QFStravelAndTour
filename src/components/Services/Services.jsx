@@ -27,7 +27,7 @@ export default function Services() {
         <p>
           We provide assistance in the form of two areas
           <li>
-            Visa assistance for those who want to be travelling outside Ghana{" "}
+            Visa assistance for those who want to travel outside
           </li>
           <li>
             Entry visas and work permits for expats who would be visiting Ghana
@@ -39,7 +39,7 @@ export default function Services() {
         <h2>Tour Packages</h2>
         <p>
           We offer tour packages to destinations all over the world, including
-          Canada, UK, Australia, and USA. Our packages are designed to cater to
+          Canada, UK, Australia, and USA. Our packages are designed to cater for
           all types of travelers and budgets, and include everything from
           flights and accommodations to meals and activities.
         </p>
@@ -49,7 +49,7 @@ export default function Services() {
         <h2>Study Abroad Programs</h2>
         <p>
           Our study abroad programs are designed to provide students with a
-          unique and immersive educational experience. We offer a variety of
+          unique and immense educational experience. We offer a variety of
           programs, including academic programs, language courses, and
           internships, in some of the world's most prestigious universities.
         </p>
