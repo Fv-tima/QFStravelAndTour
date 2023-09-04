@@ -50,7 +50,7 @@ export default function Footer() {
     </FooterContainer>
     <Copy>
         <p id="copyright">© 2023 QFS Travel & Tours. All Rights Reserved </p>
-        <p>Designed with by ❤️ Fleet Labs Ghana</p>
+        <p>Designed with ❤️ by Fleet Labs Ghana</p>
         <Privacy>
           <a href="">Privacy Policy</a>
           <a href="">Terms of Service</a>
