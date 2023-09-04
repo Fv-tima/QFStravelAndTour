@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
   display: flex;
   flex-wrap: wrap;
-  height: 100px;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
@@ -65,7 +65,7 @@ export const SearchIcon = styled.div`
   }
 
   option {
-    padding: 0.4rem;
+    padding: 0.5rem;
     background: #077fde;
     color: #fff;
   }
