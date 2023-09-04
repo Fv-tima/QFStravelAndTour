@@ -24,7 +24,7 @@ export default function Footer() {
         <AboutText>
           <h3>Explore Our Website</h3>
         Ready to start planning your next adventure? Explore our website to learn more about our services and destinations. You can browse our tour packages, learn about our study abroad programs, and read our travel guides and tips.
-<p><span>Email:</span> jason@qfstravelandtourgh.com</p>
+<p><span>Email:</span> info@qfstravelandtourgh.com</p>
         </AboutText>
       <FooterContent>
         <h3>Accra Office</h3>
