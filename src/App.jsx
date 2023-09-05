@@ -1,4 +1,4 @@
-import {createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { Home, About } from "./pages";
 import { Footer } from "./components";
@@ -7,7 +7,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    
+
   },
   {
     path: "/about",
@@ -15,11 +15,11 @@ const router = createBrowserRouter([
   },
 ]);
 
-function App() {
+function App ({ routes }) {
   return (
     <div>
       <RouterProvider router={ router } />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
