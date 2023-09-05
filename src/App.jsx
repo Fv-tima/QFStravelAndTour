@@ -7,13 +7,15 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    path: "/about",
+    element: <About />,
   },
 ]);
 
 function App() {
   return (
     <div>
-      <RouterProvider router={router} />
+      <RouterProvider router={ router } />
       <Footer/>
     </div>
   );
