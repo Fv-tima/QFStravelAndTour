@@ -5,7 +5,7 @@ import Services from "./Services/Services";
 import AboutSection from "./AboutSection/AboutSection";
 import Feedback from "./Feedback/Feedback";
 import SubscribeSec from "./SubscribeSec/SubscribeSec";
-import About from "./About/About";
+
 
 export {
     Nav,
@@ -15,5 +15,4 @@ export {
     AboutSection,
     SubscribeSec,
     Feedback,
-    About,
 }
