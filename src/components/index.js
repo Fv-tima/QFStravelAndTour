@@ -9,11 +9,13 @@ import Packages from "./Packages/Packages";
 import Program from "./Program/Program";
 import Checklist from "./Checklist/Checklist";
 import Destination from "./Destination/Destination";
+import About from "./About/About";
+import AboutBody from "./AboutBody/AboutBody";
 
 export {
     Nav,
     Hero,
-    Footer, 
+    Footer,
     Services,
     AboutSection,
     SubscribeSec,
@@ -21,5 +23,7 @@ export {
     Packages,
     Program,
     Checklist,
-    Destination
+    Destination,
+    About,
+    AboutBody,
 }

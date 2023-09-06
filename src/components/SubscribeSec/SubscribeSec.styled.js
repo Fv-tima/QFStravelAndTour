@@ -22,30 +22,41 @@ export const SubscribeContainer = styled.div`
   div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid #aaa;
     background: #fff;
     max-width: 570px;
+    height: 56px;
+    padding-right: 4px;
 
     input {
-     width: auto;
+      max-width: 570px;
       border: none;
       outline: none;
       background: none;
-      color: #aaa;
+      
       font-family: Poppins;
       font-size: 1rem;
       font-weight: 500;
-      padding: 2rem;
+      padding: 1rem;
+      color: #aaa;
     }
     button {
+      display: flex;
+      max-width: 158px;
+      height: 48px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      
       color: #fff;
-      font-family: Poppins;
+      background: #3685fb;
       font-size: 1rem;
       font-weight: 500;
-      background: #3685fb;
-      padding: 10px;
+      font-family: Poppins;
       border:none;
       cursor:pointer;
+      flex-shrink: 0;
     }
   @media (max-width: 768px) {
     h1 {

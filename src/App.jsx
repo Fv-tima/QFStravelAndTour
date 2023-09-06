@@ -1,24 +1,34 @@
-import {createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Home, Package } from "./pages";
+import { Home, About, Package } from "./pages";
 import { Footer } from "./components";
+
+
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+
   },
   {
     path: "/package",
     element: <Package />,
   },
+  {
+    path: "/about",
+    element: <About />,
+  },
+
 ]);
 
-function App() {
+function App () {
   return (
     <div>
-      <RouterProvider router={router} />
-      <Footer/>
+      <RouterProvider router={ router } />
+      <Footer />
     </div>
   );
 }
