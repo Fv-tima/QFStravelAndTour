@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HLogo from "../../assets/images/logo.png";
+import HLogo from "../../assets/images/Flogo.png";
 import openIcon from "../../assets/svg/menu2.png";
 import closeIcon from "../../assets/svg/close2.png";
 import {
@@ -35,7 +35,7 @@ export default function Nav() {
         <Navbar>
           <NavbarLinks href="/">Home</NavbarLinks>
           <NavbarLinks href="/about">About</NavbarLinks>
-          <NavbarLinks href="/packages">Packages</NavbarLinks>
+          <NavbarLinks href="/package">Packages</NavbarLinks>
           <NavbarLinks href="/contact">Contact Us</NavbarLinks>
         </Navbar>
         <SearchIcon>
@@ -90,7 +90,7 @@ export default function Nav() {
                   </MobileNavLinks>
                 </MobileNavList>
                 <MobileNavList>
-                  <MobileNavLinks href="/packages">Packages</MobileNavLinks>
+                  <MobileNavLinks href="/package">Packages</MobileNavLinks>
                 </MobileNavList>
                 <MobileNavList>
                   <MobileNavLinks href="/contact">Contact Us</MobileNavLinks>

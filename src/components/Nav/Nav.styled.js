@@ -64,6 +64,10 @@ export const SearchIcon = styled.div`
     }
   }
 
+  select{
+    background: none;
+  }
+
   option {
     padding: 0.4rem;
     background: #077fde;

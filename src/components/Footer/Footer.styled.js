@@ -12,7 +12,7 @@ export const FooterContainer = styled.div`
   display: flex;
   color: #ffffff;
   justify-content: space-between;
-  
+  align-items:start;
   border-bottom:1px solid #fff;
 
   @media (max-width: 868px) {
@@ -42,9 +42,10 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterLogo = styled.div`
+height:100px;
+margin:auto 0;
   img{
     width:100%;
-    margin-top:3rem;
   }
 `;
 
@@ -61,7 +62,8 @@ flex-direction: column;
  max-width: 387px;
   span{
     font-weight:600;
-  }`
+  }
+  `
 
 export const SocialContainer = styled.div`
   display: flex;
@@ -91,7 +93,7 @@ display:flex;
 justify-content: space-between;
 
 a{
-  padding-right:1rem;
+  margin-right:1rem;
   color: #ffffff;
   border-bottom: 1px solid #fff;
 }`

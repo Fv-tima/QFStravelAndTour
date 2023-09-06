@@ -24,7 +24,7 @@ export const ServiceContent = styled.div`
   flex-direction: column;
   row-gap:1rem;
   border-radius: 10px;
-  background: var(--White, #fff);
+  background: #fff)
   box-shadow: 0px 20px 60px 0px rgba(255, 210, 75, 0.12);
   padding: 28px 45px;
   img {

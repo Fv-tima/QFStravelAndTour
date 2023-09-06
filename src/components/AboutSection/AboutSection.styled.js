@@ -14,7 +14,6 @@ export const Abouts = styled.div`
 export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
   column-gap: 8rem;
 
   img {
@@ -57,7 +56,11 @@ export const AboutContent = styled.div`
     font-size: 1rem;
     font-weight: 500;
     border:none;
+    cursor:pointer;
   }
+img{
+  cursor:pointer;
+}
 
   @media (max-width: 768px) {
     h1 {

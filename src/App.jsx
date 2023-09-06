@@ -1,12 +1,16 @@
 import {createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Home } from "./pages";
+import { Home, Package } from "./pages";
 import { Footer } from "./components";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/package",
+    element: <Package />,
   },
 ]);
 

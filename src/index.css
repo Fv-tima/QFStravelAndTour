@@ -22,7 +22,7 @@ body {
 .container{
   padding:3.125rem 6.25rem;
   @media(max-width:868px){
-    padding: 50px 24px;
+    padding: 30px 24px;
   }
 }
 

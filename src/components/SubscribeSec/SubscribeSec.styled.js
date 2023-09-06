@@ -45,6 +45,7 @@ export const SubscribeContainer = styled.div`
       background: #3685fb;
       padding: 10px;
       border:none;
+      cursor:pointer;
     }
   @media (max-width: 768px) {
     h1 {
