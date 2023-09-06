@@ -27,7 +27,7 @@ export const SubscribeContainer = styled.div`
     background: #fff;
     width: 570px;
     height: 56px;
-    
+    padding-right: 4px;
 
     input {
       width: 570px;
