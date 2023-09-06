@@ -22,6 +22,7 @@ export const SubscribeContainer = styled.div`
   div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid #aaa;
     background: #fff;
     width: 570px;
