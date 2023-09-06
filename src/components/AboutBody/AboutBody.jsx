@@ -108,7 +108,7 @@ export default function AboutBody () {
     </AboutLastInfo>
     <BottomContainer>
      <BottomImgCon>
-      <img src={ Rectangle34 } id='img1' />
+      <img src={ Rectangle34 } id='img1'/>
       <TeamNames>
        <h1 id="princess">Princess Harriet A-N Osei
         <p>Director Assistant</p>
@@ -116,14 +116,14 @@ export default function AboutBody () {
       </TeamNames>
      </BottomImgCon>
      <BottomImgCon>
-      <img src={ Rectangle35 } id='img2' />
+      <img src={ Rectangle35 } id='img2'/>
       <TeamNames><h1 id='Cyril'>Jason Cyril Ashley
        <p>Executive Director</p>
       </h1>
       </TeamNames>
      </BottomImgCon>
      <BottomImgCon>
-      <img src={ Rectangle36 } id='img3' />
+      <img src={ Rectangle36 } id='img3'/>
       <TeamNames>
 
        <h1 id='Jd'>Jane Doe
