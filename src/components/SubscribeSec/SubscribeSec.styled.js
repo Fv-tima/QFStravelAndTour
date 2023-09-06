@@ -27,6 +27,7 @@ export const SubscribeContainer = styled.div`
     background: #fff;
     width: 570px;
     height: 56px;
+    
 
     input {
       width: 570px;
@@ -46,11 +47,12 @@ export const SubscribeContainer = styled.div`
       height: 48px;
       justify-content: center;
       align-items: center;
+      padding: 10px;
+      
       color: #fff;
       background: #3685fb;
       font-size: 1rem;
       font-weight: 500;
-      padding: 10px;
       font-family: Poppins;
       border:none;
       flex-shrink: 0;
