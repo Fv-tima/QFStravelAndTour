@@ -13,6 +13,7 @@ export const FaQBucket = styled.div`
   color: #25282b;
   text-align:center;
   }
+  
  
 `;
 export const MotherVolume = styled.div`
@@ -21,5 +22,7 @@ export const MotherVolume = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   gap: 2rem;
-
+  @media (max-width: 768px) {
+    grid-template-columns:auto;
+  }
 `;

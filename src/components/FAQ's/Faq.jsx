@@ -80,7 +80,7 @@ export default function Faq () {
                   </svg> }</h4></span>
                 </div>
                 <div className={ newSelected == i ? 'another-content showNext' : 'another-content' }>
-                  <p>{ item.answer }</p>
+                  <h6>{ item.answer }</h6>
                 </div>
               </div>
 
