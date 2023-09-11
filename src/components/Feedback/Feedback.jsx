@@ -4,10 +4,12 @@ import Fed1 from "../../assets/images/Fed1.png"
 import Fed2 from "../../assets/images/Fed2.png"
 import Fed3 from "../../assets/images/Fed3.png"
 import Fed4 from "../../assets/images/Fed4.png"
-import { FeedbackContainer, ImgCon } from './Feedback.styled';
+import com from "../../assets/images/Ellipse 4.png"
+import { FeedbackContainer, ImgCon, FeedComment } from './Feedback.styled';
 
 export default function Feedback() {
   return (
+    <div>
     <FeedbackContainer>
 <img src={serviceVector} />
 <h1>What customer’s are saying?</h1>
@@ -18,6 +20,12 @@ export default function Feedback() {
 <img src={Fed3} id='img3'/>
 <img src={Fed4} id='img4'/>
 </ImgCon>
+
     </FeedbackContainer>
+    <FeedComment>
+    <img src={com} />
+    <p>“ Great place to spend your vacation while exploring different experiences. “</p>
+  </FeedComment>
+  </div>
   )
 }

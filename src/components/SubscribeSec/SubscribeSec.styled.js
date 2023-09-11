@@ -14,7 +14,7 @@ export const SubscribeContainer = styled.div`
   h1 {
     color: #fff;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins", san-serif;
     font-size: 2.5rem;
     font-weight: 600;
   }
@@ -53,7 +53,7 @@ export const SubscribeContainer = styled.div`
       background: #3685fb;
       font-size: 1rem;
       font-weight: 500;
-      font-family: Poppins;
+      font-family: "Poppins", san-serif;
       border:none;
       cursor:pointer;
       flex-shrink: 0;

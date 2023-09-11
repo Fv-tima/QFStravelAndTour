@@ -13,7 +13,8 @@ export const DestinationContainer = styled.div`
 
 export const DestinationCon = styled.div`
 display:flex;
-column-gap: 8rem;
+column-gap: 6.25rem;
+align-items:center;
 
 @media(max-width:868px){
     flex-direction:column;
@@ -39,28 +40,43 @@ export const DestinationImg = styled.div`
         gap: 2rem;
        ;
   }
+
+  .pos{
+    position:relative;
+
+    @media(max-width:950px){
+      position:unset;
+    }
+  }
  
 `;
 
 export const Eclipse = styled.div`
-  max-width: 300px;
-  height: 100px;
+  max-width: 224px;
+  height: 111px;
   padding: 12px;
   align-items: center;
   background: #fff;
   box-shadow: 0px 20px 60px 0px rgba(255, 210, 75, 0.12);
   border-radius: 20px;
   padding: 10px;
-  cursor:pointer;
+  cursor: pointer;
+  position: absolute;
+  left: 31rem;
+  top: 197rem;
 
-  position:relative;
+  @media (max-width: 950px) {
+    position: unset;
+  }
 
   img {
     max-width: 100%;
+    border: 2px solid #fff;
   }
 
-  div{
-    display:flex;
+  div {
+    display: flex;
+    flex-shrink: 0;
   }
 
   span {
@@ -68,7 +84,8 @@ export const Eclipse = styled.div`
     font-weight: 500;
   }
 
-h2{
-  font-weight: 500; 
-}
+  h2 {
+    font-size: 1.125rem;
+    font-weight: 450;
+  }
 `;

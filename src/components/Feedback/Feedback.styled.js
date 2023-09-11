@@ -29,6 +29,25 @@ max-width: 537.638px;
     }
   }
 `;
+export const FeedComment = styled.div`
+border-radius: 12.202px;
+background: #F6F4FF;
+box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
+max-width:514px;
+display:flex;
+gap:2rem;
+justify content:space-between;
+align-items:center;
+text-align:center;
+height:115px;
+margin-left:auto;
+border-bottom:7px solid #3685FB;
+padding:0 70px 0 28px;
+
+p{
+  font-size: 0.8rem;
+  max-width:344px;
+}`
 
 export const ImgCon = styled.div`
 margin-left:9.5rem;

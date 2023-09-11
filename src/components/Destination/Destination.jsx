@@ -26,7 +26,7 @@ export default function Destination() {
       </Eclipse>
       <DestinationCon>
         <DestinationImg>
-          <img src={Des1} />
+          <img src={Des1} className="pos"/>
           <div>
             <img src={Des2} />
             <img src={Des3} />

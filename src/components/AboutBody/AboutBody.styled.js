@@ -10,6 +10,8 @@ export const About = styled.div`
     font-weight: 600;
     color: #25282b;
     }
+
+   
 `;
 export const AboutContainer = styled.div`
   display: flex;
@@ -42,7 +44,10 @@ export const AboutContent = styled.div`
     @media(max-width:868px){
     flex-direction:column;
      padding:2.15rem;
- 
+
+      h1 {
+        font-size: 2rem;
+      }
 
     img {
       max-width: 100%;
@@ -81,6 +86,7 @@ img {
   img{
     max-width:100%;
   }
+
 
 `;
 export const AboutUs = styled.div`
@@ -224,7 +230,7 @@ font-weight: 500;
   transform:translateY(-75px)
  }
 
-   @media (max-width: 868px) {
+   @media (max-width: 768px) {
     flex-direction: column;
     justify-content:center;
     align-content:center;

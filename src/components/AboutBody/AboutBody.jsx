@@ -52,7 +52,7 @@ export default function AboutBody () {
     </AboutContent>
     <AboutContent>
 
-     <AboutInnerContent>
+     <AboutInnerContent >
       <img src={ Rectangle71 } />
       <h1>Our Mission
        <p>

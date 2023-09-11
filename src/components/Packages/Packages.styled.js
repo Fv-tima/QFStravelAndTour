@@ -14,8 +14,9 @@ export const PackagesImg = styled.div`
 
 export const PackagesContainer = styled.div`
   display: flex;
+  margin:7rem 0;
   justify-content: space-between;
-  column-gap: 8rem;
+  column-gap: 2.5rem;
   align-items: center;
 
   h1 {
@@ -59,7 +60,7 @@ export const PackagesContainer = styled.div`
     h1 {
       font-size: 1.5rem;
     }
-    p {
+    p, li {
       font-size: 1rem;
       line-height: 1.5rem;
     }
@@ -73,29 +74,30 @@ export const PackagesContent = styled.div`
 export const Location = styled.div`
   display: flex;
   justify-content: space-between;
-  max-width: 300px;
-  height: 70px;
+  max-width: 310px;
+  height: 79px;
   padding: 12px;
-  align-items: center;
+  align-items: start;
   background: #fff;
-  box-shadow: 0px 20px 60px 0px rgba(255, 210, 75, 0.12);
-  border-radius: 10px;
-  padding: 10px;
+  box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+  border-radius: 12px;
+  margin-left: auto;
   margin-bottom: 4rem;
-  cursor:pointer;
+  cursor: pointer;
 `;
 
 export const Content = styled.div`
   h2 {
     color: #181818;
-    font-family: Circular Std;
+    font-family: "Inter", san-serif;
     font-size: 1.25rem;
     font-weight: 500;
+    line-height: 0;
   }
 
   p {
     color: #909090;
-    font-family: Circular Std;
+    font-family: "Inter", san-serif;
     font-size: 1rem;
     font-weight: 450;
   }
@@ -108,6 +110,7 @@ export const Content = styled.div`
     color: #181818;
     font-weight: 500;
   }
+
 `;
 
 export const Ratings = styled.div`
@@ -117,15 +120,15 @@ export const Ratings = styled.div`
 
 export const Comment = styled.div`
   display: flex;
-  max-width: 300px;
-  gap: 1rem;
-  height: 70px;
+  max-width: 240px;
+  column-gap: 1rem;
+  height: 72px;
   padding: 12px;
   align-items: center;
   background: #fff;
-  box-shadow: 0px 20px 60px 0px rgba(255, 210, 75, 0.12);
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 82px;
+  box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+  padding: 12px;
   margin-top: 4rem;
-  cursor:pointer;
+  cursor: pointer;
 `;
