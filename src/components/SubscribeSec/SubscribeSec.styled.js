@@ -11,6 +11,12 @@ export const SubscribeContainer = styled.div`
   justify-content: center;
   margin: 2.5rem auto 0;
 
+  img{
+margin-top:1.5rem;
+    margin-left:auto;
+    cursor:pointer;
+  }
+
   h1 {
     color: #fff;
     text-align: center;
@@ -28,13 +34,14 @@ export const SubscribeContainer = styled.div`
     max-width: 570px;
     height: 56px;
     padding-right: 4px;
+    border-radius: 50px;
+    
 
     input {
-      max-width: 570px;
+      width: 570px;
       border: none;
       outline: none;
       background: none;
-      
       font-family: Poppins;
       font-size: 1rem;
       font-weight: 500;
@@ -43,12 +50,12 @@ export const SubscribeContainer = styled.div`
     }
     button {
       display: flex;
-      max-width: 158px;
+      width: 158px;
       height: 48px;
       justify-content: center;
       align-items: center;
       padding: 10px;
-      
+      border-radius: 50px;
       color: #fff;
       background: #3685fb;
       font-size: 1rem;

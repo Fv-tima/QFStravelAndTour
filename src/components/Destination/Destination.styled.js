@@ -15,6 +15,7 @@ export const DestinationCon = styled.div`
 display:flex;
 column-gap: 6.25rem;
 align-items:center;
+justify-content:center;
 
 @media(max-width:868px){
     flex-direction:column;
@@ -62,8 +63,8 @@ export const Eclipse = styled.div`
   padding: 10px;
   cursor: pointer;
   position: absolute;
-  left: 31rem;
-  top: 197rem;
+  left: 37rem;
+  top: 190rem;
 
   @media (max-width: 950px) {
     position: unset;
@@ -71,7 +72,26 @@ export const Eclipse = styled.div`
 
   img {
     max-width: 100%;
-    border: 2px solid #fff;
+    border: 1px solid #fff; 
+    border-radius:50px;
+  } 
+
+  img:nth-child(1){
+    position:relative;
+  }
+  img:nth-child(2){
+    left:45px;
+    position:absolute;
+    @media (max-width: 950px) {
+        left:65px;
+    }
+  }
+  img:nth-child(3){
+    left:85px;
+    position:absolute;
+    @media (max-width: 950px) {
+      left:105px;
+  }
   }
 
   div {

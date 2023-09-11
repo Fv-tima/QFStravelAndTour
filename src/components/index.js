@@ -11,6 +11,7 @@ import Checklist from "./Checklist/Checklist";
 import Destination from "./Destination/Destination";
 import About from "./About/About";
 import AboutBody from "./AboutBody/AboutBody";
+import Contacts from "./Contacts/Contacts";
 
 export {
     Nav,
@@ -26,4 +27,5 @@ export {
     Destination,
     About,
     AboutBody,
+    Contacts
 }

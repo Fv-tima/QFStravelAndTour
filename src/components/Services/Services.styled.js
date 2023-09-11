@@ -18,8 +18,8 @@ export const ServiceContainer = styled.div`
   @media (max-width: 768px) {
     grid-template-columns:auto;
   }
-`;
-export const ServiceContent = styled.div`
+
+div{
   display: flex;
   flex-direction: column;
   row-gap:1rem;
@@ -51,4 +51,21 @@ export const ServiceContent = styled.div`
    margin:0 auto;
     }
   }
+}
+div:nth-child(1){
+  box-shadow: 0px 20px 60px 0px rgba(255, 210, 75, 0.12);
+}
+
+div:nth-child(2){
+  box-shadow: 0px 20px 60px 0px rgba(0, 255, 117, 0.12);
+}
+
+div:nth-child(3){
+  box-shadow: 0px 20px 60px 0px rgba(71, 135, 243, 0.12);
+}
+
+div:nth-child(4){
+  box-shadow: 0px 20px 60px 0px rgba(255, 114, 98, 0.12);
+}
+
 `;

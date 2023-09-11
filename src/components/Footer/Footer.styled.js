@@ -27,7 +27,7 @@ export const FooterContainer = styled.div`
   p {
     color: #ffffff;
     font-family: "Poppins", san-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 2.5rem;
     font-weight: 400;
   }
@@ -35,7 +35,8 @@ export const FooterContainer = styled.div`
   }
 
   h3 {
-    font-size: 1.125rem;
+    font-family: "Poppins", san-serif;
+    font-size: 1.1rem;
     line-height: 1.75rem;
     font-weight: 700;
   }

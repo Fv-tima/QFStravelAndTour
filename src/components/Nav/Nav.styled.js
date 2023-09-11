@@ -68,6 +68,7 @@ export const SearchIcon = styled.div`
 
   select{
     background: none;
+  width:40px;
   }
 
   option {

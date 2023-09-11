@@ -4,7 +4,7 @@ import service1 from "../../assets/images/service1.png";
 import service2 from "../../assets/images/service2.png";
 import service3 from "../../assets/images/service3.png";
 import service4 from "../../assets/images/service4.png";
-import { Service, ServiceContainer, ServiceContent } from "./Services.styled";
+import { Service, ServiceContainer } from "./Services.styled";
 
 export default function Services() {
   return (
@@ -12,7 +12,7 @@ export default function Services() {
       <img src={serviceVector} />
       <h1>Our Services</h1>
       <ServiceContainer>
-      <ServiceContent>
+      <div>
         <img src={service1} />
         <p>
           At QFS Travel and Tours, we offer a wide range of services that cater
@@ -20,8 +20,8 @@ export default function Services() {
           adventurers, we have something for everyone. Here are some of the
           services we offer:
         </p>
-      </ServiceContent>
-      <ServiceContent>
+      </div>
+      <div>
         <img src={service2} />
         <h2>Visa Assistance</h2>
         <p>
@@ -33,8 +33,8 @@ export default function Services() {
             Entry visas and work permits for expats who would be visiting Ghana
           </li>
         </p>
-      </ServiceContent>
-      <ServiceContent>
+      </div>
+      <div>
         <img src={service3} />
         <h2>Tour Packages</h2>
         <p>
@@ -43,8 +43,8 @@ export default function Services() {
           all types of travelers and budgets, and include everything from
           flights and accommodations to meals and activities.
         </p>
-      </ServiceContent>
-      <ServiceContent>
+      </div>
+      <div>
         <img src={service4} />
         <h2>Study Abroad Programs</h2>
         <p>
@@ -53,7 +53,7 @@ export default function Services() {
           programs, including academic programs, language courses, and
           internships, in some of the world's most prestigious universities.
         </p>
-      </ServiceContent>
+      </div>
     </ServiceContainer>
     </Service>
   );

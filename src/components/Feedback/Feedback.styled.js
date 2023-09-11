@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FeedbackContainer = styled.div`
-  margin-top: 2.5rem;
+  margin-top: 9.5rem;
   position:relative;
   h1 {
     margin: 2rem 0;

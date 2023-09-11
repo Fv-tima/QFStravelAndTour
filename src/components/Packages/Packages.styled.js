@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PackagesCon = styled.div`
-  margin-top: 2.5rem;
+  margin-top: 5rem;
 `;
 
 export const PackagesImg = styled.div`
@@ -73,11 +73,10 @@ export const PackagesContent = styled.div`
 
 export const Location = styled.div`
   display: flex;
-  justify-content: space-between;
   max-width: 310px;
   height: 79px;
   padding: 12px;
-  align-items: start;
+  align-items: center;
   background: #fff;
   box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
   border-radius: 12px;
@@ -90,7 +89,7 @@ export const Content = styled.div`
   h2 {
     color: #181818;
     font-family: "Inter", san-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 0;
   }
@@ -100,6 +99,7 @@ export const Content = styled.div`
     font-family: "Inter", san-serif;
     font-size: 1rem;
     font-weight: 450;
+    line-height: 5px;
   }
   span {
     color: #35aff4;
@@ -120,11 +120,12 @@ export const Ratings = styled.div`
 
 export const Comment = styled.div`
   display: flex;
-  max-width: 240px;
+  max-width: 200px;
   column-gap: 1rem;
   height: 72px;
   padding: 12px;
   align-items: center;
+  justify-content:center;
   background: #fff;
   border-radius: 82px;
   box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
