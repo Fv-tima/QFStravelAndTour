@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { Home, About, Package, Contact } from "./pages";
-import { Footer } from "./components";
+import { Nav, Footer } from "./components";
 
 
 
@@ -32,6 +32,7 @@ const router = createBrowserRouter([
 function App () {
   return (
     <div>
+      <Nav/>
       <RouterProvider router={ router } />
       <Footer />
     </div>

@@ -12,6 +12,7 @@ import Destination from "./Destination/Destination";
 import About from "./About/About";
 import AboutBody from "./AboutBody/AboutBody";
 import Contacts from "./Contacts/Contacts";
+import Faq from "./FAQ's/Faq";
 
 export {
     Nav,
@@ -27,5 +28,6 @@ export {
     Destination,
     About,
     AboutBody,
-    Contacts
+    Contacts,
+    Faq
 }

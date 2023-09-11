@@ -1,11 +1,14 @@
 import React from 'react'
-import { Nav, Contacts } from '../../components'
+import { MainContact } from './Contact.styled'
+import {  Contacts, Faq } from '../../components'
 
 export default function Contact() {
   return (
-    <div className='container'>
-        <Nav/> 
+    <MainContact >
+      <div className='container'>
         <Contacts/>
-    </div>
+        <Faq/>
+        </div>
+    </MainContact>
   )
 }

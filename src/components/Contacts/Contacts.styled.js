@@ -37,8 +37,8 @@ export const RightCon = styled.div`
 `;
 
 export const FormCon = styled.div`
+background:#ffffff;
   form {
-    box-shadow: 0px 20px 60px 0px rgba(0, 255, 117, 0.12);
     display: flex;
     flex-direction: column;
   }
@@ -47,16 +47,22 @@ export const FormCon = styled.div`
   textarea {
     border: none;
     color: #077fde;
-    font-family: Helvetica;
+    font-family: "Helvetica", san-serif;
     font-size: 16px;
     font-weight: 400;
     border-bottom: 1px solid #077fde;
     padding: 2rem 0;
     margin: 0 6rem;
+    outline:none;
   }
+
+  input::placeholder, textarea::placeholder{
+    color: #077fde;
+  }
+
   button {
     color: #fff;
-    font-family: Poppins;
+    font-family: "Poppins", san-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -68,7 +74,7 @@ export const FormCon = styled.div`
   }
 
   div {
-    max-width: 341px;
+    max-width: 420px;
     margin-left: auto;
     text-align: right;
     font-family: "Poppins", san-serif;
