@@ -4,7 +4,7 @@ import serviceVector from "../../assets/svg/serVector.svg";
 import images from "../../assets/images/Images.png";
 import btn from "../../assets/images/btn.png";
 
-//great job
+
 export default function AboutSection() {
   return (
     <Abouts>

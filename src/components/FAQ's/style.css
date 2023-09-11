@@ -1,0 +1,102 @@
+#comment {
+    text-align: center;
+    font-family: "Poppins", san-serif;
+    font-size: 1rem;
+    font-weight: 440;
+    line-height: 1.5rem;
+    color: #25282b;
+    margin-bottom: 10%;
+    width: 600px;
+    margin: auto;
+
+}
+
+.accordion {
+    width: 550px;
+}
+
+.item {
+    background: #ffffff;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    margin-bottom:4% ;
+
+}
+
+.title,
+.nextt {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h2{
+color: #25282b;
+text-align: left;
+font-weight:680;
+}
+
+.content {
+    color: #25282b;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.another-content {
+    color: #25282b;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.another-content.showNext {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+
+}
+
+h6 {
+    font-family: "Poppins", san-serif;
+    font-size: 1.1rem;
+    font-weight: 440;
+    line-height: 1.5rem;
+    color: #25282b;
+    margin-bottom: 3%;
+    width: 400px;
+    text-align: left;
+    position: relative;
+    bottom: 24px;
+
+
+}
+
+h4 {
+    cursor: pointer;
+}
+
+.down-below{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    padding-inline: 22rem;
+    
+}
+.comment-below{
+    
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .down-below{
+        padding-inline: 3.5rem;
+    }
+}
