@@ -10,7 +10,11 @@ export const Header = styled.header`
   padding:3rem 6.25rem;
 
   @media (max-width: 868px) {
+<<<<<<< HEAD
     gap: 1rem;
+=======
+    gap: .1rem;
+>>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
     height: 60px;
     padding:20px ;
   }
@@ -171,14 +175,8 @@ export const MobileNavLinks = styled.a`
   font-weight: 300;
   transition-duration: 300ms;
 
-  :hover {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 9999px;
-    width: fit-content;
+  &:hover, :active {
+    font-weight: 500;
+    color: #077fde;
   }
 `;
