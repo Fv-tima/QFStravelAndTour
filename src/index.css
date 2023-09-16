@@ -14,7 +14,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-<<<<<<< HEAD
   
   
 }
@@ -24,37 +23,18 @@ body {
     background-size:cover;
 
   }
-=======
- 
->>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
 }
 
 .container{
   padding:3rem 6.25rem;
-<<<<<<< HEAD
   
-=======
->>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
 }
 
 a {
   text-decoration: none;
 }
-<<<<<<< HEAD
 @media(max-width:868px) {
   .container{
 padding: 20px 24px 30px;
   }
 }
-=======
-
-@media (max-width:868px){
-  .container{
-    padding:20px 24px 30px ;
-  }
-
-  #subscribe{
-    padding: 50px 24px;  
-  }
-}
->>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
