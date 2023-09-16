@@ -71,6 +71,10 @@ margin-top:1.5rem;
     }
     input{
       padding: 1rem;
+      width:auto;
+    }
+    button{
+      width:auto;
     }
   }
 `;

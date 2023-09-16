@@ -4,25 +4,21 @@ import { Home, About, Package, Contact } from "./pages";
 import { Nav, Footer } from "./components";
 
 
-
-
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-
   },
   {
-    path: "/package",
+    path: "package",
     element: <Package />,
   },
   {
-    path: "/about",
+    path: "about",
     element: <About />,
   },
   {
-    path: "/contact",
+    path: "contact",
     element: <Contact />,
   },
 

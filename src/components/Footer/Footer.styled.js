@@ -1,14 +1,20 @@
 import { styled } from "styled-components";
 
 export const FooterCon = styled.div`
-padding: 3.75rem 7.5rem 5rem;
-background-color: #0b54c3;
-@media(max-width:868px){
-  padding: 50px 24px;
-}
-`
+  padding: 3.75rem 7.5rem 5rem;
+  background-color: #0b54c3;
+  @media (max-width: 868px) {
+    padding: 50px 24px;
+  }
+`;
 
 export const FooterContainer = styled.div`
+display:flex;
+flex-direction:column;
+
+`;
+
+export const FooterInnerCon = styled.div`
   display: flex;
   color: #ffffff;
   justify-content: space-between;
@@ -43,58 +49,78 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterLogo = styled.div`
-height:100px;
-margin:auto 0;
-  img{
-    width:100%;
-  }
+img{
+  width:20%;
+}
+@media (max-width: 868px) {
+img{
+  width:50%;
+}
+}
 `;
 
 export const FooterContent = styled.div`
   display: flex;
   flex-direction: column;
   max-width:164px;
+
+  p{
+    line-height:1.5rem;
+  }
+  #address{
+    line-height:2.5rem;
   }
 `;
 
 export const AboutText = styled.p`
-display: flex;
-flex-direction: column;
- max-width: 387px;
-  span{
-    font-weight:600;
+  display: flex;
+  flex-direction: column;
+  max-width: 387px;
+  span {
+    font-weight: 600;
   }
-  `
+`;
 
 export const SocialContainer = styled.div`
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 
- a{
-  display:flex;
-  gap:.4rem;
- }
+  a {
+    display: flex;
+    gap: 0.4rem;
+  }
 `;
 
 export const Copy = styled.div`
-display:flex;
-justify-content: space-between;
-align-items:center;
-color: #ffffff;
-margin-top:2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 2rem;
 
-@media (max-width: 868px) {
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}`
+  @media (max-width: 868px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+`;
 
 export const Privacy = styled.div`
-display:flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-a{
-  margin-right:1rem;
-  color: #ffffff;
-  border-bottom: 1px solid #fff;
-}`
+  a {
+    margin-right: 1rem;
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+  }
+  @media (max-width: 868px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    a {
+      padding-top: 10px;
+    }
+  }
+`;

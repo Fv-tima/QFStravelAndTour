@@ -6,6 +6,7 @@ import {
   FooterLogo,
   AboutText,
   FooterCon,
+  FooterInnerCon,
   Copy,
   Privacy
 } from "./Footer.styled";
@@ -18,9 +19,10 @@ export default function Footer() {
   return (
     <FooterCon>
     <FooterContainer>
-       <FooterLogo>
+    <FooterLogo>
           <img src={FLogo} />
         </FooterLogo>
+        <FooterInnerCon>
         <AboutText>
           <h3>Explore Our Website</h3>
         Ready to start planning your next adventure? Explore our website to learn more about our services and destinations. You can browse our tour packages, learn about our study abroad programs, and read our travel guides and tips.
@@ -28,16 +30,19 @@ export default function Footer() {
         </AboutText>
       <FooterContent>
         <h3>Accra Office</h3>
-        <p>
+        <p id="address">
         C02 Manyo Close <br />
         Adabraka
         </p>
-        <p>Tel: 0554791207/ 0533695188</p>
+        <p>Tel:
+        <a href="tel:0554791207">0554791207</a>/
+        <a href="tel:0533695188"> 0533695188</a>
+        </p>
         </FooterContent>
           <FooterContent>
             <h3>Sunyani Office</h3>
             <p>Adjacent Fidelity Bank, off VRA Road</p>
-            <p>Tel: 0244967595</p>
+            <p>Tel:<a href="tel:0244967595">0244967595</a></p>
           </FooterContent>
           <FooterContent>
           <h3>Follow Us</h3>
@@ -47,6 +52,7 @@ export default function Footer() {
          <a href=""><img src={Instagram} /> <p>instagram</p> </a> 
         </SocialContainer>
         </FooterContent>
+        </FooterInnerCon>
     </FooterContainer>
     <Copy>
         <p id="copyright">© 2023 QFS Travel & Tours. All Rights Reserved </p>

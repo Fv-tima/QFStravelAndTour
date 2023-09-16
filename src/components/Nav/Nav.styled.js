@@ -10,7 +10,7 @@ export const Header = styled.header`
   padding:3rem 6.25rem;
 
   @media (max-width: 868px) {
-    gap: 1.5rem;
+    gap: .5rem;
     height: 60px;
     padding:30px 24px;
   }
@@ -39,12 +39,8 @@ export const Navbar = styled.nav`
 
 export const NavbarLinks = styled.a`
   color: #25282b;
-  :hover {
+  &:hover, :active {
     font-weight: 500;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
     color: #077fde;
   }
 `;

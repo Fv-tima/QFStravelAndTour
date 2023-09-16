@@ -54,9 +54,6 @@ margin-left:9.5rem;
 display:flex;
 gap:1rem;
 
-img1{
-width:100%;     
-}
 
 #img2{
     position:absolute;

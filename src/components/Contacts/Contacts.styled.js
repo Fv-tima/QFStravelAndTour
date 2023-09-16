@@ -34,6 +34,7 @@ export const RightCon = styled.div`
     flex-direction:column;
     align-items:center;
 }
+
 `;
 
 export const FormCon = styled.div`
@@ -55,6 +56,7 @@ background:#ffffff;
     margin: 0 6rem;
     outline:none;
   }
+
 
   input::placeholder, textarea::placeholder{
     color: #077fde;

@@ -63,8 +63,8 @@ export const Eclipse = styled.div`
   padding: 10px;
   cursor: pointer;
   position: absolute;
-  left: 37rem;
-  top: 190rem;
+  left: 34rem;
+  top: 206rem;
 
   @media (max-width: 950px) {
     position: unset;

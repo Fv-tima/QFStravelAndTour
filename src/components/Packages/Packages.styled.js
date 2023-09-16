@@ -88,7 +88,7 @@ export const Location = styled.div`
 export const Content = styled.div`
   h2 {
     color: #181818;
-    font-family: "Inter", san-serif;
+    font-family: "Poppins", san-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 0;
@@ -96,7 +96,7 @@ export const Content = styled.div`
 
   p {
     color: #909090;
-    font-family: "Inter", san-serif;
+    font-family: "Poppins", san-serif;
     font-size: 1rem;
     font-weight: 450;
     line-height: 5px;

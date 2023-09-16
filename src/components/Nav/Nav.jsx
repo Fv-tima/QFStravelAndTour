@@ -33,10 +33,10 @@ export default function Nav() {
           <img src={HLogo} />
         </HeaderLogo>
         <Navbar>
-          <NavbarLinks href="/">Home</NavbarLinks>
-          <NavbarLinks href="/about">About</NavbarLinks>
-          <NavbarLinks href="/package">Packages</NavbarLinks>
-          <NavbarLinks href="/contact">Contact Us</NavbarLinks>
+          <NavbarLinks  href="/"> Home</NavbarLinks>
+          <NavbarLinks  href="about">About</NavbarLinks>
+          <NavbarLinks  href="package">Packages</NavbarLinks>
+          <NavbarLinks  href="contact">Contact Us</NavbarLinks>
         </Navbar>
         <SearchIcon>
           <select name="Language" id="Language">
@@ -85,15 +85,15 @@ export default function Nav() {
                   <MobileNavLinks href="/">Home</MobileNavLinks>
                 </MobileNavList>
                 <MobileNavList>
-                  <MobileNavLinks href="/about">
+                  <MobileNavLinks href="about">
                     About
                   </MobileNavLinks>
                 </MobileNavList>
                 <MobileNavList>
-                  <MobileNavLinks href="/package">Packages</MobileNavLinks>
+                  <MobileNavLinks href="package">Packages</MobileNavLinks>
                 </MobileNavList>
                 <MobileNavList>
-                  <MobileNavLinks href="/contact">Contact Us</MobileNavLinks>
+                  <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
                 </MobileNavList>
               </MobileNavInner>
             </MobileNavContainer>
