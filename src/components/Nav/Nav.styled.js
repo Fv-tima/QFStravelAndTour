@@ -39,7 +39,7 @@ export const Navbar = styled.nav`
 
 export const NavbarLinks = styled.a`
   color: #25282b;
-  &:hover, git :active {
+  &:hover, :active {
     font-weight: 500;
     color: #077fde;
   }
