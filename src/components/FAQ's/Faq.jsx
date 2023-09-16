@@ -104,21 +104,23 @@ const data = [
   },
   {
     question: 'How do I apply for a study abroad program?',
-    answer:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cum quasi corporis optio vitae, quod assumenda error magni debitis, tenetur tempore perspiciatis numquam deleniti earum? Voluptatum hic dolores at sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum nulla deleniti tempore dignissimos earum, corporis magni, ducimus aut animi minima temporibus doloribus modi cupiditate eum necessitatibus dicta hic ad!"
+    answer:"You can start your application by filling out the outline form on our website. Once we receive your application, we'll review it and get in touch with you to discuss the next steps. "
   },
   {
     question: 'Do you offer scholarships or funding options for study abroad programs?',
-    answer:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cum quasi corporis optio vitae, quod assumenda error magni debitis, tenetur tempore perspiciatis numquam deleniti earum? Voluptatum hic dolores at sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum nulla deleniti tempore dignissimos earum, corporis magni, ducimus aut animi minima temporibus doloribus modi cupiditate eum necessitatibus dicta hic ad!'
+    answer: `we offer a wide range of tour packages to
+     destinations around the world, including Canada, the 
+     UK, Australia, and the USA. Our packages are designed to cater to all types of travelers, whether you're looking for a relaxing beach vacation, an adventurous trek throught the mountains, or a cultural tour of a new city.`
   }
 ]
 
 const secondData = [
   {
     question: 'What kind of support do you offer for study abroad students?',
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cum quasi corporis optio vitae, quod assumenda error magni debitis, tenetur tempore perspiciatis numquam deleniti earum? Voluptatum hic dolores at sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum nulla deleniti tempore dignissimos earum, corporis magni, ducimus aut animi minima temporibus doloribus modi cupiditate eum necessitatibus dicta hic ad! "
+    answer: "We offer comprehensive support services for study abroad students, including assistance with visa applications, accomodation, arrangements, and orientation programs. Our goal is to ensure that you have a safe and rewarding experience while studying abroad. "
   },
   {
     question: 'How do I book a tour package or study abroad program?',
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cum quasi corporis optio vitae, quod assumenda error magni debitis, tenetur tempore perspiciatis numquam deleniti earum? Voluptatum hic dolores at sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum nulla deleniti tempore dignissimos earum, corporis magni, ducimus aut animi minima temporibus doloribus modi cupiditate eum necessitatibus dicta hic ad!"
+    answer: "You can book a tour package or study abroad program by contacting us directly by phone, email, or through the online form at our website. Our team will work with you to find the right package or program that fits your interests."
   },
 ]

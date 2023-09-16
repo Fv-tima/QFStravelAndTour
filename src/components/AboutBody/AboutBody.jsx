@@ -8,7 +8,7 @@ import Rectangle34 from "../../assets/images/Rectangle34.png";
 import Rectangle35 from "../../assets/images/Rectangle35.png";
 import Rectangle36 from "../../assets/images/Rectangle36.png";
 export default function AboutBody () {
- return (
+ return ( 
 
   <About className="container">
    <img src={ serviceVector } />
@@ -35,7 +35,7 @@ export default function AboutBody () {
      <AboutInnerContent>
 
       <AboutUs>
-       <h1>
+       <h1> 
         About Us
         <p>
          At QFS Travel and Tours, we are passionate about providing

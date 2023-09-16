@@ -20,23 +20,23 @@ import {
   Backdrop,
   NavbarHeader
 } from "./Nav.styled";
-export default function Nav() {
+export default function Nav () {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <>
+    <> 
       <Header>
         <HeaderLogo>
-          <img src={HLogo} />
+          <img src={ HLogo } />
         </HeaderLogo>
         <Navbar>
-          <NavbarLinks  href="/"> Home</NavbarLinks>
-          <NavbarLinks  href="about">About</NavbarLinks>
-          <NavbarLinks  href="package">Packages</NavbarLinks>
-          <NavbarLinks  href="contact">Contact Us</NavbarLinks>
+          <NavbarLinks href="/"> Home</NavbarLinks>
+          <NavbarLinks href="about">About</NavbarLinks>
+          <NavbarLinks href="package">Packages</NavbarLinks>
+          <NavbarLinks href="contact">Contact Us</NavbarLinks>
         </Navbar>
         <SearchIcon>
           <select name="Language" id="Language">
@@ -52,54 +52,59 @@ export default function Nav() {
           </select>
         </SearchIcon>
         <MenuIcon>
-          <MenuButton onClick={toggleNav}>
-            {isOpen ? (
-              <img src={closeIcon} width="35%" alt="" />
+          <MenuButton onClick={  toggleNav }>
+            { isOpen? (
+              <img src={ closeIcon } width="35%" alt="" />
             ) : (
-              <img src={openIcon} width="35%" alt="" />
-            )}
+              <img src={ openIcon } width="35%" alt="" />
+            ) }
           </MenuButton>
         </MenuIcon>
       </Header>
 
-      {isOpen && (
+      { isOpen && (
+        <div className={ isOpen ? 'content show' : 'content' }>
         <MobileHeader>
           <Backdrop />
           <MobileNavbar>
-            <NavbarHeader>
-              <MobileLogo>
-                <img src={HLogo} />
-              </MobileLogo>
-              <MenuButton onClick={toggleNav}>
-                {isOpen ? (
-                  <img src={closeIcon} width="40%" alt="" />
-                ) : (
-                  <img src={openIcon} width="40%" alt="" />
-                )}
-              </MenuButton>
-            </NavbarHeader>
+            
+              <NavbarHeader>
+                <MobileLogo>
+                  <img src={ HLogo } />
+                </MobileLogo>
+                <MenuButton onClick={ toggleNav }>
+                  { isOpen ? (
+                    <img src={ closeIcon } width="40%" alt="" />
+                  ) : (
+                    <img src={ openIcon } width="40%" alt="" />
+                  ) }
+                </MenuButton>
+              </NavbarHeader>
 
-            <MobileNavContainer>
-              <MobileNavInner>
-                <MobileNavList>
-                  <MobileNavLinks href="/">Home</MobileNavLinks>
-                </MobileNavList>
-                <MobileNavList>
-                  <MobileNavLinks href="about">
-                    About
-                  </MobileNavLinks>
-                </MobileNavList>
-                <MobileNavList>
-                  <MobileNavLinks href="package">Packages</MobileNavLinks>
-                </MobileNavList>
-                <MobileNavList>
-                  <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
-                </MobileNavList>
-              </MobileNavInner>
-            </MobileNavContainer>
+              <MobileNavContainer>
+                <MobileNavInner>
+                  <MobileNavList>
+                    <MobileNavLinks href="/">Home</MobileNavLinks>
+                  </MobileNavList>
+                  <MobileNavList>
+                    <MobileNavLinks href="about">
+                      About
+                    </MobileNavLinks>
+                  </MobileNavList>
+                  <MobileNavList>
+                    <MobileNavLinks href="package">Packages</MobileNavLinks>
+                  </MobileNavList>
+                  <MobileNavList>
+                    <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
+                  </MobileNavList>
+                </MobileNavInner>
+              </MobileNavContainer>
+            
           </MobileNavbar>
-        </MobileHeader>
-      )}
+          </MobileHeader>
+        </div>
+
+      ) }
     </>
   );
 }

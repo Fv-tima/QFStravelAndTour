@@ -11,17 +11,32 @@ export const SubscribeContainer = styled.div`
   justify-content: center;
   margin: 2.5rem auto 0;
 
+  @media (max-width: 768px) {
+    
+    #h1 {
+      font-size: 1.4rem;
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+      }
+      
+  div button{
+      width:auto;
+    }
+  }
   img{
-margin-top:1.5rem;
+  margin-top:1.5rem;
     margin-left:auto;
     cursor:pointer;
-  }
+  } 
 
   h1 {
     color: #fff;
     text-align: center;
     font-family: "Poppins", san-serif;
-    font-size: 2.5rem;
+    font-size: 2.5rem ;
     font-weight: 600;
   }
 
@@ -38,7 +53,7 @@ margin-top:1.5rem;
     
 
     input {
-      width: 570px;
+      max-width: 570px;
       border: none;
       outline: none;
       background: none;
@@ -65,16 +80,6 @@ margin-top:1.5rem;
       cursor:pointer;
       flex-shrink: 0;
     }
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-    input{
-      padding: 1rem;
-      width:auto;
-    }
-    button{
-      width:auto;
-    }
+  
   }
 `;

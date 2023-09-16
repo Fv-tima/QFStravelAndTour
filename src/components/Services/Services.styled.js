@@ -9,14 +9,21 @@ export const Service = styled.div`
     font-weight: 600;
     color: #25282b;
   }
+  @media (max-width: 768px) {
+       width:100%;
+  }
 `;
 
 export const ServiceContainer = styled.div`
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
   gap: 2rem;
   @media (max-width: 768px) {
     grid-template-columns:auto;
+    
+   
+    
+
   }
 
 div{
@@ -24,7 +31,7 @@ div{
   flex-direction: column;
   row-gap:1rem;
   border-radius: 10px;
-  background: #fff)
+  background: #fff;
   box-shadow: 0px 20px 60px 0px rgba(255, 210, 75, 0.12);
   padding: 28px 45px;
   img {
@@ -47,6 +54,7 @@ div{
   }
 
   @media (max-width: 768px) {
+    
     img{
    margin:0 auto;
     }

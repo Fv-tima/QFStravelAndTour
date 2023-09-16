@@ -10,6 +10,12 @@ export const About = styled.div`
     font-weight: 600;
     color: #25282b;
     }
+    @media(max-width:868px){
+    h1{
+      font-size: 1.67rem;
+    }
+    }
+
 
    
 `;
@@ -43,10 +49,10 @@ export const AboutContent = styled.div`
   }
     @media(max-width:868px){
     flex-direction:column;
-     padding:2.15rem;
-
+     
+      
       h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
 
     img {
@@ -57,30 +63,26 @@ export const AboutContent = styled.div`
   `
   ;
 export const AboutInnerContent = styled.div`
-  // border: 1px solid #333;
 display: flex;
 align - items: center;
 justify - content: space - between;
 gap: 5.125rem;
-  // padding:3.125rem 6.25rem;
-
 img {
       max-width: 100%;
       margin:0 auto;
     }
  p{
   padding-block:1rem;
-  // box-sizing: border-box;
   width:450px;
   
  }
 
    @media (max-width: 868px) {
     flex-direction: column;
-    Gap:1rem;
+    gap:1rem;
    }
   p{
-    width:380px;
+    width:330px;
    }
  
   img{
@@ -91,7 +93,6 @@ img {
 `;
 export const AboutUs = styled.div`
   display:flex;
-  // flex-direction:column;
 
   align - items: center;
   justify - content: space - between;
@@ -100,19 +101,17 @@ export const AboutUs = styled.div`
 
   p{
   padding-block:1rem;
-  // box-sizing: border-box;
   width:380px;
   
  }
   @media (max-width: 868px) {
-    
     flex-direction: column;
-    // flex-direction: column-reverse;
     gap:1rem;
+     transform: translateY(-40px);
    }
 
    p{
-    width:380px;
+    width:330px;
    }
   img{
     max-width:100%;
@@ -133,11 +132,12 @@ export const AboutLastInfo = styled.div`
     padding:1.125rem ;
     position:unset;
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     p {
       font-size: 1rem;
       line-height: 1.5rem;
+      width:345px;
     }
   }
   

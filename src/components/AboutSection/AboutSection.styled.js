@@ -9,6 +9,9 @@ export const Abouts = styled.div`
     font-weight: 600;
     color: #25282b;
   }
+  @media (max-width:868px){
+    h1{font-size: 1.7rem;}
+  }
 `;
 
 export const AboutContainer = styled.div`
@@ -63,8 +66,9 @@ img{
 }
 
   @media (max-width: 768px) {
+    margin-top:50px;
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.7rem;
     }
     p {
       font-size: 1rem;

@@ -10,7 +10,7 @@ import { FeedbackContainer, ImgCon, FeedComment } from './Feedback.styled';
 export default function Feedback() {
   return (
     <div>
-    <FeedbackContainer>
+    <FeedbackContainer> 
 <img src={serviceVector} />
 <h1>What customer’s are saying?</h1>
 <p>Take a look at what our customer’s are saying. At Nature we not only provide you with services but also we provide you with valuable experiences for your valuable time.</p>

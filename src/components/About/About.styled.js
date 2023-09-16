@@ -8,4 +8,9 @@ export const Header = styled.div`
       margin:0 auto;
       margin-top:2.5rem;
       }
+      @media (max-width:868px){
+        margin-bottom:90px;
+          scale:1.7;
+        
+      }:
 `;

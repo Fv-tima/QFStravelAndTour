@@ -5,13 +5,14 @@ export const HeroSection = styled.div`
   align-items: center;
   justify-content: space-between;
   gap:2.75rem;
-  margin-top:2.5rem;
+  margin-top:1rem;
 
 
   @media (max-width: 868px) {
     flex-direction: column;
     Gap:1rem;
-    padding: 2rem 2rem;
+
+    
   }
 
   img{
@@ -42,7 +43,7 @@ export const SectionContent = styled.div`
   }
   @media (max-width: 768px) {
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.9rem;
     }
     p {
       font-size: 1rem;

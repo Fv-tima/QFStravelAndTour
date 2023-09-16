@@ -21,7 +21,7 @@ max-width: 537.638px;
   @media (max-width: 768px) {
     position:unset;
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.9rem;
     }
     p {
       font-size: 1rem;
@@ -54,7 +54,9 @@ margin-left:9.5rem;
 display:flex;
 gap:1rem;
 
-
+#img1{
+  transform:translateX(-25px)
+}
 #img2{
     position:absolute;
     bottom:15%;
