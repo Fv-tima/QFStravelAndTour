@@ -7,11 +7,10 @@ export const HeroSection = styled.div`
   gap:2.75rem;
   margin-top:2.5rem;
 
-
   @media (max-width: 868px) {
     flex-direction: column;
     Gap:1rem;
-    padding: 2rem 2rem;
+    padding: 0 2rem;
   }
 
   img{

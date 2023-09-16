@@ -1,96 +1,176 @@
 import { styled } from "styled-components";
 
-export const ContactContainer = styled.div`
-  margin-top: 4rem;
+export const ContactsContainer = styled.div`
+  margin-top: 2.5rem;
+  h1 {
+    font-family: "Poppins", san-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #25282b;
+  }
+  
 `;
 
-export const ContactCon = styled.div`
-  display: flex;
-  align-items: end;
-  width: 100%;
-  position: relative;
-  img {
-    max-width: 100%;
-  }
-
-  @media (max-width: 850px) {
-    position:unset;
+export const ContactsCon = styled.div`
+  .top {
+    display: flex;
     flex-direction:column;
     align-items:center;
-}
-`;
-
-export const RightCon = styled.div`
-  display: flex;
-  position: absolute;
-  align-items: end;
-  bottom: 5%;
-  left: 35%;
-  img {
-    width: 50%;
+    justify-content:center;
+    text-align: center;
+  
+  
+  h1 {
+    font-family: "Poppins", san-serif;
+    font-size: 3.375rem;
+    font-weight: 800;
+    color: #514d59;
   }
-  @media (max-width: 850px) {
-    position:unset;
+
+  p {
+    display: flex;
     flex-direction:column;
     align-items:center;
-}
+    color: #514d59;
+    text-align: center;
+    font-family: "Poppins", san-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom:3rem;
+    width:45%;
+  }
+    @media(max-width:768px){
+    p{
+      width:100%;
+    }
+    }
+}`;
 
+export const ContactsInfo = styled.div`
+  display: flex;
+  justify-content:space-between;
+   padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+
+  @media(max-width:999px){
+   flex-direction:column;
+   align-items: center;
+  }
 `;
 
-export const FormCon = styled.div`
-background:#ffffff;
+export const ContactsForm = styled.div`
+  border-right: 1px solid #d7d7d7;
+  padding-right:80px;
+  width:500px;
+  @media(max-width:768px){
+    width:auto;
+    padding:0;
+    border-right:none;
+  }
+  h2 {
+    color: #077fde;
+    font-family: "Poppins", san-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
   form {
+    border: 1px soild red;
     display: flex;
     flex-direction: column;
-  }
 
-  input,
-  textarea {
-    border: none;
+    label {
+      padding: 14px 16px;
+      display: flex;
+      column-gap: 14px;
+      align-items:center;
+      border-radius: 10px;
+      border: 1px solid #d7d7d7;
+      margin-bottom:10px;
+      background:#ffffff;
+    }
+    input {
+      border: none;
+      outline: none;
+      color: #6e6e6e;
+      font-family:"Manrope", san-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      width:100%;
+    }
+    input::placeholder,
+    textarea::placeholder {
+      color: #6e6e6e;
+      font-family:"Manrope", san-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    span{
+      color: #EF401F;
+      font-family:"Manrope", san-serif;
+font-size: 1.125rem;
+font-weight: 600;
+
+    }
+    textarea {
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: 1px solid #d7d7d7;
+      margin-bottom:40px;
+    }
+    button {
+      padding: 20px 24px;
+      border-radius: 10px;
+      background: #077fde;
+      color: #fff;
+      text-align: center;
+      font-family:"Manrope", san-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      border:none;
+      outline:none;
+    }
+  }
+`;
+export const ContactsDetails = styled.div`
+display:flex;
+flex-direction:column;
+width:500px;
+padding-right:50px;
+
+@media(max-width:768px){
+  width:auto;
+  padding:0;
+}
+`;
+export const Details = styled.div`
+display:flex;
+flex-direction:column;
+  h3 {
     color: #077fde;
-    font-family: "Helvetica", san-serif;
-    font-size: 16px;
-    font-weight: 400;
-    border-bottom: 1px solid #077fde;
-    padding: 2rem 0;
-    margin: 0 6rem;
-    outline:none;
+    font-family:"Manrope", san-serif;
+    font-size: 1.125rem;
+    font-weight:600;
+    line-height:1rem;
   }
-
-
-  input::placeholder, textarea::placeholder{
-    color: #077fde;
-  }
-
-  button {
-    color: #fff;
+  p,
+  div,
+  a {
+    color: #898989;
     font-family: "Poppins", san-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding: 15px 0 19px 0;
-    background: #077fde;
-    border: none;
-    margin-top: 6rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
   }
 
   div {
-    max-width: 420px;
-    margin-left: auto;
-    text-align: right;
-    font-family: "Poppins", san-serif;
-    padding: 2.5rem 4.25rem 0 5rem;
-    p {
-      color: #514d59;
-      font-size: 1rem;
-      font-weight: 400;
-    }
-    h2 {
-      color: #077fde;
-      text-align: right;
-      font-size: 1rem;
-      font-weight: 600;
-    }
+    display: flex;
+    align-items:center;
+    column-gap: 12px;
   }
+`;
+export const SocialCon = styled.div`
+display flex;
+column-gap:16px;
 `;
