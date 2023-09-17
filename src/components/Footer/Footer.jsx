@@ -47,9 +47,10 @@ export default function Footer() {
           <FooterContent>
           <h3>Follow Us</h3>
           <SocialContainer>
-          <a href=""><img src={Fb}/> <p>facebook</p></a>
+              <a href=""><img src={ Fb } /> <p>facebook</p></a>
+              <a href=""><img src={ Instagram } /> <p>instagram</p> </a> 
           <a href=""><img src={Twitter} /> <p>twitter</p></a>
-         <a href=""><img src={Instagram} /> <p>instagram</p> </a> 
+         
         </SocialContainer>
         </FooterContent>
         </FooterInnerCon>

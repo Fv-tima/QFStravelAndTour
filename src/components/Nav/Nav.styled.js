@@ -7,14 +7,10 @@ export const Header = styled.header`
   align-items: center;
   gap: 1rem;
   background:#fff;
-  padding:3rem 6.25rem;
+  padding:1rem 6.25rem;
 
   @media (max-width: 868px) {
-<<<<<<< HEAD
     gap: 1rem;
-=======
-    gap: .1rem;
->>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
     height: 60px;
     padding:20px ;
   }

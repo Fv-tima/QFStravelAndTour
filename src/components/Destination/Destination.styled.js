@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 
 export const DestinationContainer = styled.div`
+position: relative;
   margin-top: 2.5rem;
   h1 {
     margin: 2rem 0;
@@ -13,7 +14,7 @@ export const DestinationContainer = styled.div`
 
 export const DestinationCon = styled.div`
 display:flex;
-column-gap: 6.25rem;
+column-gap: 100px;
 align-items:center;
 justify-content:center;
 
@@ -21,39 +22,48 @@ justify-content:center;
     flex-direction:column;
     align-items:center;
     gap: 2rem;
+    }
    `;
+
 
 export const DestinationImg = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+   width:auto;
  
   img {
-    max-width: 100%;
+    width: 100%;
   }
 
   div {
     display: flex;
-    gap: 2rem;
-    @media(max-width:650px){
+    gap: 1rem;
+    width:auto;
+   
+ }
+  .pos{
+    position:relative;
+}
+    
+     @media(max-width:868px){
+      display:flex;
         flex-direction:column;
         align-items:center;
         gap: 2rem;
-       ;
+        #dests{
+        flex-direction:row;
+        align-items:center;
+        width: 47.5%;
+        }
+      
   }
-
-  .pos{
-    position:relative;
-
-    @media(max-width:950px){
-      position:unset;
-    }
-  }
+  
  
 `;
 
 export const Eclipse = styled.div`
-  max-width: 224px;
+  width: 224px;
   height: 111px;
   padding: 12px;
   align-items: center;
@@ -63,8 +73,9 @@ export const Eclipse = styled.div`
   padding: 10px;
   cursor: pointer;
   position: absolute;
-  left: 34rem;
-  top: 206rem;
+  right: 548px;
+  top: 200px;
+  z-index:1;
 
   @media (max-width: 950px) {
     position: unset;
@@ -105,6 +116,7 @@ export const Eclipse = styled.div`
   }
 
   h2 {
+    font-family:'Poppins',sans-serif;
     font-size: 1.125rem;
     font-weight: 450;
   }

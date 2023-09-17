@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 export const PackagesCon = styled.div`
   margin-top: 5rem;
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+  }
 `;
 
 export const PackagesImg = styled.div`
@@ -20,15 +26,15 @@ export const PackagesContainer = styled.div`
   align-items: center;
 
   h1 {
-    font-family: "Poppins", san-serif;
-    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
     font-weight: 700;
     color: #181818;
   }
 
   p,
   li {
-    font-family: "Poppins", san-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -36,12 +42,12 @@ export const PackagesContainer = styled.div`
   }
 
   button {
-    border-radius: 8pxpx;
+    border-radius: 8px;
     background: #35aff4;
     padding: 12px 24px;
-    color: #fff;
+    color: #fff; 
     text-align: center;
-    font-family: "Inter", san-serif;
+    font-family: "Poppins", san-serif;
     font-size: 1rem;
     font-weight: 500;
     border: none;
@@ -55,7 +61,7 @@ export const PackagesContainer = styled.div`
     flex-direction:column;
     align-items:center;
     gap: 2rem;
-
+  }
   @media (max-width: 768px) {
     h1 {
       font-size: 1.5rem;
@@ -68,14 +74,18 @@ export const PackagesContainer = styled.div`
 `;
 
 export const PackagesContent = styled.div`
-  max-width: 560px;
+  width: 560px;
+  @media (max-width:868px){
+    width: 360px;
+  }
 `;
 
 export const Location = styled.div`
   display: flex;
-  max-width: 310px;
+  justify-content: space-around;
+  width: 310px;
   height: 79px;
-  padding: 12px;
+  padding: 10px;
   align-items: center;
   background: #fff;
   box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
@@ -86,9 +96,16 @@ export const Location = styled.div`
 `;
 
 export const Content = styled.div`
+display:flex;
+align-items: center;
+flex-wrap: wrap;
+column-gap:1rem;
+line-height: 1rem;
+margin-left:8px;
+
   h2 {
     color: #181818;
-    font-family: "Poppins", san-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 0;
@@ -96,7 +113,7 @@ export const Content = styled.div`
 
   p {
     color: #909090;
-    font-family: "Poppins", san-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 450;
     line-height: 5px;
@@ -110,17 +127,23 @@ export const Content = styled.div`
     color: #181818;
     font-weight: 500;
   }
+  img{
+    width:16px;
+  }
 
 `;
 
-export const Ratings = styled.div`
+{'' /* export const Ratings = styled.div`
   display: flex;
   justify-content: space-between;
-`;
+  img{
+    width:22px;
+  }
+`; */}
 
 export const Comment = styled.div`
   display: flex;
-  max-width: 200px;
+  width: 240px;
   column-gap: 1rem;
   height: 72px;
   padding: 12px;

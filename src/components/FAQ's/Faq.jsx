@@ -84,14 +84,14 @@ export default function Faq () {
                 </div>
               </div>
 
-            ) ) }
+            ) ) } 
           </div>
         
       </MotherVolume>
       <div className='down-below'>
         <p id='comment-below'>Have more questions? Contact us today to learn more about our services and how we can help you your next adventure. </p>
       </div>
-      
+       
        </FaQBucket>
 )}
 

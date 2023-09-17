@@ -28,17 +28,17 @@ export default function Contacts() {
             General Inquiries
             </h2>
             <form>
-              <label For="name">
+              <label htmlFor="name">
                 <img src={user} />
                 <input type="text" placeholder="Name" required />
                 <span>*</span>
               </label>
-              <label For="email">
+              <label htmlFor="email">
                 <img src={email} />
                 <input type="email" placeholder="Email address" required />
                 <span>*</span>
               </label>
-              <label For="phone number">
+              <label htmlFor="phone number">
                 <img src={call} />
                 <input type="number" placeholder="Phone number" required />
                 <span>*</span>

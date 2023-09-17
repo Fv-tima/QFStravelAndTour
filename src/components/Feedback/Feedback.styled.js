@@ -45,8 +45,10 @@ border-bottom:7px solid #3685FB;
 padding:0 70px 0 28px;
 
 p{
-  font-size: 0.8rem;
+  font-family:'Poppins',sans-serif;
+  font-size: 1rem; 
   max-width:344px;
+  font-weight:300;
 }`
 
 export const ImgCon = styled.div`

@@ -24,6 +24,7 @@ export const SubscribeContainer = styled.div`
       
   div button{
       width:auto;
+      background:##077FDE;
     }
   }
   img{
@@ -72,7 +73,7 @@ export const SubscribeContainer = styled.div`
       padding: 10px;
       border-radius: 50px;
       color: #fff;
-      background: #3685fb;
+      background: #077FDE;
       font-size: 1rem;
       font-weight: 500;
       font-family: "Poppins", san-serif;

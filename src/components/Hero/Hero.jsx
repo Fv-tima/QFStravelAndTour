@@ -10,7 +10,7 @@ export default function Hero() {
         <h1>
         Discover your favourite places
         <img src={heroVector}/>
-        with us 
+        with us  
         </h1>
         <p>
         Your journey begins here with our curated travel experiences. Discover new horizons, create lasting memories, and explore the world with our expertly crafted itineraries.
