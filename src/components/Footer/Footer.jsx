@@ -19,20 +19,20 @@ export default function Footer() {
   return (
     <FooterCon>
     <FooterContainer>
-    <FooterLogo>
-          <img src={FLogo} />
-        </FooterLogo>
         <FooterInnerCon>
         <AboutText>
+        <FooterLogo>
+          <img src={FLogo} />
+        </FooterLogo>
           <h3>Explore Our Website</h3>
-        Ready to start planning your next adventure? Explore our website to learn more about our services and destinations. You can browse our tour packages, learn about our study abroad programs, and read our travel guides and tips.
-<p><span>Email:</span> info@qfstravelandtourgh.com</p>
+          Learn more about our services and destinations. You can browse our tour packages, learn about our study abroad programs, and read our travel guides and tips.
         </AboutText>
+        <div>
+        <div className="footer">
       <FooterContent>
         <h3>Accra Office</h3>
-        <p id="address">
-        C02 Manyo Close <br />
-        Adabraka
+        <p>
+        C02 Manyo Close Adabraka
         </p>
         <p>Tel:
         <a href="tel:0554791207">0554791207</a>/
@@ -44,15 +44,18 @@ export default function Footer() {
             <p>Adjacent Fidelity Bank, off VRA Road</p>
             <p>Tel:<a href="tel:0244967595">0244967595</a></p>
           </FooterContent>
+          
           <FooterContent>
           <h3>Follow Us</h3>
           <SocialContainer>
               <a href=""><img src={ Fb } /> <p>facebook</p></a>
               <a href=""><img src={ Instagram } /> <p>instagram</p> </a> 
           <a href=""><img src={Twitter} /> <p>twitter</p></a>
-         
         </SocialContainer>
         </FooterContent>
+        </div>
+          <p id="email"><span>Email:</span> <a href="mailto:info@qfstravelandtourgh.com">info@qfstravelandtourgh.com</a></p>
+          </div>
         </FooterInnerCon>
     </FooterContainer>
     <Copy>

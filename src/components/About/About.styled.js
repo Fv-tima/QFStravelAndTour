@@ -5,15 +5,12 @@ export const Header = styled.div`
       display: flex;
       align-items: center;
       width: 100%;
-      position:relative;
-      top:-96px;
       
       }
       @media (max-width:868px){
-        margin-bottom:90px;
+        margin-bottom:100px;
           scale:1.7;
           position:relative;
-      top:165px;
-        
-      }:
+          top:50px;
+        }:
 `;

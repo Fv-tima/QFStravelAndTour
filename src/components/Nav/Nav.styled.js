@@ -40,7 +40,7 @@ export const Navbar = styled.nav`
 export const NavbarLinks = styled.a`
   color: #25282b;
   transition:0.5s;
-  &:hover, :active {
+  &:hover, .active {
     font-weight: 500;
     color: #077fde;
     transition:0.5s;
@@ -171,8 +171,10 @@ export const MobileNavLinks = styled.a`
   font-weight: 300;
   transition-duration: 300ms;
 
-  &:hover, :active {
+  &:hover, .active {
     font-weight: 500;
     color: #077fde;
+    transition:0.5s;
+    scale:1.1;
   }
 `;
