@@ -13,7 +13,7 @@ export default function Feedback() {
     <FeedbackContainer> 
 <img src={serviceVector} />
 <h1>Client Testimonials</h1>
-<p>Take a look at what our customer’s are saying. At Nature we not only provide you with services but also we provide you with valuable experiences for your valuable time.</p>
+<p>Take a look at what our customer’s are saying. At QFS we not only provide you with services but also we provide you with valuable experiences for your valuable time.</p>
 <ImgCon>
 <img src={Fed1} id='img1' />
 <img src={Fed2} id='img2'/>
