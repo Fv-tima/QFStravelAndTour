@@ -14,23 +14,27 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
- 
+  
+  
+}
+@media(max-width:868px) {
+  #subscribe{
+    padding: 50px 24px;
+    background-size:cover;
+
+  }
 }
 
 .container{
   padding:3rem 6.25rem;
+  
 }
 
 a {
   text-decoration: none;
 }
-
-@media (max-width:868px){
+@media(max-width:868px) {
   .container{
-    padding:20px 24px 30px ;
-  }
-
-  #subscribe{
-    padding: 50px 24px;  
+padding: 20px 24px 30px;
   }
 }

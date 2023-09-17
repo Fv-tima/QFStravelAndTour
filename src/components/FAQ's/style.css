@@ -1,57 +1,62 @@
 #comment {
     text-align: center;
     font-family: "Poppins", san-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 440;
     line-height: 1.5rem;
-    color: #25282b;
+    color: #898989;
     margin-bottom: 10%;
-    max-width: 600px;
+    width: 730px;
     margin: auto;
 
 }
 
 .accordion {
-    max-width: 550px;
+    width: 100%;
+    gap: 23px;
 }
 
 .item {
     background: #ffffff;
     padding: 8px 20px;
     box-sizing: border-box;
-    margin-bottom:4% ;
+    margin-bottom: 4%;
 
 }
 
 .title,
 .nextt {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+
 }
-h2{
-color: #25282b;
-text-align: left;
-font-weight:680;
+
+h2 {
+    font-family: "Poppins", san-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #170F49;
+    text-align: left;
+    font-weight: 680;
 }
 
 .content {
-    color: #25282b;
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
 .another-content {
-    color: #25282b;
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
 .content.show {
+
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1, 0, 1, 0);
@@ -69,7 +74,7 @@ h6 {
     font-size: 1.1rem;
     font-weight: 440;
     line-height: 1.5rem;
-    color: #25282b;
+    color: #6F6C90;
     margin-bottom: 3%;
     max-width: 400px;
     text-align: left;
@@ -83,20 +88,32 @@ h4 {
     cursor: pointer;
 }
 
-.down-below{
+.down-below {
     margin-top: 10%;
     display: flex;
+    margin-inline:  auto;
     justify-content: center;
-    padding-inline: 22rem;
-    
-}
-.comment-below{
-    
-    text-align: center;
+    /* padding-inline: 22rem; */
+    width: 567px;
+
 }
 
-@media (max-width: 768px) {
-    .down-below{
-        padding-inline: 3.5rem;
+#comment-below {
+
+    color: var(--Grey, #898989);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+@media (max-width: 868px) {
+    .down-below {
+        margin: 0 auto;
+        width: 350px;
     }
+    
 }

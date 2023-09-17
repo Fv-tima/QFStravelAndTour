@@ -8,15 +8,15 @@ import vector from "../../assets/images/Vec.png";
 import Avatar1 from "../../assets/images/Avatar1.png";
 import {
   PackagesCon,
-  PackagesContainer,
+  PackagesContainer, 
   PackagesContent,
   PackagesImg,
   Location,
   Content,
-  Ratings,
   Comment
 } from "./Packages.styled";
-export default function Packages() {
+export default function Packages () {
+  // took out ratings div
   return (
     <PackagesCon>
       <img src={serviceVector} />
@@ -26,17 +26,13 @@ export default function Packages() {
           <Location>
             <img src={Frame1} />
             <Content>
-              <h2>Heaven Resort</h2>
+              <h2>Heaven Resort <img src={ vector } /> (4.8)</h2>
               <p>
                 Starts from <span>$</span>
                 <span>450</span>
               </p>
             </Content>
-            <Ratings>
-              <img src={vector} />
-              (4.8)
-            </Ratings>
-          </Location>
+          </Location> 
           <img src={PImage} />
           <Comment>
             <img src={Avatar1} />

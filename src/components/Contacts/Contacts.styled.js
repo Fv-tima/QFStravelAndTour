@@ -64,7 +64,7 @@ export const ContactsInfo = styled.div`
 
 export const ContactsForm = styled.div`
   border-right: 1px solid #d7d7d7;
-  padding-right:80px;
+  padding:50px;
   width:500px;
   @media(max-width:768px){
     width:auto;
@@ -139,7 +139,7 @@ export const ContactsDetails = styled.div`
 display:flex;
 flex-direction:column;
 width:500px;
-padding-right:50px;
+padding:65px;
 
 @media(max-width:768px){
   width:auto;
@@ -152,7 +152,7 @@ flex-direction:column;
 margin-bottom:50px;
   h3 {
     color: #077fde;
-    font-family:"Manrope", san-serif;
+    font-family:"Poppins", san-serif;
     font-size: 1.125rem;
     font-weight:600;
     line-height:1rem;

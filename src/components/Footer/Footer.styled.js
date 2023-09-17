@@ -2,9 +2,10 @@ import { styled } from "styled-components";
 
 export const FooterCon = styled.div`
   padding: 3.75rem 7.5rem 5rem;
-  background-color: #0b54c3;
+  background-color: #077FDE;
   @media (max-width: 868px) {
     padding: 50px 24px;
+    background-color: #077FDE;
   }
 `;
 
@@ -12,7 +13,7 @@ export const FooterContainer = styled.div`
 display:flex;
 flex-direction:column;
 
-`;
+`; 
 
 export const FooterInnerCon = styled.div`
   display: flex;
@@ -38,7 +39,7 @@ export const FooterInnerCon = styled.div`
     font-weight: 400;
   }
 
-  }
+  
 
   h3 {
     font-family: "Poppins", san-serif;
@@ -84,7 +85,9 @@ export const AboutText = styled.p`
 export const SocialContainer = styled.div`
   display: flex;
   flex-direction: column;
-
+img{
+  width:30px;
+}
   a {
     display: flex;
     gap: 0.4rem;
@@ -95,8 +98,10 @@ export const Copy = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-self:stretch;
   color: #ffffff;
   margin-top: 2rem;
+  font-family:"Poppins",sans-serif;
 
   @media (max-width: 868px) {
     flex-direction: column;

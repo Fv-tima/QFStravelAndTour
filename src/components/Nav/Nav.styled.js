@@ -7,12 +7,12 @@ export const Header = styled.header`
   align-items: center;
   gap: 1rem;
   background:#fff;
-  padding:0rem 6.25rem;
+  padding:1rem 6.25rem;
 
   @media (max-width: 868px) {
-    gap: .1rem;
+    gap: 1rem;
     height: 60px;
-    padding:0px 24px;
+    padding:20px ;
   }
 `;
 
@@ -39,9 +39,12 @@ export const Navbar = styled.nav`
 
 export const NavbarLinks = styled.a`
   color: #25282b;
+  transition:0.5s;
   &:hover, :active {
     font-weight: 500;
     color: #077fde;
+    transition:0.5s;
+    scale:1.1;
   }
 `;
 
@@ -58,12 +61,12 @@ export const SearchIcon = styled.div`
     @media (max-width: 868px) {
       display: flex;
       flex: 1 1 0%;
-      width: 100;
+      width: 100px;
     }
   }
 
   select{
-    background: none;
+  background: none;
   width:40px;
   }
 
@@ -97,9 +100,11 @@ export const MobileHeader = styled.header`
   position: relative;
   z-index: 50;
   transition-duration: 300ms;
-
+ 
   @media (min-width: 868px) {
     display: none;
+      transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+      
   }
 `;
 
@@ -128,6 +133,7 @@ export const MobileNavbar = styled.nav`
   flex-direction: column;
   width: 73.333333%;
   max-width: 24rem;
+
 `;
 
 export const NavbarHeader = styled.div`
@@ -144,7 +150,9 @@ export const MobileLogo = styled.a`
   line-height: 1;
 `;
 
-export const MobileNavContainer = styled.div``;
+export const MobileNavContainer = styled.div`
+  
+`;
 
 export const MobileNavInner = styled.div``;
 

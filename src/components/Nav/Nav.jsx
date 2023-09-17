@@ -29,10 +29,10 @@ export default function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <>
+    <> 
       <Header>
         <HeaderLogo>
-          <img src={HLogo} />
+          <img src={ HLogo } />
         </HeaderLogo>
         <Navbar>
         <NavbarLinks><Link to="/">Home</Link></NavbarLinks>
@@ -54,54 +54,59 @@ export default function Nav() {
           </select>
         </SearchIcon>
         <MenuIcon>
-          <MenuButton onClick={toggleNav}>
-            {isOpen ? (
-              <img src={closeIcon} width="35%" alt="" />
+          <MenuButton onClick={  toggleNav }>
+            { isOpen? (
+              <img src={ closeIcon } width="35%" alt="" />
             ) : (
-              <img src={openIcon} width="35%" alt="" />
-            )}
+              <img src={ openIcon } width="35%" alt="" />
+            ) }
           </MenuButton>
         </MenuIcon>
       </Header>
 
-      {isOpen && (
+      { isOpen && (
+        <div className={ isOpen ? 'content show' : 'content' }>
         <MobileHeader>
           <Backdrop />
           <MobileNavbar>
-            <NavbarHeader>
-              <MobileLogo>
-                <img src={HLogo} />
-              </MobileLogo>
-              <MenuButton onClick={toggleNav}>
-                {isOpen ? (
-                  <img src={closeIcon} width="40%" alt="" />
-                ) : (
-                  <img src={openIcon} width="40%" alt="" />
-                )}
-              </MenuButton>
-            </NavbarHeader>
+            
+              <NavbarHeader>
+                <MobileLogo>
+                  <img src={ HLogo } />
+                </MobileLogo>
+                <MenuButton onClick={ toggleNav }>
+                  { isOpen ? (
+                    <img src={ closeIcon } width="40%" alt="" />
+                  ) : (
+                    <img src={ openIcon } width="40%" alt="" />
+                  ) }
+                </MenuButton>
+              </NavbarHeader>
 
-            <MobileNavContainer>
-              <MobileNavInner>
-                <MobileNavList>
-                  <MobileNavLinks href="/">Home</MobileNavLinks>
-                </MobileNavList>
-                <MobileNavList>
-                  <MobileNavLinks href="about">
-                    About
-                  </MobileNavLinks>
-                </MobileNavList>
-                <MobileNavList>
-                  <MobileNavLinks href="package">Packages</MobileNavLinks>
-                </MobileNavList>
-                <MobileNavList>
-                  <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
-                </MobileNavList>
-              </MobileNavInner>
-            </MobileNavContainer>
+              <MobileNavContainer>
+                <MobileNavInner>
+                  <MobileNavList>
+                    <MobileNavLinks><Link to="/">Home</Link></MobileNavLinks>
+                  </MobileNavList>
+                  <MobileNavList>
+                    <MobileNavLinks>
+                    <Link to="/about">About</Link>
+                    </MobileNavLinks>
+                  </MobileNavList>
+                  <MobileNavList>
+                    <MobileNavLinks><Link to="/package">Packages</Link></MobileNavLinks>
+                  </MobileNavList>
+                  <MobileNavList>
+                    <MobileNavLinks><Link to="/contact">Contact Us</Link></MobileNavLinks>
+                  </MobileNavList>
+                </MobileNavInner>
+              </MobileNavContainer>
+            
           </MobileNavbar>
-        </MobileHeader>
-      )}
+          </MobileHeader>
+        </div>
+
+      ) }
     </>
   );
 }

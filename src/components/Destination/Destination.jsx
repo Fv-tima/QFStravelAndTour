@@ -21,21 +21,21 @@ export default function Destination() {
           <img src={Ecl1} />
           <img src={Ecl2} />
           <img src={Ecl3} />
-        </div>
+        </div> 
         <h2> <span>10K+</span> Satisfied Customer</h2>
       </Eclipse>
       <DestinationCon>
         <DestinationImg>
           <img src={Des1} className="pos"/>
           <div>
-            <img src={Des2} />
-            <img src={Des3} />
-          </div>
+            <img src={Des2} id="dests"/>
+            <img src={ Des3 } id="dests" />
+          </div> 
         </DestinationImg>
         <DestinationImg>
         <div>
-            <img src={Des4} />
-            <img src={Des5} />
+            <img src={ Des4 } id="dests" />
+            <img src={ Des5 } id="dests" />
           </div>
           <img src={Des6} />
         </DestinationImg>

@@ -13,7 +13,7 @@ export default function Services() {
       <h1>Our Services</h1>
       <ServiceContainer>
       <div>
-        <img src={service1} />
+        <img src={service1} /> 
         <p>
           At QFS Travel and Tours, we offer a wide range of services that cater
           to all types of travelers. From families with young children to solo
