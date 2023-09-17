@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import AR from "../../assets/svg/ar.svg";
 import Image from "../../assets/images/Image.png";
 import Frame1 from "../../assets/images/Frame1.png";
@@ -62,9 +63,11 @@ export default function Program() {
           Our study abroad programs include everything you need for a successful and rewarding experience, including accommodation, language classes (where applicable), and support services throughout your stay. We also offer scholarships and funding options for eligible students.
           </p>
           <p>Ready to start planning your next adventure? Contact us today to learn more about our tour packages and study abroad programs, or to get started on your application.</p>
+          <Link to="/contact">
           <button>
             Take a Trip <img src={AR} />
           </button>
+          </Link>
         </PackagesContent>
       </PackagesContainer>
     </PackagesCon>

@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   display: flex;
-  height: 80px;
+  height: 100px;
   justify-content:center;
   align-items: center;
   gap: 1rem;
   background:#fff;
-  padding:3rem 6.25rem;
+  padding:0rem 6.25rem;
 
   @media (max-width: 868px) {
     gap: .1rem;
     height: 60px;
-    padding:30px 24px;
+    padding:0px 24px;
   }
 `;
 

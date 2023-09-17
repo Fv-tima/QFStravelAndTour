@@ -36,7 +36,7 @@ export const PackagesContainer = styled.div`
   }
 
   button {
-    border-radius: 8pxpx;
+    border-radius: 8px;
     background: #35aff4;
     padding: 12px 24px;
     color: #fff;

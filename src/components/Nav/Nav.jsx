@@ -20,6 +20,8 @@ import {
   Backdrop,
   NavbarHeader
 } from "./Nav.styled";
+
+import { Link } from "react-router-dom";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -33,10 +35,10 @@ export default function Nav() {
           <img src={HLogo} />
         </HeaderLogo>
         <Navbar>
-          <NavbarLinks  href="/"> Home</NavbarLinks>
-          <NavbarLinks  href="about">About</NavbarLinks>
-          <NavbarLinks  href="package">Packages</NavbarLinks>
-          <NavbarLinks  href="contact">Contact Us</NavbarLinks>
+        <NavbarLinks><Link to="/">Home</Link></NavbarLinks>
+        <NavbarLinks><Link to="/about">About</Link></NavbarLinks>
+        <NavbarLinks><Link to="/package">Package</Link></NavbarLinks>
+        <NavbarLinks><Link to="/contact">Contact Us</Link></NavbarLinks>
         </Navbar>
         <SearchIcon>
           <select name="Language" id="Language">
