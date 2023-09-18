@@ -1,9 +1,11 @@
 import React from "react";
-import { Packages, Program, Checklist, Destination } from "../../components";
+import { Nav, Packages, Program, Checklist, Destination, Footer } from "../../components";
 import { MainPackage } from "./Package.styled";
 
 export default function Package() {
   return (
+    <div>
+      <Nav/>
     <MainPackage>
     <div className="container">
       <Packages />
@@ -12,5 +14,7 @@ export default function Package() {
       <Destination/>
     </div>
     </MainPackage>
+    <Footer/>
+    </div>
   );
 }

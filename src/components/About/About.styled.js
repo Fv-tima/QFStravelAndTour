@@ -5,14 +5,13 @@ export const Header = styled.div`
       display: flex;
       align-items: center;
       width: 100%;
-      position:relative;
-      top:-96px;
       
       }
       #two{
         display:none;
       }
       @media (max-width:868px){
+<<<<<<< HEAD
         #one{
           display:none;
         }
@@ -27,3 +26,11 @@ export const Header = styled.div`
         
       }:
 `;
+=======
+        margin-bottom:100px;
+          scale:1.7;
+          position:relative;
+          top:50px;
+        }:
+`;
+>>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b

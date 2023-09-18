@@ -15,7 +15,10 @@ export const SubscribeContainer = styled.div`
   justify-content: center;
   margin: 2.5rem auto 0;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
   img{
   margin-top:1.5rem;
     margin-left:auto;
@@ -36,7 +39,7 @@ export const SubscribeContainer = styled.div`
     align-items: center;
     border: 1px solid #aaa;
     background: #fff;
-    max-width: 570px;
+    width: 570px;
     height: 56px;
     padding-right: 4px;
     border-radius: 50px;
@@ -55,11 +58,10 @@ export const SubscribeContainer = styled.div`
     }
     button {
       display: flex;
-      width: 158px;
       height: 48px;
       justify-content: center;
       align-items: center;
-      padding: 10px;
+      padding: 10px 40px;
       border-radius: 50px;
       color: #fff;
       background: #077FDE;
@@ -68,9 +70,15 @@ export const SubscribeContainer = styled.div`
       font-family: "Poppins", san-serif;
       border:none;
       cursor:pointer;
-      flex-shrink: 0;
+      
     }
+   }
+   @media (max-width: 768px) {
+    #h1 {
+     font-size: 1.4rem;
+   }
   
+<<<<<<< HEAD
   }
 
     @media (max-width: 768px) {
@@ -108,4 +116,18 @@ export const SubscribeContainer = styled.div`
       
     
   }
+=======
+div, input{
+     margin:10px;
+     width:100%;
+     font-size: .7rem;
+
+     button{
+      padding:10px 20px;
+    }
+   }  
+
+
+ }
+>>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
 `;

@@ -1,9 +1,10 @@
 import React from 'react'
-import { Hero, Services, AboutSection, SubscribeSec, Feedback } from '../../components'
+import { Nav, Hero, Services, AboutSection, SubscribeSec, Feedback, Footer } from '../../components'
 
 export default function Home() {
   return (
     <div>
+      <Nav/>
     <div className="container">
       <Hero/>
       <Services/>
@@ -11,6 +12,7 @@ export default function Home() {
       <Feedback/>
       </div>
       <SubscribeSec/>
+      <Footer/>
       </div>
   )
 }

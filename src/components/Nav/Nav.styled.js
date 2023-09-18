@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   display: flex;
-  height: 80px;
+  height: 100px;
   justify-content:center;
   align-items: center;
   gap: 1rem;
@@ -53,7 +53,7 @@ export const Navbar = styled.nav`
 export const NavbarLinks = styled.a`
   color: #25282b;
   transition:0.5s;
-  &:hover, :active {
+  &:hover, .active {
     font-weight: 500;
     color: #077fde;
     transition:0.5s;
@@ -184,8 +184,15 @@ export const MobileNavLinks = styled.a`
   font-weight: bold;
   transition-duration: 300ms;
 
+<<<<<<< HEAD
   &:hover, :active {
     scale:1.1;
+=======
+  &:hover, .active {
+    font-weight: 500;
+>>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
     color: #077fde;
+    transition:0.5s;
+    scale:1.1;
   }
 `;

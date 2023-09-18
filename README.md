@@ -1,4 +1,4 @@
-# React + Vite
+# QFS Travel and Tour Website
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -8,8 +8,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Welcome to QFS Travel and Tour Website
-
-![QFS Travel and Tour](screenshot.png)
 
 This repository contains the codebase for the QFS Travel and Tour website, built using Vite and React with styled-components for styling. QFS is your ultimate destination for all your travel and tour needs. Whether you're planning a relaxing vacation, an adventurous trek, or a cultural expedition, QFS has got you covered.
 

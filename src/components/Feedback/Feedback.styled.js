@@ -64,6 +64,7 @@ gap:1rem;
 
 #img1{
   transform:translateX(-25px)
+  align-items:center;
 }
 #img2{
     position:absolute;

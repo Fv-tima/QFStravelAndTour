@@ -36,16 +36,29 @@ hr{
 export const FooterInnerCon = styled.div`
   display: flex;
   color: #ffffff;
-  justify-content: space-between;
+  column-gap:128px;
   align-items:start;
   border-bottom:1px solid #fff;
+
+  .footer{
+    display:flex;
+    column-gap:40px;
+  }
 
   @media (max-width: 868px) {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 48px;
+<<<<<<< HEAD
     height: 955px;
+=======
+    min-height: 955px;
+
+    .footer{
+      flex-direction:column;
+    }
+>>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
   }
 
   a,
@@ -56,8 +69,7 @@ export const FooterInnerCon = styled.div`
     line-height: 2.5rem;
     font-weight: 400;
   }
-
-  
+ 
 
   h3 {
     font-family: "Poppins", san-serif;
@@ -68,8 +80,15 @@ export const FooterInnerCon = styled.div`
 `;
 
 export const FooterLogo = styled.div`
+border-radius: 70px;
+background:#FFF;
+width:216px;
+height:77px;
+padding:0px 13px 0px 16px;
+
 img{
-  width:20%;
+  height:74px;
+width:187px;
 }
 @media (max-width: 868px) {
  
@@ -91,8 +110,9 @@ export const FooterContent = styled.div`
   #address,.tel{
     ${'' /* line-height:1.3rem; */}
   }
-  #address{
-    line-height:2.5rem;
+
+  #email{
+    max-width:500px;
   }
   @media (max-width:868px){
     display: flex;
@@ -119,7 +139,7 @@ gap: 16px;
 export const AboutText = styled.p`
   display: flex;
   flex-direction: column;
-  max-width: 387px;
+  max-width: 525px;
   span {
     font-weight: 600;
   }

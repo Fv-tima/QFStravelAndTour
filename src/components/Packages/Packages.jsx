@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import serviceVector from "../../assets/svg/serVector.svg";
 import AR from "../../assets/svg/ar.svg";
 import PImage from "../../assets/images/PImage.png";
@@ -84,9 +85,11 @@ export default function Packages () {
             And if you don't see a package that fits your needs, we can also
             customize a tour just for you.
           </p>
+          <Link to="/contact">
           <button>
             Take a Trip <img src={AR} />
           </button>
+          </Link>
         </PackagesContent>
       </PackagesContainer>
     </PackagesCon>

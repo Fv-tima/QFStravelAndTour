@@ -12,6 +12,7 @@ export const ContactsContainer = styled.div`
 `;
 
 export const ContactsCon = styled.div`
+
   .top {
     display: flex;
     flex-direction:column;
@@ -21,6 +22,7 @@ export const ContactsCon = styled.div`
   
   
   h1 {
+    margin-top:0;
     font-family: "Poppins", san-serif;
     font-size: 3.375rem;
     font-weight: 800;
@@ -147,6 +149,7 @@ padding:65px;
 export const Details = styled.div`
 display:flex;
 flex-direction:column;
+margin-bottom:50px;
   h3 {
     color: #077fde;
     font-family:"Poppins", san-serif;

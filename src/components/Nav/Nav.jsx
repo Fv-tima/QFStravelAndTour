@@ -22,8 +22,10 @@ import {
   Backdrop,
   NavbarHeader
 } from "./Nav.styled";
-export default function Nav () {
-  const [isOpen, setIsOpen] = useState(false);
+
+import { NavLink } from "react-router-dom";
+export default function Nav() {
+  const [isOpen, setIsOpen] = useState(false);Nav
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
@@ -36,10 +38,10 @@ export default function Nav () {
           <img src={ group } id="depends" />
         </HeaderLogo>
         <Navbar>
-          <NavbarLinks href="/"> Home</NavbarLinks>
-          <NavbarLinks href="about">About</NavbarLinks>
-          <NavbarLinks href="package">Packages</NavbarLinks>
-          <NavbarLinks href="contact">Contact Us</NavbarLinks>
+        <NavbarLinks><NavLink to="/">Home</NavLink></NavbarLinks>
+        <NavbarLinks><NavLink to="/about">About</NavLink></NavbarLinks>
+        <NavbarLinks><NavLink to="/package">Package</NavLink></NavbarLinks>
+        <NavbarLinks><NavLink to="/contact">Contact Us</NavLink></NavbarLinks>
         </Navbar>
         <SearchIcon>
           <select name="Language" id="Language">
@@ -87,18 +89,18 @@ export default function Nav () {
               <MobileNavContainer>
                 <MobileNavInner>
                   <MobileNavList>
-                    <MobileNavLinks href="/">Home</MobileNavLinks>
+                    <MobileNavLinks><NavLink to="/">Home</NavLink></MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks href="about">
-                      About
+                    <MobileNavLinks>
+                    <NavLink to="/about">About</NavLink>
                     </MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks href="package">Packages</MobileNavLinks>
+                    <MobileNavLinks><NavLink to="/package">Packages</NavLink></MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
+                    <MobileNavLinks><NavLink to="/contact">Contact Us</NavLink></MobileNavLinks>
                   </MobileNavList>
                 </MobileNavInner>
               </MobileNavContainer>
