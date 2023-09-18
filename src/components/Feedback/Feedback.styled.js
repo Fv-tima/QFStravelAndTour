@@ -8,7 +8,7 @@ export const FeedbackContainer = styled.div`
     font-family: "Poppins", san-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #25282b;
+    color: #514D59;
   }
   p{
     color: #898989;
@@ -49,7 +49,13 @@ p{
   font-size: 1rem; 
   max-width:344px;
   font-weight:300;
-}`
+}
+@media (max-width: 968px) {
+  display:none;
+  
+}
+
+`;
 
 export const ImgCon = styled.div`
 margin-left:9.5rem;
@@ -80,8 +86,32 @@ gap:1rem;
   margin-top:2rem;
   margin-left:0;
   flex-direction:column;
-#img2, #img3, #img4{
+#img1,#img2, #img3, #img4{
   display:none;
   
 }
-}`
+}`;
+
+export const MobileImageView = styled.div`
+display:none;
+@media (max-width: 968px) {
+  display:flex;
+  flex-direction:column;
+  display: flex;
+  width: 312px;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 16px;
+
+  
+    #t1, #t3, #t5{
+    position:relative;
+    right:16px;
+  }
+    #t2, #t4, #t6{
+    position:relative;
+    left:16px;
+  }
+}
+
+`

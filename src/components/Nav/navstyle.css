@@ -1,0 +1,13 @@
+.content-parent-show{
+  /* overflow: visible; */
+  transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s;  
+  /* transform:initial; */
+  opacity: 1;
+}
+.content-parent{
+  opacity: 0;
+  /* transform: translateX(-9999px);
+  
+   */
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}

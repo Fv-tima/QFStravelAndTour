@@ -4,7 +4,7 @@ import HeroImg from "../../assets/images/hero.png"
 import heroVector from "../../assets/images/heroVector.png"
 
 export default function Hero() {
-  return (
+  return ( 
     <HeroSection>
       <SectionContent>
         <h1>

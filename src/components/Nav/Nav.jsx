@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import HLogo from "../../assets/images/Flogo.png";
-import openIcon from "../../assets/svg/menu2.png";
+import group from "../../assets/svg/group.svg";
+import openIcon from "../../assets/svg/Vectorr.png";
 import closeIcon from "../../assets/svg/close2.png";
+import "./navstyle.css";
 import {
   Header,
   HeaderLogo,
   Navbar,
-  NavbarLinks,
+  NavbarLinks, 
   MenuIcon,
   MenuButton,
   SearchIcon,
@@ -31,6 +33,7 @@ export default function Nav () {
       <Header>
         <HeaderLogo>
           <img src={ HLogo } />
+          <img src={ group } id="depends" />
         </HeaderLogo>
         <Navbar>
           <NavbarLinks href="/"> Home</NavbarLinks>
@@ -56,21 +59,21 @@ export default function Nav () {
             { isOpen? (
               <img src={ closeIcon } width="35%" alt="" />
             ) : (
-              <img src={ openIcon } width="35%" alt="" />
+              <img src={ openIcon } width="97%" alt="" />
             ) }
           </MenuButton>
         </MenuIcon>
       </Header>
 
-      { isOpen && (
-        <div className={ isOpen ? 'content show' : 'content' }>
-        <MobileHeader>
+     
+      <div className={ isOpen ? 'content-parent-show' : 'content-parent' }>
+        <MobileHeader className='content'>
           <Backdrop />
-          <MobileNavbar>
+          <MobileNavbar >
             
               <NavbarHeader>
                 <MobileLogo>
-                  <img src={ HLogo } />
+                  <img src={ group } />
                 </MobileLogo>
                 <MenuButton onClick={ toggleNav }>
                   { isOpen ? (
@@ -104,7 +107,7 @@ export default function Nav () {
           </MobileHeader>
         </div>
 
-      ) }
+      
     </>
   );
 }

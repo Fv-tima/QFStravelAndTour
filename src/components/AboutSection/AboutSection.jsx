@@ -11,7 +11,8 @@ export default function AboutSection() {
       <img src={serviceVector} />
       <h1>About QFS Travel and Tours</h1>
       <AboutContainer>
-        <img src={images} />
+        <img src={ images } /> 
+        <img id="mobile-btn" src={ btn } />
         <AboutContent>
           <h1>At QFS Travel & Tours</h1>
           <InnerContent>

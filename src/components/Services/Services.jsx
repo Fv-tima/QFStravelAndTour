@@ -8,12 +8,13 @@ import { Service, ServiceContainer } from "./Services.styled";
 
 export default function Services() {
   return (
-    <Service>
+    <Service> 
       <img src={serviceVector} />
       <h1>Our Services</h1>
-      <ServiceContainer>
+      <ServiceContainer> 
       <div>
-        <img src={service1} /> 
+          <img src={ service1 } />
+          <h2>Explore Our Website</h2>  
         <p>
           At QFS Travel and Tours, we offer a wide range of services that cater
           to all types of travelers. From families with young children to solo

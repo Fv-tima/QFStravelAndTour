@@ -43,7 +43,7 @@ ${'' /* gap:4px; */}
     width:252.47px;
     height:24px;
   }
-
+ 
   p {
     position:relative;
     top:-39px;
@@ -53,14 +53,14 @@ ${'' /* gap:4px; */}
     color:#25282B;
     width:550px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     h1 {
       font-size: 2.4rem;
-      width:340px;
+      width:343px;
        line-height:50px;
     }
     p {
-      width:350px;
+      width:343px;
       font-size: 1rem;
       position:relative;
     top:5px;

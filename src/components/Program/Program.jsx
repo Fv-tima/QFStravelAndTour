@@ -28,7 +28,7 @@ export default function Program () {
 
               <p>
                 Canada
-              </p>
+              </p> 
             </Content>
 
           </Location>

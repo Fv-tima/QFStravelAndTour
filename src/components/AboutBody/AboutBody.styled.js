@@ -84,20 +84,28 @@ img {
  p{
   padding-block:1rem;
   width:450px;
+  color: #514D59;
   
  }
 
    @media (max-width: 868px) {
     flex-direction: column;
     gap:1rem;
+    
+    h1{
+      font-size: 32px;
+    }
+      p{
+    width:342px;
+    color: #514D59;
    }
-  p{
-    width:330px;
-   }
- 
-  img{
+    img{
     max-width:100%;
   }
+   }
+  
+ 
+  
 
 
 `;
@@ -115,17 +123,29 @@ export const AboutUs = styled.div`
   
  }
   @media (max-width: 868px) {
+    
     flex-direction: column;
     gap:1rem;
      transform: translateY(-40px);
-   }
-
-   p{
-    width:330px;
+     p{
+    width:342px;
    }
   img{
     max-width:100%;
   }
+   }
+
+   
+
+`;
+export const Mission = styled.div`
+@media (max-width:868px){
+  display:flex;
+  flex-direction: column-reverse;
+    gap:1rem;
+}
+
+
 
 `;
 export const AboutLastInfo = styled.div`

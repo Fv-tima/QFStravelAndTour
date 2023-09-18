@@ -9,11 +9,21 @@ export const Header = styled.div`
       top:-96px;
       
       }
+      #two{
+        display:none;
+      }
       @media (max-width:868px){
-        margin-bottom:90px;
-          scale:1.7;
-          position:relative;
-      top:165px;
+        #one{
+          display:none;
+        }
+        #two{
+          display:flex;
+          align-content:center;
+          top:-50px;
+          scale:1.1;
+        }
+        
+        
         
       }:
 `;

@@ -1,5 +1,5 @@
 import React from "react";
-import { About, AboutContainer, AboutContent, AboutInnerContent, AboutUs, AboutLastInfo, AboutLastInfoContents, BottomContainer, BottomImgCon, TeamNames } from "./AboutBody.styled";
+import { About, AboutContainer, AboutContent, AboutInnerContent, AboutUs, AboutLastInfo, AboutLastInfoContents, BottomContainer, BottomImgCon, TeamNames , Mission} from "./AboutBody.styled";
 import serviceVector from "../../assets/svg/serVector.svg";
 import Group63 from "../../assets/images/Group63.png";
 import Group64 from "../../assets/images/Group64.png";
@@ -53,17 +53,19 @@ export default function AboutBody () {
         <AboutContent>
 
           <AboutInnerContent >
-            <img src={ Rectangle71 } />
-            <h1>Our Mission
-              <p>
-                Our mission is to provide our clients with exceptional travel and study experiences
-                that exceed their expextations. We are committed to offering personalized
-                service, attention to detail, and a wide range of travel and study options
-                to suit every need and budget. We aim to inspire and enrich
-                the lives of our clients through travel, and to foster a love of
-                exploration and adventure.
-              </p>
-            </h1>
+            <Mission>
+                <img src={ Rectangle71 } />
+                <h1>Our Mission
+                  <p>
+                    Our mission is to provide our clients with exceptional travel and study experiences
+                    that exceed their expextations. We are committed to offering personalized
+                    service, attention to detail, and a wide range of travel and study options
+                    to suit every need and budget. We aim to inspire and enrich
+                    the lives of our clients through travel, and to foster a love of
+                    exploration and adventure.
+                  </p>
+                </h1>
+            </Mission>
           </AboutInnerContent>
 
         </AboutContent>
