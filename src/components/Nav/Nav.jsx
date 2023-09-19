@@ -11,7 +11,6 @@ import {
   NavbarLinks, 
   MenuIcon,
   MenuButton,
-  SearchIcon,
   MobileHeader,
   MobileLogo,
   MobileNavbar,
@@ -25,7 +24,7 @@ import {
 
 import { NavLink } from "react-router-dom";
 export default function Nav() {
-  const [isOpen, setIsOpen] = useState(false);Nav
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
@@ -43,21 +42,8 @@ export default function Nav() {
         <NavbarLinks><NavLink to="/package">Package</NavLink></NavbarLinks>
         <NavbarLinks><NavLink to="/contact">Contact Us</NavLink></NavbarLinks>
         </Navbar>
-        <SearchIcon>
-          <select name="Language" id="Language">
-            <option value="English">English</option>
-            <option value="French">French</option>
-            <option value="Russian">Russian</option>
-            <option value="Hausa">Hausa</option>
-            <option value="German">German</option>
-            <option value="Twi">Twi</option>
-            <option value="Spanish">Spanish</option>
-            <option value="Dutch">Dutch</option>
-            <option value="Ki Swahilli">Ki Swahilli</option>
-          </select>
-        </SearchIcon>
         <MenuIcon>
-          <MenuButton onClick={  toggleNav }>
+          <MenuButton onClick={toggleNav}>
             { isOpen? (
               <img src={ closeIcon } width="35%" alt="" />
             ) : (
@@ -68,14 +54,15 @@ export default function Nav() {
       </Header>
 
      
-      <div className={ isOpen ? 'content-parent-show' : 'content-parent' }>
-        <MobileHeader className='content'>
+      { isOpen && (
+        <div className={ isOpen ? 'content show' : 'content' }>
+        <MobileHeader>
           <Backdrop />
-          <MobileNavbar >
+          <MobileNavbar>
             
               <NavbarHeader>
                 <MobileLogo>
-                  <img src={ group } />
+                  <img src={ HLogo } />
                 </MobileLogo>
                 <MenuButton onClick={ toggleNav }>
                   { isOpen ? (
@@ -89,18 +76,18 @@ export default function Nav() {
               <MobileNavContainer>
                 <MobileNavInner>
                   <MobileNavList>
-                    <MobileNavLinks><NavLink to="/">Home</NavLink></MobileNavLinks>
+                    <MobileNavLinks href="/">Home</MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks>
-                    <NavLink to="/about">About</NavLink>
+                    <MobileNavLinks href="about">
+                      About
                     </MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks><NavLink to="/package">Packages</NavLink></MobileNavLinks>
+                    <MobileNavLinks href="package">Packages</MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks><NavLink to="/contact">Contact Us</NavLink></MobileNavLinks>
+                    <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
                   </MobileNavList>
                 </MobileNavInner>
               </MobileNavContainer>
@@ -109,7 +96,11 @@ export default function Nav() {
           </MobileHeader>
         </div>
 
+      ) }
+
       
     </>
   );
 }
+
+

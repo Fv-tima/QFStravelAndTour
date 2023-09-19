@@ -2,9 +2,13 @@ import { styled } from "styled-components";
 export const SubscribeCon = styled.div`
   margin: 0;
   padding: 147px 387px;
-  @media (max-width:868px){
-  background: linear-gradient(180deg, rgba(12, 31, 38, 0.00) -16.11%, #0C1F26 114.32%);
-${ '' /* background-size:cover; */ }
+  @media (max-width: 868px) {
+    background: linear-gradient(
+      180deg,
+      rgba(12, 31, 38, 0) -16.11%,
+      #0c1f26 114.32%
+    );
+    ${"" /* background-size:cover; */}
   }
 `;
 
@@ -15,10 +19,7 @@ export const SubscribeContainer = styled.div`
   justify-content: center;
   margin: 2.5rem auto 0;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
   img{
   margin-top:1.5rem;
     margin-left:auto;
@@ -78,12 +79,9 @@ export const SubscribeContainer = styled.div`
      font-size: 1.4rem;
    }
   
-<<<<<<< HEAD
   }
 
     @media (max-width: 768px) {
-
-
     #h1 {
       font-size: 20px;
       text-align: center;
@@ -91,32 +89,17 @@ export const SubscribeContainer = styled.div`
     img{
         display:none;
       }
-    div{
-      display: flex;
-      justify-content: center;
-      gap:1rem;
-      
-      input{
-        width: 210.656px;
-        height: 40.546px;
-      flex-shrink: 0;
-      }
       button{
         background: #3685FB;
       display: flex;
       width: 102.21px;
-      
   padding: 4.813px;
       justify-content: center;
       align-items: center;
   gap: 4.813px;
       flex-shrink: 0;
     }
-      }
       
-    
-  }
-=======
 div, input{
      margin:10px;
      width:100%;
@@ -124,10 +107,6 @@ div, input{
 
      button{
       padding:10px 20px;
-    }
-   }  
-
-
+    } 
  }
->>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
 `;

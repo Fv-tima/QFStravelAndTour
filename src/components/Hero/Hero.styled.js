@@ -3,17 +3,19 @@ import styled from "styled-components";
 export const HeroSection = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap:1.3rem;
-  paddiing-inline:40px;
-
-
+  justify-content: space-between;
+  gap:2.75rem;
+  margin-top:1rem;
 
   @media (max-width: 868px) {
     flex-direction: column;
     Gap:1rem;
+<<<<<<< HEAD
 
     
+=======
+    padding: 0 2rem;
+>>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
   }
 
   img{
@@ -23,57 +25,37 @@ export const HeroSection = styled.div`
 
 export const SectionContent = styled.div`
 
-${'' /* gap:4px; */}
-
-
   h1 {
     line-height:90px;
     display:flex;
     flex-direction:column;
     font-family: "Poppins", san-serif;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     color: #077fde;
-    width:540px;
-    ${'' /* height:30px; */}
-
   }
 
   img{
-    width:252.47px;
-    height:24px;
+    width:40%;
   }
- 
+
   p {
-    position:relative;
-    top:-39px;
     font-family: "Poppins", san-serif;
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: 400;
     color:#25282B;
-    width:550px;
   }
-  @media (max-width: 868px) {
+  @media (max-width: 768px) {
     h1 {
       font-size: 2.4rem;
-      width:343px;
-       line-height:50px;
     }
     p {
-      width:343px;
       font-size: 1rem;
-      position:relative;
-    top:5px;
       line-height: 1.5rem;
     }
-    img{
-    width:140px;
-    height:24px;
-  }
     width: 100%;
   }
 `;
 
 export const SectionImg = styled.img`
-width:594px;
-    height:370px;`
+width:100%;`

@@ -85,6 +85,9 @@ img{
       line-height: 1.5rem;
       width:343px;
     }
+    button{
+      width:100%;
+    }
   }
 `;
 

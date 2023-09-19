@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   display: flex;
-  height: 100px;
+  height: 80px;
+  column-gap:539px;
   justify-content:center;
   align-items: center;
   gap: 1rem;
@@ -47,6 +48,7 @@ export const Navbar = styled.nav`
 
   @media (min-width: 868px) {
     display: flex;
+    column-gap:56px;
   }
 `;
 
@@ -54,43 +56,10 @@ export const NavbarLinks = styled.a`
   color: #25282b;
   transition:0.5s;
   &:hover, .active {
-    font-weight: 500;
     color: #077fde;
-    transition:0.5s;
-    scale:1.1;
   }
 `;
 
-export const SearchIcon = styled.div`
-  display: flex;
-  justify-content: center;
-  select {
-    font-family: "Poppins", san-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-    outline: none;
-    border: none;
-   
-  }
-
-  select{
-  background: none;
-  width:40px;
-  }
-
-  option {
-    padding: 0.5rem;
-    background: #077fde;
-    color: #fff;
-  }
-   @media (max-width: 868px) {
-      display: flex;
-      flex: 1 1 0%;
-      width: 100px;
-      visibility: hidden;
-    }
-`;
 
 export const MenuIcon = styled.div`
   @media (min-width: 1024px) {
@@ -184,15 +153,7 @@ export const MobileNavLinks = styled.a`
   font-weight: bold;
   transition-duration: 300ms;
 
-<<<<<<< HEAD
-  &:hover, :active {
-    scale:1.1;
-=======
   &:hover, .active {
-    font-weight: 500;
->>>>>>> 94a5d86e07e378b7230d38cb572f9ecf8252637b
     color: #077fde;
-    transition:0.5s;
-    scale:1.1;
   }
 `;

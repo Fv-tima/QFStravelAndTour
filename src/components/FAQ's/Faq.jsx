@@ -19,7 +19,7 @@ export default function Faq () {
   return (
     <FaQBucket>
       <h1>Frequently Asked Questions</h1>
-      <p id='comment'>Have any questions about our servicesor need help planning your next vacation or study abroad experience?. Here are some of the most Frequently asked questions we receive: </p>
+      <p id='comment'>Have any questions about our services or need help planning your next vacation or study abroad experience?. Here are some of the most Frequently asked questions we receive: </p>
       <MotherVolume>
         <div className='accordion'>
           { data.map( ( item, i ) => (
