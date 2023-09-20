@@ -66,9 +66,9 @@ export default function Nav() {
                 </MobileLogo>
                 <MenuButton onClick={ toggleNav }>
                   { isOpen ? (
-                    <img src={ closeIcon } width="40%" alt="" />
+                    <img src={ closeIcon } width="25%" alt="" />
                   ) : (
-                    <img src={ openIcon } width="40%" alt="" />
+                    <img src={ openIcon } width="25%" alt="" />
                   ) }
                 </MenuButton>
               </NavbarHeader>
