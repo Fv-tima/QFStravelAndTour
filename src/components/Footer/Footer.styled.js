@@ -82,15 +82,24 @@ export const FooterLogo = styled.div`
     height: 74px;
     width: 187px;
   }
-  @media (max-width: 868px) {
-    #new {
-      width: 60%;
-      border: 1px solid #fff;
-      border-radius: 50px;
-      background: var(--White, #fff);
-      box-sizing: border-box;
-    }
+  #depends{
+    visibility: hidden;
   }
+   
+    @media (max-width: 868px) {
+      visibility: hidden;
+      position:relative;
+     #depends{
+      position: absolute;
+     bottom:20px;
+      right:120px;
+      visibility: visible;
+      }
+      img{
+        width:50%;
+        height:100%;
+      }
+
 `;
 
 export const FooterContent = styled.div`

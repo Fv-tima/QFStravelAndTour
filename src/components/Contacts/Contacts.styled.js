@@ -177,3 +177,49 @@ export const SocialCon = styled.div`
 display flex;
 column-gap:16px;
 `;
+
+export const Modal = styled.div`
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 275px;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  z-index: 1000;
+  padding: 20px 30px;
+  position: fixed;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
+`;
+
+export const ModalSuccess = styled.div`
+display:flex;
+flex-direction:column;
+gap:2rem;
+justify-content:center;
+align-items:center;
+
+h1{
+  color: #514d59;
+  font-family:"Poppins", san-serif;
+  font-size: 2.125rem;
+  font-weight:600;
+}
+
+button {
+  padding: 20px 24px;
+  border-radius: 10px;
+  background: #077fde;
+  color: #fff;
+  text-align: center;
+  font-family:"Manrope", san-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border:none;
+  outline:none;
+}`
