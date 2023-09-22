@@ -112,7 +112,7 @@ export const MobileNavbar = styled.nav`
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  background-color: #fff;
+  background-color: #fafafa;
   flex-direction: column;
   width: 100%;
   max-width: 24rem;
