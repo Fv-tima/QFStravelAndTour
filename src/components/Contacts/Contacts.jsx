@@ -42,7 +42,7 @@ export default function Contacts() {
                 <img src={call} />
                 <input type="number" placeholder="Phone number" required />
                 <span>*</span>
-              </label>
+              </label> 
               <textarea placeholder="Message" cols="30" rows="10"></textarea>
               <button>Let's Talk</button>
             </form>

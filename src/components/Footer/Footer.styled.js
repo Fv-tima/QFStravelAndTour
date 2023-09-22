@@ -72,21 +72,34 @@ export const FooterInnerCon = styled.div`
 `;
 
 export const FooterLogo = styled.div`
-  border-radius: 70px;
-  background: #fff;
-  width: 216px;
-  height: 77px;
-  padding: 0px 13px 0px 16px;
+ 
+#new{
+   padding:4px;
+      border: 1px solid #fff;
+      border-radius: 50px;
+      background: var(--White, #fff);
+      box-sizing: border-box;
 
+}
   img {
     height: 74px;
     width: 187px;
   }
+  #depends{
+    display:none;
+  }
   @media (max-width: 868px) {
-    #new {
-      width: 60%;
+    #new{
+      display:none;
+    }
+    #depends{
+      margin-top:-12%;
+      display:initial;
+      width: 70px;
+      height: 70px;
+      padding:4px;
       border: 1px solid #fff;
-      border-radius: 50px;
+      border-radius: 50%;
       background: var(--White, #fff);
       box-sizing: border-box;
     }
@@ -109,15 +122,31 @@ export const FooterContent = styled.div`
     h3 {
       margin-block: -2px;
     }
+   #two-phones{
+      white-space:nowrap;
+    }
   }
 `;
 
 export const AboutText = styled.p`
   display: flex;
   flex-direction: column;
-  max-width: 525px;
+  max-width: 343px;
   span {
     font-weight: 600;
+  }
+  @media (max-width:868px){
+
+    p{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+    }
+    #ex{
+      display:none;
+  }
   }
 `;
 
@@ -141,21 +170,31 @@ export const SocialContainer = styled.div`
 export const Copy = styled.div`
   display: flex;
   justify-content: space-between;
+ flex-direction:row;
   align-items: center;
   align-self: stretch;
   color: #ffffff;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-family: "Poppins", sans-serif;
+  font-size:14px;
+  #copy{
+    display: flex;
+       flex-direction:row;
+        justify-content: space-between;
+        gap:5rem;
+        align-items: flex-start;
+  }
 
   @media (max-width: 868px) {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     #copy {
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 10px;
     }
     #copyright,
     #message {
@@ -166,8 +205,6 @@ export const Copy = styled.div`
 `;
 
 export const Privacy = styled.div`
-  display: flex;
-  justify-content: space-between;
 
   a {
     margin-right: 1rem;
@@ -175,6 +212,7 @@ export const Privacy = styled.div`
     border-bottom: 1px solid #fff;
   }
   @media (max-width: 868px) {
+    display: flex;
     justify-content: center;
     align-items: center;
 

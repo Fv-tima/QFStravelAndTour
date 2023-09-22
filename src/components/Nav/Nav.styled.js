@@ -57,6 +57,7 @@ export const NavbarLinks = styled.a`
   transition:0.5s;
   &:hover, .active {
     color: #077fde;
+    transition:0.5s;
   }
 `;
 
@@ -83,7 +84,7 @@ export const MobileHeader = styled.header`
   display: flex;
   position: relative;
   z-index: 50;
-  ${'' /* transition-duration: 300ms; */}
+  ${ '' /* transition-duration: 300ms; */ }
 
   @media (min-width: 868px) {
     display: none;
@@ -113,7 +114,7 @@ export const MobileNavbar = styled.nav`
   padding-right: 1.5rem;
   background-color: #fff;
   flex-direction: column;
-  width: 73.333333%;
+  width: 100%;
   max-width: 24rem;
 
 `;
@@ -147,7 +148,7 @@ export const MobileNavLinks = styled.a`
   display: block;
   padding: 1rem;
   color: #515151;
-  font-family: "Inter", san-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: bold;
@@ -155,5 +156,6 @@ export const MobileNavLinks = styled.a`
 
   &:hover, .active {
     color: #077fde;
+     transition-duration: 300ms;
   }
 `;

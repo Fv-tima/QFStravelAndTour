@@ -9,14 +9,15 @@ export const Abouts = styled.div`
     font-weight: 600;
     color: #514D59;
   }
-  @media (max-width:868px){
+  @media (max-width:900px){
+
     h1{font-size: 20px;}
   }
 `;
 
 export const AboutContainer = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center; 
   column-gap: 8rem;
 
   img {
@@ -27,8 +28,10 @@ export const AboutContainer = styled.div`
   }
   @media(max-width:868px){
     flex-direction:column;
+    
    
       #mobile-btn{
+        display:initial;
 width: 57.068px;
 height: 57.068px;
         position: relative;
@@ -44,18 +47,19 @@ height: 57.068px;
 `;
 
 export const AboutContent = styled.div`
+  
   h1 {
-    font-family: "Poppins", san-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
     color: #514D59;
   }
 
   p {
-    font-family: "Poppins", san-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem;
+   
     color: #25282b;
   }
 
@@ -65,7 +69,7 @@ export const AboutContent = styled.div`
     padding: 15px 32px;
     color: #fff;
     text-align: center;
-    font-family: "Poppins", san-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     border:none;
@@ -75,14 +79,14 @@ img{
   cursor:pointer;
 }
 
-  @media (max-width: 768px) {
-    margin-top:50px;
+  @media (max-width: 988px) {
+    margin-top:-15%;
     h1 {
       font-size: 39.473px;
     }
     p {
       font-size: 16px;
-      line-height: 1.5rem;
+     line-height: 18px;
       width:343px;
     }
     button{
@@ -95,8 +99,9 @@ export const InnerContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 3rem;
-  @media (max-width:868px){
+  column-gap: 1rem;
+  @media (max-width:900px){
+    margin-top:-5%;
     img{
       position: absolute;
       left:9999px;
@@ -104,6 +109,9 @@ export const InnerContent = styled.div`
     p{
       font-size:16px;
       color:#25282B;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 112.5% */
     }
   }
 `;

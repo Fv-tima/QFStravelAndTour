@@ -4,18 +4,16 @@ export const HeroSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:2.75rem;
-  margin-top:1rem;
+  gap:auto;
+  margin-top:2.5rem;
+  line-height:auto;
+  
 
-  @media (max-width: 868px) {
+  @media (max-width: 968px) {
+    margin-top:-0.2em;
     flex-direction: column;
-    Gap:1rem;
-<<<<<<< HEAD
+    gap:1rem;
 
-    
-=======
-    padding: 0 2rem;
->>>>>>> b1d587a62f439fdebfa1809453ed2d205639f45f
   }
 
   img{
@@ -26,30 +24,46 @@ export const HeroSection = styled.div`
 export const SectionContent = styled.div`
 
   h1 {
-    line-height:90px;
+    margin-top:-0.5rem;
     display:flex;
     flex-direction:column;
-    font-family: "Poppins", san-serif;
-    font-size: 4rem;
-    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  width:auto;
+  height: 288px;
     color: #077fde;
+    font-size:64px;
+font-style: normal;
+font-weight: 700;
+ line-height:normal;
   }
 
   img{
-    width:40%;
+    width: 252.469px;
+height: 24px;
+flex-shrink: 0;
   }
 
   p {
-    font-family: "Poppins", san-serif;
-    font-size: 1.25rem;
+    margin-top:-1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
     font-weight: 400;
     color:#25282B;
+    width:auto;
+    height: 81px;
+    line-height:27px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 968px) {
+    img{
+      width:40%;
+    }
     h1 {
-      font-size: 2.4rem;
+      font-size: 32px;
+      line-height: normal;
+      height: auto;
     }
     p {
+      margin-top:unset;
       font-size: 1rem;
       line-height: 1.5rem;
     }

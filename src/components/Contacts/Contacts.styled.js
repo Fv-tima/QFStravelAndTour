@@ -66,7 +66,14 @@ export const ContactsForm = styled.div`
   border-right: 1px solid #d7d7d7;
   padding:50px;
   width:500px;
-  @media(max-width:768px){
+  input::placeholder,
+    textarea::placeholder {
+      color: #6e6e6e;
+      font-family:"Poppins", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+  @media(max-width:968px){
     width:auto;
     padding:0;
     border-right:none;
@@ -96,7 +103,7 @@ export const ContactsForm = styled.div`
       border: none;
       outline: none;
       color: #6e6e6e;
-      font-family:"Manrope", san-serif;
+      font-family:"Poppins", sans-serif;
       font-size: 1.25rem;
       font-weight: 600;
       width:100%;
@@ -104,13 +111,13 @@ export const ContactsForm = styled.div`
     input::placeholder,
     textarea::placeholder {
       color: #6e6e6e;
-      font-family:"Manrope", san-serif;
+      font-family:"Poppins", sans-serif;
       font-size: 1.25rem;
       font-weight: 600;
     }
     span{
       color: #EF401F;
-      font-family:"Manrope", san-serif;
+      font-family:"Poppins", sans-serif;
 font-size: 1.125rem;
 font-weight: 600;
 
@@ -127,7 +134,7 @@ font-weight: 600;
       background: #077fde;
       color: #fff;
       text-align: center;
-      font-family:"Manrope", san-serif;
+      font-family:"Poppins", san-serif;
       font-size: 1rem;
       font-weight: 600;
       border:none;

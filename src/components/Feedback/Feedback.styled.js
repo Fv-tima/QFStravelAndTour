@@ -18,7 +18,8 @@ font-weight: 500;
 max-width: 537.638px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 968px) {
+    margin-top: 40px;
     position:unset;
     h1 {
       font-size: 1.9rem;
@@ -63,7 +64,7 @@ display:flex;
 gap:1rem;
 
 #img1{
-  transform:translateX(-25px)
+  transform:translateX(-23px);
   align-items:center;
 }
 #img2{
@@ -83,7 +84,7 @@ gap:1rem;
     bottom:35%;
     left:75%;
 }
-@media (max-width: 968px) {
+@media (max-width: 868px) {
   margin-top:2rem;
   margin-left:0;
   flex-direction:column;

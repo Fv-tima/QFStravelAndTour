@@ -42,7 +42,7 @@ export default function Nav() {
         <NavbarLinks><NavLink to="/package">Package</NavLink></NavbarLinks>
         <NavbarLinks><NavLink to="/contact">Contact Us</NavLink></NavbarLinks>
         </Navbar>
-        <MenuIcon>
+        <MenuIcon> 
           <MenuButton onClick={toggleNav}>
             { isOpen? (
               <img src={ closeIcon } width="35%" alt="" />
@@ -81,7 +81,7 @@ export default function Nav() {
                   <MobileNavList>
                     <MobileNavLinks href="about">
                       About
-                    </MobileNavLinks>
+                    </MobileNavLinks> 
                   </MobileNavList>
                   <MobileNavList>
                     <MobileNavLinks href="package">Packages</MobileNavLinks>

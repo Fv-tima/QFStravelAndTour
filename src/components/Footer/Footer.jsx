@@ -11,9 +11,11 @@ import {
   Privacy,
 } from "./Footer.styled";
 import newlogo from "../../assets/images/newlogo.png";
+import logo from "../../assets/images/Flogo.png";
 import Instagram from "../../assets/svg/instagram.svg";
 import Fb from "../../assets/svg/fb.svg";
 import Twitter from "../../assets/svg/twitter.svg";
+import group from "../../assets/svg/group.svg";
 
 export default function Footer() {
   return (
@@ -21,20 +23,22 @@ export default function Footer() {
       <FooterContainer>
         <FooterInnerCon>
           <AboutText>
-            <FooterLogo>
+            <FooterLogo> 
               <img id="new" src={newlogo} />
+              <img id="depends" src={ group } /> 
+              <br />
             </FooterLogo>
-            <h3>Explore Our Website</h3>
-            Learn more about our services and destinations. You can browse our
+            <h3 id="ex">Explore Our Website</h3>
+            <p>Learn more about our services and destinations. You can browse our
             tour packages, learn about our study abroad programs, and read our
-            travel guides and tips.
+              travel guides and tips.</p>
           </AboutText>
           <div>
             <div className="footer">
               <FooterContent>
                 <h3>Accra Office</h3>
                 <p>C02 Manyo Close Adabraka</p>
-                <p>
+                <p id="two-phones"> 
                   Tel:
                   <a href="tel:0554791207">0554791207</a>/
                   <a href="tel:0533695188"> 0533695188</a>
@@ -66,7 +70,7 @@ export default function Footer() {
             <p id="email">
               <span>Email:</span>{" "}
               <a href="mailto:info@qfstravelandtourgh.com">
-                info@qfstravelandtourgh.com
+                jason@qfstravelandtourgh.com
               </a>
             </p>
           </div>

@@ -139,6 +139,11 @@ export const AboutUs = styled.div`
 
 `;
 export const Mission = styled.div`
+display: flex;
+align - items: center;
+justify - content: space - between;
+
+gap: 5.125rem;
 @media (max-width:868px){
   display:flex;
   flex-direction: column-reverse;

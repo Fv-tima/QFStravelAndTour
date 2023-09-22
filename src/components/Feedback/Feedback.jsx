@@ -14,7 +14,7 @@ import testimony6 from "../../assets/images/Product-5.png";
 import { FeedbackContainer, ImgCon, FeedComment, MobileImageView } from './Feedback.styled';
 
 export default function Feedback () {
-  return (
+  return ( 
     <div>
       <FeedbackContainer>
         <img src={ serviceVector } />
@@ -26,7 +26,7 @@ export default function Feedback () {
           <img src={ Fed3 } id='img3' />
           <img src={ Fed4 } id='img4' />
  
-        </ImgCon>
+        </ImgCon> 
         <MobileImageView>
           <img src={ testimony1 } id="t1" /> 
           <img src={ testimony2 } id="t2" />

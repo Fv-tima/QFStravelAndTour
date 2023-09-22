@@ -12,7 +12,7 @@ import btn from "../../assets/images/btn.png";
 
 export default function AboutSection() {
   return (
-    <Abouts>
+    <Abouts> 
       <img src={serviceVector} />
       <h1>About QFS Travel and Tours</h1>
       <AboutContainer>
@@ -25,7 +25,7 @@ export default function AboutSection() {
             <p>
               we are passionate about providing our clients with the best
               possible travel experience. With over 10 years of experience in
-              the travel industry.
+              the travel industry. 
               <p>
                 we have established ourselves as a leading provider of tour
                 packages and study abroad programs.

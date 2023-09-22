@@ -4,7 +4,7 @@ import HeroImg from "../../assets/images/hero.png"
 import heroVector from "../../assets/images/heroVector.png"
 
 export default function Hero() {
-  return ( 
+  return (  
     <HeroSection>
       <SectionContent>
         <h1>
@@ -12,7 +12,7 @@ export default function Hero() {
         <img src={heroVector}/>
         with us  
         </h1>
-        <p>
+        <p> 
         Your journey begins here with our curated travel experiences. Discover new horizons, create lasting memories, and explore the world with our expertly crafted itineraries.
         </p>
       </SectionContent>

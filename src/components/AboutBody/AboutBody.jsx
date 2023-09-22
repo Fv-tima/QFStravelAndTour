@@ -54,7 +54,7 @@ export default function AboutBody () {
 
           <AboutInnerContent >
             <Mission>
-                <img src={ Rectangle71 } />
+                <img src={ Rectangle71 } /> 
                 <h1>Our Mission
                   <p>
                     Our mission is to provide our clients with exceptional travel and study experiences
