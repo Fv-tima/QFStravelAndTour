@@ -86,7 +86,7 @@ export const FooterLogo = styled.div`
     width: 187px;
   }
   #depends{
-<<<<<<< HEAD
+
     display:none;
   }
   @media (max-width: 868px) {
@@ -104,24 +104,11 @@ export const FooterLogo = styled.div`
       background: var(--White, #fff);
       box-sizing: border-box;
     }
-=======
-    visibility: hidden;
->>>>>>> 5d2e8066e957eb2ed96aea8bf5c6080b2b9bee5c
+
+
+
   }
-   
-    @media (max-width: 868px) {
-      visibility: hidden;
-      position:relative;
-     #depends{
-      position: absolute;
-     bottom:20px;
-      right:120px;
-      visibility: visible;
-      }
-      img{
-        width:50%;
-        height:100%;
-      }
+  
 
 `;
 
