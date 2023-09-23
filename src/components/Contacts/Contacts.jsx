@@ -91,11 +91,6 @@ export default function Contacts() {
                   required
                 />
                 <span>*</span>
-<<<<<<< HEAD
-              </label> 
-              <textarea placeholder="Message" cols="30" rows="10"></textarea>
-              <button>Let's Talk</button>
-=======
               </label>
               <textarea
                 placeholder="Message"
@@ -106,7 +101,6 @@ export default function Contacts() {
               <button type="submit" value="send">
                 Let's Talk
               </button>
->>>>>>> 5d2e8066e957eb2ed96aea8bf5c6080b2b9bee5c
             </form>
           </ContactsForm>
           <ContactsDetails>
