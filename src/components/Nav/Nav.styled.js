@@ -9,9 +9,9 @@ export const Header = styled.header`
   gap: 1rem;
   background:#fff;
   padding:1rem 6.25rem;
+  overflow-x:hidden;
 
   @media (max-width: 868px) {
-    gap: 1rem;
     height: 60px;
     padding:20px ;
   }
@@ -53,8 +53,9 @@ export const Navbar = styled.nav`
 `;
 
 export const NavbarLinks = styled.a`
+a{
   color: #25282b;
-  transition:0.5s;
+}
   &:hover, .active {
     color: #077fde;
     transition:0.5s;
@@ -147,13 +148,13 @@ export const MobileNavList = styled.li`
 export const MobileNavLinks = styled.a`
   display: block;
   padding: 1rem;
-  color: #515151;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: bold;
-  transition-duration: 300ms;
-
+  a{
+    color: #25282b;
+  }
   &:hover, .active {
     color: #077fde;
      transition-duration: 300ms;
