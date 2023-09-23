@@ -11,7 +11,6 @@ import {
   Privacy,
 } from "./Footer.styled";
 import newlogo from "../../assets/images/newlogo.png";
-import group from "../../assets/images/footerlogo.png"
 import Instagram from "../../assets/svg/instagram.svg";
 import Fb from "../../assets/svg/fb.svg";
 import Twitter from "../../assets/svg/twitter.svg";
