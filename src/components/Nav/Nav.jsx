@@ -76,18 +76,18 @@ export default function Nav() {
               <MobileNavContainer>
                 <MobileNavInner>
                   <MobileNavList>
-                    <MobileNavLinks href="/">Home</MobileNavLinks>
+                    <MobileNavLinks><NavLink to="/">Home</NavLink>e</MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks href="about">
-                      About
+                    <MobileNavLinks>
+                    <NavLink to="/about">About</NavLink>
                     </MobileNavLinks> 
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks href="package">Packages</MobileNavLinks>
+                    <MobileNavLinks><NavLink to="/package">Package</NavLink></MobileNavLinks>
                   </MobileNavList>
                   <MobileNavList>
-                    <MobileNavLinks href="contact">Contact Us</MobileNavLinks>
+                    <MobileNavLinks><NavLink to="/contact">Contact Us</NavLink></MobileNavLinks>
                   </MobileNavList>
                 </MobileNavInner>
               </MobileNavContainer>
