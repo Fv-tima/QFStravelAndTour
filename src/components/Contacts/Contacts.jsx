@@ -92,6 +92,7 @@ export default function Contacts() {
                 />
                 <span>*</span>
               </label>
+              <input type="file" name="file" id="" />
               <textarea
                 placeholder="Message"
                 cols="30"
