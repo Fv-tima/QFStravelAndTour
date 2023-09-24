@@ -86,6 +86,10 @@ export const FooterLogo = styled.div`
     width: 187px;
   }
   #depends{
+<<<<<<< HEAD
+=======
+
+>>>>>>> 04cbb4dc86c77b16ef500e8a8787273b7a017fde
     display:none;
   }
   @media (max-width: 868px) {
@@ -103,9 +107,18 @@ export const FooterLogo = styled.div`
       background: var(--White, #fff);
       box-sizing: border-box;
     }
+<<<<<<< HEAD
   }
    
     
+=======
+
+
+
+  }
+  
+
+>>>>>>> 04cbb4dc86c77b16ef500e8a8787273b7a017fde
 `;
 
 export const FooterContent = styled.div`

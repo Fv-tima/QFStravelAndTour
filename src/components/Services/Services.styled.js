@@ -55,12 +55,13 @@ div{
 }
 @media (max-width: 868px) {
     grid-template-columns:auto;
-    align-content: center; 
+    justify-content:center;
+    align-items: center; 
 
 div{
 border-radius: 5.68px;
 display: flex;
-width: 343px;
+width: auto;
 padding: 16px;
 flex-direction: column;
 justify-content: flex-start;

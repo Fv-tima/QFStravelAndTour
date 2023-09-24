@@ -2,7 +2,7 @@ import React from "react";
 import { useRef, useState} from "react";
 // import emailjs from '@emailjs/browser';
 import serviceVector from "../../assets/svg/serVector.svg";
-import Instagram from "../../assets/svg/in.svg";
+import Instagram from "../../assets/svg/In.svg";
 import Fb from "../../assets/svg/Facebook.png";
 import Twitter from "../../assets/svg/tw.svg";
 import call from "../../assets/svg/call.png";
@@ -91,9 +91,22 @@ export default function Contacts() {
                   required
                 />
                 <span>*</span>
+<<<<<<< HEAD
               </label> 
               <textarea placeholder="Message" cols="30" rows="10"></textarea>
               <button>Let's Talk</button>
+=======
+              </label>
+              <textarea
+                placeholder="Message"
+                cols="30"
+                rows="10"
+                name="message"
+              ></textarea>
+              <button type="submit" value="send">
+                Let's Talk
+              </button>
+>>>>>>> 04cbb4dc86c77b16ef500e8a8787273b7a017fde
             </form>
           </ContactsForm>
           <ContactsDetails>

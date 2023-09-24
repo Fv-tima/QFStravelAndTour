@@ -11,7 +11,10 @@ import {
   Privacy,
 } from "./Footer.styled";
 import newlogo from "../../assets/images/newlogo.png";
+<<<<<<< HEAD
 import logo from "../../assets/images/Flogo.png";
+=======
+>>>>>>> 04cbb4dc86c77b16ef500e8a8787273b7a017fde
 import Instagram from "../../assets/svg/instagram.svg";
 import Fb from "../../assets/svg/fb.svg";
 import Twitter from "../../assets/svg/twitter.svg";
@@ -25,8 +28,12 @@ export default function Footer() {
           <AboutText>
             <FooterLogo> 
               <img id="new" src={newlogo} />
+<<<<<<< HEAD
               <img id="depends" src={ group } />  
               <br />
+=======
+              <img src={ group } id="depends" />
+>>>>>>> 04cbb4dc86c77b16ef500e8a8787273b7a017fde
             </FooterLogo>
             <h3 id="ex">Explore Our Website</h3>
             <p>Learn more about our services and destinations. You can browse our
