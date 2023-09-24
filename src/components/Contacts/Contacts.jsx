@@ -24,28 +24,28 @@ import {
 export default function Contacts() {
   const [success, setSuccess] = useState(false);
   const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
     
-    emailjs
-      .sendForm(
-        "service_iqwk80e",
-        "template_ceut9jl",
-        form.current,
-        "PnY8MZtMKSQFZLgC1"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
+  //   emailjs
+  //     .sendForm(
+  //       "service_iqwk80e",
+  //       "template_ceut9jl",
+  //       form.current,
+  //       "PnY8MZtMKSQFZLgC1"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
           
-          setSuccess(!success)
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-      form.current.reset()
-  };
+  //         setSuccess(!success)
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  //     form.current.reset()
+  // };
   return (
     <ContactsContainer>
       <img src={serviceVector} />
@@ -91,22 +91,9 @@ export default function Contacts() {
                   required
                 />
                 <span>*</span>
-<<<<<<< HEAD
               </label> 
               <textarea placeholder="Message" cols="30" rows="10"></textarea>
               <button>Let's Talk</button>
-=======
-              </label>
-              <textarea
-                placeholder="Message"
-                cols="30"
-                rows="10"
-                name="message"
-              ></textarea>
-              <button type="submit" value="send">
-                Let's Talk
-              </button>
->>>>>>> 04cbb4dc86c77b16ef500e8a8787273b7a017fde
             </form>
           </ContactsForm>
           <ContactsDetails>

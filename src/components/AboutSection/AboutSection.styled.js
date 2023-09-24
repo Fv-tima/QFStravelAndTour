@@ -107,11 +107,12 @@ export const InnerContent = styled.div`
       left:9999px;
     }
     p{
+      
       font-size:16px;
       color:#25282B;
       font-style: normal;
       font-weight: 400;
-      line-height: 18px; /* 112.5% */
+      line-height: 20px; 
     }
   }
 `;

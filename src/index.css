@@ -6,7 +6,7 @@ body {
     "Helvetica Neue", "Inter", "Monrope" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 
 #subscribe {
@@ -20,8 +20,7 @@ body {
 @media(max-width:868px) {
   #subscribe {
     padding: 90px 34px;
-    /* width: auto; */
-    background-image: url("./assets/images/subs.png");
+    background: linear-gradient(180deg, rgba(12, 31, 38, 0.00) -16.11%, #0C1F26 114.32%),url('./assets/images/subscription-mobile-view.jpg');
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;

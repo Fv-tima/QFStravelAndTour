@@ -22,7 +22,7 @@ export default function AboutSection() {
           <h1>At QFS Travel & Tours</h1>
           <InnerContent>
             <img src={btn} />
-            <p>
+            <p> 
               we are passionate about providing our clients with the best
               possible travel experience. With over 10 years of experience in
               the travel industry. 

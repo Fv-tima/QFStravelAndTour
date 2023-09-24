@@ -31,33 +31,91 @@ max-width: 537.638px;
   }
 `;
 export const FeedComment = styled.div`
-border-radius: 12.202px;
+display:none;
+@media (max-width: 968px) {
+  
+  border-radius: 7.739px;
 background: #F6F4FF;
 box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
-max-width:514px;
+width:auto;
+flex-shrink: 0;
 display:flex;
-gap:2rem;
-justify content:space-between;
+gap: 8px;
+justify-content:space-between;
 align-items:center;
 text-align:center;
-height:115px;
-margin-left:auto;
+height: 72.938px;
 border-bottom:7px solid #3685FB;
+border-bottom-radius:7.739px;
 padding:0 70px 0 28px;
-
-p{
-  font-family:'Poppins',sans-serif;
-  font-size: 1rem; 
-  max-width:344px;
-  font-weight:300;
+img{ 
+  width: 41.596px;
+height: 41.268px;
 }
-@media (max-width: 968px) {
-  display:none;
+p{
+  display: flex;
+width: 239px;
+height: 38px;
+flex-direction: column;
+justify-content: center;
+  color: var(--Dark, #25282B);
+text-align: left;
+font-family: "Poppins",sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
   
 }
 
 `;
+export const NextFeed = styled.div`
+display:none;
+@media (max-width: 968px) {
+  
+  //#F6F4FF
+  border-radius: 7.739px;
+background: #F6F4FF;
+box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
+width:auto;
+flex-shrink: 0;
+display:flex;
+gap: -1px;
+justify-content:center;
+align-items:center;
+text-align:center;
+height: 72.938px;
+border-bottom:7px solid #3685FB;
+border-bottom-radius:50%;
+padding:0 70px 0 28px;
+img{ 
+ 
+  position:relative;
+  left:30px;
+  width: 41.596px;
+height: 41.268px;
+}
+p{
+  margin-right:-18px;
+  display: flex;
+width: 239px;
+height: 38px;
+flex-direction: column;
+justify-content: center;
+  color: var(--Dark, #25282B);
+text-align: right;
+font-family: "Poppins",sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+  
+}
 
+
+`
 export const ImgCon = styled.div`
 margin-left:9.5rem;
 display:flex;
@@ -99,21 +157,7 @@ display:none;
 @media (max-width: 968px) {
   display:flex;
   flex-direction:column;
-  display: flex;
-  width: 312px;
-  padding: 12px;
-  align-items: flex-start;
-  gap: 16px;
-
-  
-    #t1, #t3, #t5{
-    position:relative;
-    right:16px;
-  }
-    #t2, #t4, #t6{
-    position:relative;
-    left:16px;
-  }
+  gap:16px;
 }
 
 `
