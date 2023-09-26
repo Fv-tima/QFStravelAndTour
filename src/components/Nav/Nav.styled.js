@@ -116,7 +116,10 @@ export const MobileNavbar = styled.nav`
   background-color: #fafafa;
   flex-direction: column;
   width: 100%;
-  max-width: 24rem;
+  @media (max-width:868px){
+    max-width: 22rem;
+  }
+  
 
 `;
 

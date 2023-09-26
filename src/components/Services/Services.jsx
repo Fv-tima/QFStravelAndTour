@@ -22,7 +22,7 @@ export default function Services() {
           services we offer:
         </p>
       </div>
-      <div>
+      <div> 
         <img src={service2} />
         <h2>Visa Assistance</h2>
         <p>

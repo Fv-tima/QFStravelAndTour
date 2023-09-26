@@ -8,7 +8,7 @@ position: relative;
     font-family: "Poppins", san-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #25282b;
+    color: #25282b; 
   }
 `;
 
@@ -79,6 +79,7 @@ export const Eclipse = styled.div`
 
   @media (max-width: 950px) {
     position: unset;
+    display: none;
   }
 
   img {

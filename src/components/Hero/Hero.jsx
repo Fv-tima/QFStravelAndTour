@@ -11,7 +11,7 @@ export default function Hero() {
           Discover your favourite places 
         <img id="one" src={heroVector}/>
          with us  
-        </h1> 
+        </h1>   
         <h1 id="mob">
           Discover your favourite places with us
           <img id="two" src={ heroVector } />  

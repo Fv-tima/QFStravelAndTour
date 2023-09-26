@@ -53,14 +53,13 @@ export default function Nav() {
         </MenuIcon>
       </Header>
 
-     
+     {/* Mobile View */}
       { isOpen && (
-        <div className={ isOpen ? 'content show' : 'content' }>
         <MobileHeader>
           <Backdrop />
           <MobileNavbar>
             
-              <NavbarHeader>
+              <NavbarHeader> 
                 <MobileLogo>
                   <img src={ HLogo } />
                 </MobileLogo>
@@ -94,7 +93,6 @@ export default function Nav() {
             
           </MobileNavbar>
           </MobileHeader>
-        </div>
 
       ) }
 

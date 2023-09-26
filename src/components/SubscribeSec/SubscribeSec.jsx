@@ -13,7 +13,7 @@ export default function SubscribeSec() {
         <button>Subscribe</button>
     </div> 
     <img src={btn}/>
-   </SubscribeContainer> 
+   </SubscribeContainer>  
    </SubscribeCon> 
   )
 }

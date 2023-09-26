@@ -71,7 +71,12 @@ export const SubscribeContainer = styled.div`
       
     }
    }
-   @media (max-width: 768px) {
+   @media (max-width: 868px) {
+    input::placeholder{
+      color:#25282B;
+      font-size:12px;
+      font-weight:600;
+    }
      
     #h1 {
      font-size: 1.4rem;
@@ -79,7 +84,7 @@ export const SubscribeContainer = styled.div`
   
   }
 
-    @media (max-width: 768px) {
+    @media (max-width: 868px) {
     #h1 {
       font-size: 20px;
       text-align: center;
