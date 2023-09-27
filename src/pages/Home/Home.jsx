@@ -3,7 +3,7 @@ import { Nav, Hero, Services, AboutSection, SubscribeSec, Feedback, Footer } fro
 
 export default function Home() {
   return (
-    <div>
+    <div className='home'>
       <Nav/>
     <div className="container">
       <Hero/>

@@ -138,10 +138,11 @@ export const MobileLogo = styled.a`
 `;
 
 export const MobileNavContainer = styled.div`
-  
+ overflow:hidden; 
 `;
 
-export const MobileNavInner = styled.div``;
+export const MobileNavInner = styled.div`
+overflow:hidden; `;
 
 export const MobileNavList = styled.li`
   margin-bottom: 0.25rem;

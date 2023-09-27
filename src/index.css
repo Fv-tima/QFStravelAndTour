@@ -29,6 +29,10 @@ body {
   }
 }
 
+.home, .about, .contact, .page{
+  overflow-x: hidden;
+}
+
 .container {
   padding: 3rem 6.25rem;
   overflow-x:hidden;

@@ -59,6 +59,7 @@ export const ContactsInfo = styled.div`
   @media(max-width:999px){
    flex-direction:column;
    align-items: center;
+   
   }
 `;
 
@@ -73,11 +74,6 @@ export const ContactsForm = styled.div`
       font-size: 1.25rem;
       font-weight: 600;
     }
-  @media(max-width:968px){
-    width:auto;
-    padding:0;
-    border-right:none;
-  }
   h2 {
     color: #077fde;
     font-family: "Poppins", san-serif;
@@ -99,6 +95,7 @@ export const ContactsForm = styled.div`
       margin-bottom:10px;
       background:#ffffff;
     }
+
     input {
       border: none;
       outline: none;
@@ -108,6 +105,7 @@ export const ContactsForm = styled.div`
       font-weight: 600;
       width:100%;
     }
+
     input::placeholder,
     textarea::placeholder {
       color: #6e6e6e;
@@ -120,8 +118,8 @@ export const ContactsForm = styled.div`
       font-family:"Poppins", sans-serif;
 font-size: 1.125rem;
 font-weight: 600;
-
     }
+
     textarea {
       padding: 14px 16px;
       border-radius: 10px;
@@ -146,6 +144,12 @@ font-weight: 600;
       border:none;
       outline:none;
     }
+  }
+  
+  @media(max-width:999px){
+    width:100%;
+    border-right:none;
+
   }
 `;
 export const ContactsDetails = styled.div`
