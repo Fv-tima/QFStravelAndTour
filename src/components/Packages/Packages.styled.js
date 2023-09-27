@@ -93,7 +93,7 @@ export const Location = styled.div`
   margin-left: auto;
   margin-bottom: 4rem;
   cursor: pointer;
-`;
+`; 
 
 export const Content = styled.div`
 display:flex;

@@ -21,7 +21,7 @@ export default function Destination() {
           <img src={Ecl1} />
           <img src={Ecl2} />
           <img src={Ecl3} />
-        </div> 
+        </div>  
         <h2> <span>10K+</span> Satisfied Customer</h2>
       </Eclipse>
       <DestinationCon>

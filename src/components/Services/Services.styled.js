@@ -10,7 +10,7 @@ export const Service = styled.div`
     color: #514D59;
   }
   @media (max-width: 768px) {
-       width:100%;
+       max-width:100%;
        display:grid;
        align-items: center;
 

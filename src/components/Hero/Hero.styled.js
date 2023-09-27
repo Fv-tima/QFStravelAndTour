@@ -31,7 +31,7 @@ export const SectionContent = styled.div`
     flex-direction:column;
     font-family: "Poppins", sans-serif;
   width:auto;
-  height: 288px;
+  max-height: 288px;
     color: #077fde;
     font-size:64px;
 font-style: normal;
@@ -51,7 +51,7 @@ flex-shrink: 0;
     font-size: 18px;
     font-weight: 400;
     color:#25282B;
-    width:343px;
+    max-width:500px;
     height: 81px;
     line-height:27px;
   }
@@ -77,7 +77,7 @@ white-space:nowrap;
       outline:none;
       border:unset;
       display: flex;
-width: auto;
+max-width: 100%;
 height: 40px;
 padding: 9px 133px;
 margin:0 auto;
@@ -114,6 +114,7 @@ background: var(--Primary, #077FDE);
       
     }
     p {
+      max-width: 100%;
       margin-top:1rem;
       color: #25282B;
 font-family: Poppins;
