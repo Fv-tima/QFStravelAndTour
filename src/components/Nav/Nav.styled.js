@@ -9,7 +9,7 @@ export const Header = styled.header`
   gap: 1rem;
   background:#fff;
   padding:1rem 6.25rem;
-  overflow-x:hidden;
+  overflow:hidden;
 
   @media (max-width: 868px) {
     height: 60px;

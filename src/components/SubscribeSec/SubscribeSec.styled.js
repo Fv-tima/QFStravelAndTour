@@ -2,12 +2,9 @@ import { styled } from "styled-components";
 export const SubscribeCon = styled.div`
   margin: 0;
   padding: 147px 387px;
+ 
   @media (max-width: 868px) {
-    background: linear-gradient(
-      180deg,
-      rgba(12, 31, 38, 0) -16.11%,
-      #0c1f26 114.32%
-    );
+    
     ${"" /* background-size:cover; */}
   }
 `;
@@ -75,6 +72,7 @@ export const SubscribeContainer = styled.div`
     }
    }
    @media (max-width: 768px) {
+     
     #h1 {
      font-size: 1.4rem;
    }

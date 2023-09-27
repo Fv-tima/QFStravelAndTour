@@ -1,7 +1,8 @@
 import { styled } from "styled-components";
 
 export const FooterCon = styled.div`
-  padding: 3.75rem 7.5rem 5rem;
+  // padding: 3.75rem 7.5rem 5rem;
+  padding: 80px 120px;
   background-color: #077fde;
   @media (max-width: 868px) {
     padding: 40px 16px;
@@ -72,7 +73,42 @@ export const FooterInnerCon = styled.div`
 `;
 
 export const FooterLogo = styled.div`
- 
+ display:flex;
+ align-items: center;
+ .ratings{
+  margin-left:16px;
+  white-space:nowrap;
+  display: flex;
+  flex-direction: row;
+  height:10px;
+padding: 10.2px;
+align-items: center;
+gap: 8.133px;
+border-radius: 2.783px;
+background: var(--White, #FFF);
+box-shadow: 13.91613px 9.74129px 27.83226px 0px rgba(0, 0, 0, 0.08);
+ }
+ .ratings p {
+  color: var(--Gray, #868686);
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 10.437px; /* 104.371% */
+ }
+ #image {
+  display: flex;
+
+
+justify-content: center;
+align-items: center;
+Gap: 0.28px;
+ }
+  #image img{
+  width: 13.742px;
+height: 13.742px;
+padding: 1.392px;
+ }
 #new{
    padding:4px;
       border: 1px solid #fff;
@@ -86,10 +122,17 @@ export const FooterLogo = styled.div`
     width: 187px;
   }
   #depends{
-
     display:none;
   }
   @media (max-width: 868px) {
+    display:flex;
+ align-items: center;
+  justify-self: center;
+ .ratings {
+  transform: translateY(-22px);
+  margin-left:18px;
+  padding: 6.958px;
+ }
     #new{
       display:none;
     }
@@ -104,12 +147,9 @@ export const FooterLogo = styled.div`
       background: var(--White, #fff);
       box-sizing: border-box;
     }
-
-
-
   }
-  
-
+   
+    
 `;
 
 export const FooterContent = styled.div`
@@ -141,9 +181,12 @@ export const AboutText = styled.p`
   span {
     font-weight: 600;
   }
+  #learnfoot{
+    max-width: 525px;
+  }
   @media (max-width:868px){
 
-    p{
+    #learnfoot{
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;

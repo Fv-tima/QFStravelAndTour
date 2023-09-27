@@ -11,23 +11,35 @@ import {
   Privacy,
 } from "./Footer.styled";
 import newlogo from "../../assets/images/newlogo.png";
+import logo from "../../assets/images/Flogo.png";
 import Instagram from "../../assets/svg/instagram.svg";
 import Fb from "../../assets/svg/fb.svg";
 import Twitter from "../../assets/svg/twitter.svg";
 import group from "../../assets/svg/group.svg";
-
+import star from "../../assets/images/Trustpilot star + bg.png";
 export default function Footer() {
   return (
     <FooterCon>
       <FooterContainer>
         <FooterInnerCon>
-          <AboutText>
+          <AboutText> 
             <FooterLogo> 
               <img id="new" src={newlogo} />
-              <img src={ group } id="depends" />
+              <img id="depends" src={ group } /> 
+              <div className="ratings">
+                <div id="image">
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                  <img src={ star } alt="" />
+                </div>
+                <p>5.0 Rating</p>
+              </div>
+              <br />
             </FooterLogo>
             <h3 id="ex">Explore Our Website</h3>
-            <p>Learn more about our services and destinations. You can browse our
+            <p id="learnfoot">Learn more about our services and destinations. You can browse our
             tour packages, learn about our study abroad programs, and read our
               travel guides and tips.</p>
           </AboutText>

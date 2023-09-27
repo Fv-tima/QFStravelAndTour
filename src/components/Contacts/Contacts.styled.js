@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const ContactsContainer = styled.div`
-  margin-top: 2.5rem;
+  margin-top: 3.75rem;
   h1 {
     font-family: "Poppins", san-serif;
     font-size: 2rem;
@@ -127,7 +127,13 @@ font-weight: 600;
       border-radius: 10px;
       border: 1px solid #d7d7d7;
       margin-bottom:40px;
+      outline:none;
+      color: #6e6e6e;
+      font-family:"Poppins", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
     }
+    
     button {
       padding: 20px 24px;
       border-radius: 10px;

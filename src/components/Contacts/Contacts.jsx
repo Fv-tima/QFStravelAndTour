@@ -91,17 +91,9 @@ export default function Contacts() {
                   required
                 />
                 <span>*</span>
-              </label>
-              <input type="file" name="file" id="" />
-              <textarea
-                placeholder="Message"
-                cols="30"
-                rows="10"
-                name="message"
-              ></textarea>
-              <button type="submit" value="send">
-                Let's Talk
-              </button>
+              </label> 
+              <textarea placeholder="Message" cols="30" rows="7"></textarea>
+              <button>Let's Talk</button>
             </form>
           </ContactsForm>
           <ContactsDetails>
