@@ -104,7 +104,7 @@ export const Backdrop = styled.div`
 
 export const MobileNavbar = styled.nav`
   display: flex;
-  overflow-y: auto;
+  overflow:hidden;
   position: fixed;
   top: 0;
   bottom: 0;
