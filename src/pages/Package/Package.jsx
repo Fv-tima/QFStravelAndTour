@@ -4,7 +4,7 @@ import { MainPackage } from "./Package.styled";
 
 export default function Package() {
   return (
-    <div>
+    <div className="package">
       <Nav/>
     <MainPackage>
     <div className="container">

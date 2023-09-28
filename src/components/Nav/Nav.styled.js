@@ -9,7 +9,7 @@ export const Header = styled.header`
   gap: 1rem;
   background:#fff;
   padding:1rem 6.25rem;
-  overflow-x:hidden;
+  overflow:hidden;
 
   @media (max-width: 868px) {
     height: 60px;
@@ -104,7 +104,7 @@ export const Backdrop = styled.div`
 
 export const MobileNavbar = styled.nav`
   display: flex;
-  overflow-y: auto;
+  overflow:hidden;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -137,10 +137,11 @@ export const MobileLogo = styled.a`
 `;
 
 export const MobileNavContainer = styled.div`
-  
+ overflow:hidden; 
 `;
 
-export const MobileNavInner = styled.div``;
+export const MobileNavInner = styled.div`
+overflow:hidden; `;
 
 export const MobileNavList = styled.li`
   margin-bottom: 0.25rem;

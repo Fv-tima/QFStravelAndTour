@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef, useState} from "react";
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import serviceVector from "../../assets/svg/serVector.svg";
 import Instagram from "../../assets/svg/In.svg";
 import Fb from "../../assets/svg/Facebook.png";
@@ -24,28 +24,28 @@ import {
 export default function Contacts() {
   const [success, setSuccess] = useState(false);
   const form = useRef();
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
     
-  //   emailjs
-  //     .sendForm(
-  //       "service_iqwk80e",
-  //       "template_ceut9jl",
-  //       form.current,
-  //       "PnY8MZtMKSQFZLgC1"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
+    emailjs
+      .sendForm(
+        "service_iqwk80e",
+        "template_ceut9jl",
+        form.current,
+        "PnY8MZtMKSQFZLgC1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
           
-  //         setSuccess(!success)
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  //     form.current.reset()
-  // };
+          setSuccess(!success)
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      form.current.reset()
+  };
   return (
     <ContactsContainer>
       <img src={serviceVector} />
@@ -92,7 +92,7 @@ export default function Contacts() {
                 />
                 <span>*</span>
               </label> 
-              <textarea placeholder="Message" cols="30" rows="10"></textarea>
+              <textarea placeholder="Message" cols="30" rows="7"></textarea>
               <button>Let's Talk</button>
             </form>
           </ContactsForm>

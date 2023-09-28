@@ -4,7 +4,7 @@ import AboutBody from "../../components/AboutBody/AboutBody";
 import { Nav, Footer } from "../../components";
 export default function About() {
   return (
-    <div>
+    <div className="about">
       <Nav/>
       <div>
         <Abouthead />

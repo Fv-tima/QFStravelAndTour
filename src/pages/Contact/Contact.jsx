@@ -4,7 +4,7 @@ import {  Nav, Contacts, Faq, Footer } from '../../components'
 
 export default function Contact() {
   return (
-    <div>
+    <div className='contact'>
       <Nav/>
     <MainContact >
       <div className='container'>

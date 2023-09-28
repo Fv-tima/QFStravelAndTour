@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const About = styled.div`
     ${'' /* margin-top: 2.5rem; */}
     h1{
-    margin:2rem 0;
+    margin:3.75rem 0 2rem 0;
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 600;

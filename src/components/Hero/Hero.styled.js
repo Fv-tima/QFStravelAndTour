@@ -5,7 +5,7 @@ export const HeroSection = styled.div`
   align-items: center;
   justify-content: space-between;
   gap:auto;
-  margin-top:2.5rem;
+  margin-top:3.75rem;
   line-height:auto;
   
 

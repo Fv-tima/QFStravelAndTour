@@ -92,14 +92,14 @@ export const Eclipse = styled.div`
     position:relative;
   }
   img:nth-child(2){
-    left:45px;
+    left:40px;
     position:absolute;
     @media (max-width: 950px) {
         left:65px;
     }
   }
   img:nth-child(3){
-    left:85px;
+    left:70px;
     position:absolute;
     @media (max-width: 950px) {
       left:105px;
