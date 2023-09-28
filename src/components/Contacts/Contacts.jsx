@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef, useState} from "react";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import serviceVector from "../../assets/svg/serVector.svg";
 import Instagram from "../../assets/svg/In.svg";
 import Fb from "../../assets/svg/Facebook.png";

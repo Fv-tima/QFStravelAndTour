@@ -31,7 +31,6 @@ export const FeedbackContainer = styled.div`
   }
 `;
 export const FeedComment = styled.div`
-<<<<<<< HEAD
 display:none;
 @media (max-width: 968px) {
   //  overflow-y: auto;
@@ -69,43 +68,6 @@ line-height: normal;
   
 }
 
-=======
-  display: none;
-  @media (max-width: 968px) {
-    border-radius: 7.739px;
-    background: #f6f4ff;
-    box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
-    width: auto;
-    flex-shrink: 0;
-    display: flex;
-    gap: 8px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    height: 72.938px;
-    border-bottom: 7px solid #3685fb;
-    border-bottom-radius: 7.739px;
-    padding: 0 70px 0 28px;
-    img {
-      width: 41.596px;
-      height: 41.268px;
-    }
-    p {
-      display: flex;
-      width: 239px;
-      height: 38px;
-      flex-direction: column;
-      justify-content: center;
-      color: var(--Dark, #25282b);
-      text-align: left;
-      font-family: "Poppins", sans-serif;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 300;
-      line-height: normal;
-    }
-  }
->>>>>>> 2df431df5429fe43686f44707162c06681339540
 `;
 export const NextFeed = styled.div`
   display: none;
@@ -150,7 +112,6 @@ export const NextFeed = styled.div`
 `;
 export const ImgCon = styled.div`
 display:flex;
-<<<<<<< HEAD
 gap: -1px;
 justify-content:center;
 align-items:center;
@@ -172,15 +133,6 @@ p{
   display: flex;
 width: fit-content;
 height: 38px;
-=======
-column-gap:42px;
-margin:4.375rem 0 10.77rem;
-
-.testimonial{
-  display: flex;
-padding: 20px 0px;
-height:390px;
->>>>>>> 2df431df5429fe43686f44707162c06681339540
 flex-direction: column;
 justify-content: center;
 align-items: center;
