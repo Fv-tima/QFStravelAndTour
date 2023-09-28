@@ -3,7 +3,6 @@ import { Nav, Hero, Services, AboutSection, SubscribeSec, Feedback, Footer } fro
 
 export default function Home () {
   return (
-<<<<<<< HEAD
     <div>
       <Nav />
       <div className="container">
@@ -11,18 +10,6 @@ export default function Home () {
         <Services />
         <AboutSection />
         <Feedback />
-=======
-    <div className='home'>
-      <Nav/>
-    <div className="container">
-      <Hero/>
-      <Services/>
-      <AboutSection/>
-      <Feedback/>
-      </div>
-      <SubscribeSec/>
-      <Footer/>
->>>>>>> 2df431df5429fe43686f44707162c06681339540
       </div>
       <SubscribeSec />
       <Footer />

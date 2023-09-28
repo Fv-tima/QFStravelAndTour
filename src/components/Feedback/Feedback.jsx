@@ -86,7 +86,6 @@ export default function Feedback() {
             </p>
           </FeedComment>
           <NextFeed>
-<<<<<<< HEAD
             <p>Through the support and guidance of Quickfix Travel and Tour, I was able to secure my tourist visa together with my wife</p>
             <img src={ com2 } />
           </NextFeed>
@@ -108,36 +107,6 @@ export default function Feedback() {
           <NextFeed>
             <p>Quickfix Travel and Tour helped me in putting together my Canada visa application which turned out successfully </p>
             <img src={ com6 } />
-=======
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-            <img src={com2} />
-          </NextFeed>
-          <FeedComment>
-            <img src={com3} />
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-          </FeedComment>
-          <NextFeed>
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-            <img src={com4} />
-          </NextFeed>
-          <FeedComment>
-            <img src={com5} />
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-          </FeedComment>
-          <NextFeed>
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-            <img src={com6} />
->>>>>>> 2df431df5429fe43686f44707162c06681339540
           </NextFeed>
         </MobileImageView>
       </FeedbackContainer>
