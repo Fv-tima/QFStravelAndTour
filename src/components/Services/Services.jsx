@@ -12,15 +12,15 @@ export default function Services() {
       <img src={serviceVector} />
       <h1>Our Services</h1>
       <ServiceContainer> 
-      <div> 
-          <img src={ service1 } />
+      <div>  
+          <img src={ service1 } /> 
           <h2>Explore Our Website</h2>  
-        <p>
+        <p> 
           At QFS Travel and Tours, we offer a wide range of services that cater
           to all types of travelers. From families with young children to solo
           adventurers, we have something for everyone. Here are some of the
           services we offer:
-        </p>
+        </p> 
       </div>
       <div> 
         <img src={service2} />

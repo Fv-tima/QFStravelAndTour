@@ -117,6 +117,10 @@ export const MobileNavbar = styled.nav`
     max-width:22.9rem;
     
   }
+  @media (max-width:550px){
+  width:480px;
+    
+  }
   
 
 `;

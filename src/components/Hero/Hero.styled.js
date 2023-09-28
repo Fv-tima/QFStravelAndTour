@@ -9,18 +9,28 @@ export const HeroSection = styled.div`
   line-height:auto;
   
 
-  @media (max-width: 968px) {
+  @media (max-width: 868px) {
     margin-top:-0.2em;
     display:flex;
-    flex-direction: column-reverse;
+    flex-direction:reverse;
     width:100%;
     gap:1.5rem;
+    
+  img{
+    width:50%;
+  }
 
   }
 
   img{
     max-width:100%;
   }
+   @media (max-width: 500px) {
+     flex-direction: column-reverse;
+    img{
+      width:100%;
+    }
+   }
 `;
 
 export const SectionContent = styled.div`
@@ -63,31 +73,11 @@ flex-shrink: 0;
   }
 
   // media query
-  @media (max-width: 968px) {
-    button{
-      cursor:pointer;
-      color: var(--White, #FFF);
-text-align: center;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-white-space:nowrap;
-      outline:none;
-      border:unset;
-      display: flex;
-max-width: 100%;
-height: 40px;
-padding: 9px 133px;
-margin:0 auto;
-justify-content: center;
-align-items: center;
-gap: 10px;
-margin-top: 12px;
-border-radius: 5.481px;
-background: var(--Primary, #077FDE);
-    }
+    
+ 
+  // Tablet !!
+  @media (max-width: 868px) {
+   
     #one,#desk{
     display:none;
   }
@@ -101,23 +91,20 @@ background: var(--Primary, #077FDE);
 
 
     }
-    span{
-     
-    }
  
     h1,#mob{
      word-spacing:normal;
-      font-size: 24px;
-      width: 343px;
+      font-size: 28px;
+      max-width: 343px;
       line-height: normal;
       height: auto;
       
     }
     p {
-      width: 343px;
+      width: 100%;
       margin-top:1rem;
       color: #25282B;
-font-family: Poppins;
+font-family: "Poppins",sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -125,7 +112,44 @@ line-height: 150%; /* 21px */
     }
     width: 100%;
   }
+
+
+
+
+  // MOBILE ! 
+   @media (max-width: 500px) {
+     button{
+      cursor:pointer;
+      color: var(--White, #FFF);
+text-align: center;
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+white-space:nowrap;
+      outline:none;
+      border:unset;
+      display: flex;
+width: 100%;
+height: 40px;
+padding: 9px 133px;
+margin:0 auto;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 12px;
+border-radius: 5.481px;
+background: var(--Primary, #077FDE);
+    }
+    width: 100%;
+    #mob{
+       font-size: 24px;
+    }
+    p{
+      max-width: 343px;
+    }
+  }
 `;
 
-export const SectionImg = styled.img`
-width:100%;`
+

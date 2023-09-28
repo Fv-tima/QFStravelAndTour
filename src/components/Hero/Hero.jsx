@@ -1,18 +1,18 @@
 import React from "react";
-import { HeroSection, SectionContent, SectionImg } from "./Hero.styled";
+import { HeroSection, SectionContent } from "./Hero.styled";
 import HeroImg from "../../assets/images/hero.png"
 import heroVector from "../../assets/images/heroVector.png"
 
 export default function Hero() {
   return (  
-    <HeroSection>
+    <HeroSection>  
       <SectionContent> 
         <h1 id='desk'>
           Discover your favourite places 
-        <img id="one" src={heroVector}/>
+        <img id="one" src={heroVector}/> 
          with us  
         </h1>   
-        <h1 id="mob">
+        <h1 id="mob"> 
           Discover your favourite places with us
           <img id="two" src={ heroVector } />  
         </h1> 

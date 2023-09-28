@@ -4,14 +4,14 @@ import group from "../../assets/svg/group.svg";
 import openIcon from "../../assets/svg/Vectorr.png";
 import closeIcon from "../../assets/svg/close2.png";
 
-import {
-  Header,
+import { 
+  Header, 
   HeaderLogo,
   Navbar,
   NavbarLinks, 
   MenuIcon,
   MenuButton,
-  MobileHeader,
+  MobileHeader, 
   MobileLogo,
   MobileNavbar,
   MobileNavContainer,

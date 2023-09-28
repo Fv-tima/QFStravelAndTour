@@ -32,7 +32,41 @@ export const FeedbackContainer = styled.div`
 `;
 export const FeedComment = styled.div`
 display:none;
-@media (max-width: 968px) {
+@media (max-width: 868px) {
+  //  overflow-y: auto;
+  border-radius: 7.739px;
+background: #F6F4FF;
+box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
+width:auto;
+flex-shrink: 0;
+display:flex;
+justify-content:flex-start;
+gap:12px;
+align-items:center;
+text-align:center;
+height: 72.938px;
+border-bottom:7px solid #3685FB;
+border-bottom-radius:7.739px;
+padding:20px 70px 20px 28px;
+img{ 
+  width: 41.596px;
+height: 41.268px;
+}
+p{
+  display: flex;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+  color: var(--Dark, #25282B);
+text-align: left;
+font-family: "Poppins",sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+}
+@media (max-width: 500px) {
   //  overflow-y: auto;
   border-radius: 7.739px;
 background: #F6F4FF;
@@ -71,7 +105,43 @@ line-height: normal;
 `;
 export const NextFeed = styled.div`
   display: none;
-  @media (max-width: 968px) {
+  @media (max-width: 868px) {
+    //#F6F4FF
+    border-radius: 7.739px;
+    background: #f6f4ff;
+    box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
+    width: auto;
+    flex-shrink: 0;
+    display: flex;
+    gap: -1px;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    height: 72.938px;
+    border-bottom: 7px solid #3685fb;
+    border-bottom-radius: 50%;
+    padding:20px 70px 20px 28px;
+    img {
+      position: relative;
+      left: 30px;
+      width: 41.596px; 
+      height: 41.268px;
+    }
+    p {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      color: var(--Dark, #25282b);
+      text-align: right;
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+  @media (max-width: 500px) {
     //#F6F4FF
     border-radius: 7.739px;
     background: #f6f4ff;
@@ -86,11 +156,11 @@ export const NextFeed = styled.div`
     height: 72.938px;
     border-bottom: 7px solid #3685fb;
     border-bottom-radius: 50%;
-    padding: 0 70px 0 28px;
+    padding:20px 70px 20px 28px;
     img {
       position: relative;
       left: 30px;
-      width: 41.596px;
+      width: 41.596px; 
       height: 41.268px;
     }
     p {
@@ -196,7 +266,8 @@ line-height: 25.225px;
 
 export const MobileImageView = styled.div`
   display: none;
-  @media (max-width: 968px) {
+  @media (max-width: 868px) {
+    margin-top:20px;
     display: flex;
     flex-direction: column;
     gap: 16px;

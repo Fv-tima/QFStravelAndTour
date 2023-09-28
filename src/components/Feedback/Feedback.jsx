@@ -31,7 +31,7 @@ import {
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -49,7 +49,7 @@ export default function Feedback() {
           provide you with services but also we provide you with valuable
           experiences for your valuable time.
         </p>
-          <ImgCon>
+        <ImgCon>
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               spaceBetween={50}
@@ -76,7 +76,7 @@ export default function Feedback() {
                   </div>
                 </SwiperSlide>
               ))}
-            </Swiper>
+            </Swiper> 
           </ImgCon>
         <MobileImageView>
           <FeedComment>
@@ -92,11 +92,10 @@ export default function Feedback() {
           <FeedComment>
             <img src={ com3 } />
             <p>
-              Quickfix Travel and Tour supported and guided myself and my husband in our application to secure a tourist visa to Canada
-</p>
-
+              Quickfix Travel and Tour supported and guided myself and my husband in our application to secure a tourist visa to Canada</p>
+ 
           </FeedComment>
-          <NextFeed>
+          <NextFeed> 
             <p>Quickfix Travel and Tour supported and guided with my application for a school in Canada as well as my visa application </p>
             <img src={ com4 } />
           </NextFeed>

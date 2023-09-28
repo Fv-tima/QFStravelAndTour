@@ -27,14 +27,32 @@ export const AboutContainer = styled.div`
   #mobile-btn{
     display:none;
   }
-  @media(max-width:900px){
+  @media(max-width:868px){
+    flex-direction:column;
+    width:100%;
+    
+    #mobile-btn{
+      display:initial;
+      width: 57.068px;
+      height: 57.068px;
+      position: relative;
+      bottom:60px;
+      right:-252px;
+    }
+    img {
+      max-width: 100%;
+      margin:0 auto;
+      display:inline;
+    }
+  }
+  @media(max-width:500px){
     flex-direction:column;
     width:100%;
    
       #mobile-btn{
         display:initial;
-width: 57.068px;
-height: 57.068px;
+        width: 57.068px;
+        height: 57.068px;
         position: relative;
         bottom:60px;
         right:-142px;
@@ -45,9 +63,9 @@ height: 57.068px;
       display:inline;
     }
   }
-`;
+  `;
 
-export const AboutContent = styled.div`
+  export const AboutContent = styled.div`
   
   h1 {
     font-family: "Poppins", sans-serif;
@@ -55,7 +73,7 @@ export const AboutContent = styled.div`
     font-weight: 700;
     color: #514D59;
   }
-
+  
   p {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
@@ -81,9 +99,25 @@ img{
   cursor:pointer;
 }
 
-  @media (max-width: 988px) {
+  @media (max-width: 500px) {
      width:100%;
     margin-top:-15%;
+    h1 {
+      font-size: 39.473px;
+     
+    }
+    p {
+      font-size: 16px;
+     line-height: 18px;
+      width:100%;
+    }
+    button{
+      width: 100%;
+    }
+  }
+  @media (max-width: 988px) {
+     width:100%;
+    // margin-top:-15%;
     h1 {
       font-size: 39.473px;
      

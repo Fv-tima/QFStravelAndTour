@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 export const About = styled.div`
-    ${'' /* margin-top: 2.5rem; */}
+     margin-top: 2.5rem; 
+      padding: 20px 24px 30px;
     h1{
     margin:3.75rem 0 2rem 0;
     font-family: "Poppins", sans-serif;
@@ -65,8 +66,8 @@ export const AboutContent = styled.div`
   ;
 export const AboutInnerContent = styled.div`
 display: flex;
-align - items: center;
-justify - content: space - between;
+align-items: center;
+justify-content: space-between;
 
 gap: 5.125rem;
 
@@ -246,10 +247,12 @@ export const BottomContainer = styled.div`
     transform: translateY(100px);
 
  @media (max-width: 868px) {
-    flex-direction: column;
+    // flex-direction: column;
     align-content:center;
-    Gap:1rem;
-    transform: translateY(10px);
+    justify-content:center;
+    gap:1rem;
+    margin-bottom:20px;
+    // transform: translateY(10px);
 
    }
 
@@ -271,17 +274,23 @@ export const BottomImgCon = styled.div`
 }
 
  @media (max-width: 868px) {
-    flex-direction: column;
+    flex-direction: row;
     justify-content:center;
     align-content:center;
-    Gap:1rem;
-     #img3, #img2, #img1{
-   margin-left:25px;
-
-  }
-  #img2{
-  transform:translateY(-4px)
+    // gap:1rem;
+#img1,#img2,#img3{
+  max-width:150px;
 }
+#img1{
+  margin-right:none;
+}
+img2{
+  transform:none;
+}
+img3{
+  margin-left:none;
+}
+
    }
    
 
@@ -319,20 +328,20 @@ transform: translateY(-14px);
   transform:translateY(-75px);
  }
 
-   @media (max-width: 768px) {
-    flex-direction: column;
+   @media (max-width: 868px) {
+    // flex-direction: column;
     justify-content:center;
     align-content:center;
     Gap:1rem;
     #princess{
-    padding-right:30px;
+    // padding-right:30px;
   }
  #Jd{
-  padding-right:60px;
+  // padding-right:40px;
  }
  #Cyril{
   padding-right:27px;
-    transform:translateY(-5px)
+    transform:translateY(-85px)
  }
    }
 `
