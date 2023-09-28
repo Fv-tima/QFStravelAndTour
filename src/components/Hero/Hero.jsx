@@ -6,7 +6,7 @@ import heroVector from "../../assets/images/heroVector.png"
 export default function Hero() {
   return (  
     <HeroSection>
-      <SectionContent>
+      <SectionContent> 
         <h1 id='desk'>
           Discover your favourite places 
         <img id="one" src={heroVector}/>

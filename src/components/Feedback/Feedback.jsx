@@ -38,24 +38,26 @@ export default function Feedback () {
             <p>Quickfix Travel and Tour assisted me in securing a tourist visa</p>
           </FeedComment>
           <NextFeed>
-            <p>Quickfix Travel and Tour assisted me in securing a tourist visa</p>
+            <p>Through the support and guidance of Quickfix Travel and Tour, I was able to secure my tourist visa together with my wife</p>
             <img src={ com2 } />
           </NextFeed>
           <FeedComment>
             <img src={ com3 } />
-            <p>Quickfix Travel and Tour assisted me in securing a tourist visa</p>
+            <p>
+              Quickfix Travel and Tour supported and guided myself and my husband in our application to secure a tourist visa to Canada
+</p>
 
           </FeedComment>
           <NextFeed>
-            <p>Quickfix Travel and Tour assisted me in securing a tourist visa</p>
+            <p>Quickfix Travel and Tour supported and guided with my application for a school in Canada as well as my visa application </p>
             <img src={ com4 } />
           </NextFeed>
           <FeedComment>
             <img src={ com5 } />
-            <p>Quickfix Travel and Tour assisted me in securing a tourist visa</p>
+            <p>Quickfix Travel and Tour helped to obtain admission for me in Canada as well as supported with my visa application</p>
           </FeedComment>
           <NextFeed>
-            <p>Quickfix Travel and Tour assisted me in securing a tourist visa</p>
+            <p>Quickfix Travel and Tour helped me in putting together my Canada visa application which turned out successfully </p>
             <img src={ com6 } />
           </NextFeed>
         </MobileImageView>

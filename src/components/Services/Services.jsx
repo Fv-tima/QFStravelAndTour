@@ -12,7 +12,7 @@ export default function Services() {
       <img src={serviceVector} />
       <h1>Our Services</h1>
       <ServiceContainer> 
-      <div>
+      <div> 
           <img src={ service1 } />
           <h2>Explore Our Website</h2>  
         <p>

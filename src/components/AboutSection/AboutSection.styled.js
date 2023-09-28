@@ -10,7 +10,8 @@ export const Abouts = styled.div`
     color: #514D59;
   }
   @media (max-width:900px){
-
+    
+    width:100%;
     h1{font-size: 20px;}
   }
 `;
@@ -26,9 +27,9 @@ export const AboutContainer = styled.div`
   #mobile-btn{
     display:none;
   }
-  @media(max-width:868px){
+  @media(max-width:900px){
     flex-direction:column;
-    
+    width:100%;
    
       #mobile-btn{
         display:initial;
@@ -74,23 +75,26 @@ export const AboutContent = styled.div`
     font-weight: 500;
     border:none;
     cursor:pointer;
+    
   }
 img{
   cursor:pointer;
 }
 
   @media (max-width: 988px) {
+     width:100%;
     margin-top:-15%;
     h1 {
       font-size: 39.473px;
+     
     }
     p {
       font-size: 16px;
      line-height: 18px;
-      width:343px;
+      width:100%;
     }
     button{
-      width:100%;
+      width: 100%;
     }
   }
 `;
@@ -100,6 +104,7 @@ export const InnerContent = styled.div`
   align-items: center;
   justify-content: space-between;
   column-gap: 1rem;
+  
   @media (max-width:900px){
     margin-top:-5%;
     img{

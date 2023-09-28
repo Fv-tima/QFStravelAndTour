@@ -85,7 +85,7 @@ export const MobileHeader = styled.header`
   display: flex;
   position: relative;
   z-index: 50;
-  ${ '' /* transition-duration: 300ms; */ }
+  transition-duration: 400ms;
 
   @media (min-width: 868px) {
     display: none;
@@ -109,15 +109,13 @@ export const MobileNavbar = styled.nav`
   top: 0;
   bottom: 0;
   left: 0;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 1rem;
   background-color: #fafafa;
   flex-direction: column;
   width: 100%;
   @media (max-width:868px){
-    max-width: 22rem;
+    max-width:22.9rem;
+    
   }
   
 
@@ -127,6 +125,7 @@ export const NavbarHeader = styled.div`
   display: flex;
   margin-bottom: 2rem;
   align-items: center;
+  justify-content: center;
 `;
 
 export const MobileLogo = styled.a`

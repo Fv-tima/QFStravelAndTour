@@ -71,20 +71,13 @@ export const SubscribeContainer = styled.div`
       
     }
    }
-   @media (max-width: 868px) {
-    input::placeholder{
+
+    @media (max-width: 968px) {
+      input::placeholder{
       color:#25282B;
       font-size:12px;
-      font-weight:600;
+      font-weight:400;
     }
-     
-    #h1 {
-     font-size: 1.4rem;
-   }
-  
-  }
-
-    @media (max-width: 868px) {
     #h1 {
       font-size: 20px;
       text-align: center;
@@ -92,7 +85,8 @@ export const SubscribeContainer = styled.div`
     img{
         display:none;
       }
-      button{
+      div button{
+        font-size: 12.9px;
         background: #3685FB;
       display: flex;
       width: 102.21px;

@@ -7,6 +7,7 @@ export const PackagesCon = styled.div`
     font-size: 40px;
     font-weight: 700;
     color: #181818;
+    padding:0 1rem;
   }
 `;
 
@@ -75,11 +76,14 @@ export const PackagesContainer = styled.div`
 
 export const PackagesContent = styled.div`
   width: 560px;
+  h1{
+    transform: translateX(-18px);
+  }
   @media (max-width:868px){
-    width: 360px;
+    width: 100%;
   }
 `;
-
+ 
 export const Location = styled.div`
   display: flex;
   justify-content: space-around;

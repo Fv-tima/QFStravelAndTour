@@ -13,7 +13,7 @@ export const HeroSection = styled.div`
     margin-top:-0.2em;
     display:flex;
     flex-direction: column-reverse;
-    // flex-direction: column;
+    width:100%;
     gap:1.5rem;
 
   }
@@ -114,7 +114,7 @@ background: var(--Primary, #077FDE);
       
     }
     p {
-      max-width: 100%;
+      width: 343px;
       margin-top:1rem;
       color: #25282B;
 font-family: Poppins;

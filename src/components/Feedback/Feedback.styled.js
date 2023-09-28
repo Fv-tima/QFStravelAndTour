@@ -33,7 +33,7 @@ max-width: 537.638px;
 export const FeedComment = styled.div`
 display:none;
 @media (max-width: 968px) {
-  
+  //  overflow-y: auto;
   border-radius: 7.739px;
 background: #F6F4FF;
 box-shadow: 0px 15.25215px 45.75646px 0px rgba(0, 0, 0, 0.12);
@@ -47,15 +47,14 @@ text-align:center;
 height: 72.938px;
 border-bottom:7px solid #3685FB;
 border-bottom-radius:7.739px;
-padding:0 70px 0 28px;
+padding:20px 70px 20px 28px;
 img{ 
   width: 41.596px;
 height: 41.268px;
 }
 p{
   display: flex;
-width: 239px;
-height: 38px;
+width: 100%;
 flex-direction: column;
 justify-content: center;
   color: var(--Dark, #25282B);
@@ -88,7 +87,8 @@ text-align:center;
 height: 72.938px;
 border-bottom:7px solid #3685FB;
 border-bottom-radius:50%;
-padding:0 70px 0 28px;
+padding:20px 70px 20px 28px;
+
 img{ 
  
   position:relative;
@@ -99,7 +99,7 @@ height: 41.268px;
 p{
   margin-right:-18px;
   display: flex;
-width: 239px;
+width: fit-content;
 height: 38px;
 flex-direction: column;
 justify-content: center;

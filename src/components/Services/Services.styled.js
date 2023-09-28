@@ -9,10 +9,12 @@ export const Service = styled.div`
     font-weight: 600;
     color: #514D59;
   }
-  @media (max-width: 768px) {
-       max-width:100%;
+  @media (max-width: 968px) {
+    padding:0 auto;
+        width: 100%;
        display:grid;
        align-items: center;
+        margin: 2.5rem auto; 
 
   }
 `;
@@ -53,21 +55,22 @@ div{
 
   
 }
-@media (max-width: 868px) {
+@media (max-width: 968px) {
     grid-template-columns:auto;
     justify-content:center;
-    align-items: center; 
+    align-items: center;
+  
 
 div{
 border-radius: 5.68px;
 display: flex;
-width: auto;
-padding: 16px;
+width: 100%;
+// padding:auto;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 16px;
-height:326px;
+height:auto;
 
 }
     h2{

@@ -12,7 +12,7 @@ export default function SubscribeSec() {
         <input type="email" placeholder='Your e-mail address' />
         <button>Subscribe</button>
     </div> 
-    <img src={btn}/>
+    <img src={btn}/> 
    </SubscribeContainer>  
    </SubscribeCon> 
   )
