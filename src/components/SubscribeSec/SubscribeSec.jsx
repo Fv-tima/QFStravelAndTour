@@ -9,7 +9,7 @@ export default function SubscribeSec() {
    <SubscribeContainer>
     <h1 id='h1'>Enter your e-mail address and get notified of exclusive offers</h1>
     <div>
-        <input type="email" placeholder='Your e-mail address' />
+        <input type="email" placeholder='Enter your e-mail address here' />
         <button>Subscribe</button>
     </div> 
     <img src={btn}/> 

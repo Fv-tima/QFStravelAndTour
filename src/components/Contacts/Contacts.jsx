@@ -107,8 +107,8 @@ export default function Contacts() {
               </div>
               <div>
                 <img src={email} />
-                <a href="mailto:jason@qfstravelandtourgh.com">
-                  jason@qfstravelandtourgh.com
+                <a href="mailto:admin@qfstravelandtourgh.com">
+                  admin@qfstravelandtourgh.com
                 </a>
               </div>
             </Details>
@@ -121,8 +121,8 @@ export default function Contacts() {
               </div>
               <div>
                 <img src={email} />
-                <a href="mailto:jason@qfstravelandtourgh.com">
-                  jason@qfstravelandtourgh.com
+                <a href="mailto:admin@qfstravelandtourgh.com">
+                  admin@qfstravelandtourgh.com
                 </a>
               </div>
             </Details>

@@ -158,7 +158,6 @@ export const MobileNavLinks = styled.a`
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: bold;
   a{
     color: #25282b;
   }
