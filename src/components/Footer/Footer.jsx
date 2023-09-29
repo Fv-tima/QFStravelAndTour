@@ -79,8 +79,8 @@ export default function Footer() {
             </div>
             <p id="email">
               <span>Email:</span>{" "}
-              <a href="mailto:info@qfstravelandtourgh.com">
-                jason@qfstravelandtourgh.com
+              <a href="mailto:admin@qfstravelandtourgh.com">
+                admin@qfstravelandtourgh.com
               </a>
             </p>
           </div>
