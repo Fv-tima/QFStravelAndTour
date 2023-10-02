@@ -4,16 +4,19 @@ export const Header = styled.header`
   display: flex;
   height: 80px;
   column-gap:539px;
-  justify-content:center;
   align-items: center;
+  justify-content:space-between;
+  width:90%;
   gap: 1rem;
   background:#fff;
   padding:1rem 6.25rem;
   overflow:hidden;
+  position: sticky;
 
   @media (max-width: 868px) {
     height: 60px;
     padding:20px ;
+    width:94%;
   }
 `;
 
