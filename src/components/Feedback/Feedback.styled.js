@@ -8,7 +8,7 @@ export const FeedbackContainer = styled.div`
     font-family: "Poppins", san-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #514d59;
+    color: #514d59; 
   }
   p {
     color: #898989;

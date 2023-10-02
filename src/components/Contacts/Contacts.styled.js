@@ -59,6 +59,7 @@ export const ContactsInfo = styled.div`
   @media(max-width:999px){
    flex-direction:column;
    align-items: center;
+    padding: 25px;
    
   }
 `;
@@ -149,7 +150,6 @@ font-weight: 600;
   @media(max-width:999px){
     width:100%;
     border-right:none;
-
   }
 `;
 export const ContactsDetails = styled.div`

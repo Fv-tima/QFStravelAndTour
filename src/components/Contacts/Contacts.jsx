@@ -10,7 +10,7 @@ import email from "../../assets/svg/email.png";
 import user from "../../assets/svg/user.png";
 
 import {
-  ContactsContainer,
+  ContactsContainer, 
   ContactsCon,
   ContactsDetails,
   ContactsForm,

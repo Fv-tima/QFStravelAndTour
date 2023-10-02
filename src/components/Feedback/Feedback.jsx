@@ -4,7 +4,7 @@ import com1 from "../../assets/images/Ellipse 4.png";
 import com2 from "../../assets/images/Ellipse 1.png";
 import com3 from "../../assets/images/Ellipse 2.png";
 import com4 from "../../assets/images/Ellipse 3.png";
-import com5 from "../../assets/images/Ellipse 5.png";
+import com5 from "../../assets/images/Ellipse 5.png"; 
 import com6 from "../../assets/images/Ellipse 6.png";
 import testimony1 from "../../assets/images/Picture1.png";
 import testimony2 from "../../assets/images/Picture2.png";
@@ -31,7 +31,7 @@ import {
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-Import Swiper styles;
+// import Swiper styles;
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
