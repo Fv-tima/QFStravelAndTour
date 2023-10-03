@@ -11,7 +11,7 @@ export default function Services() {
     <Service> 
       <img src={serviceVector} />
       <h1>Our Services</h1>
-      <ServiceContainer> 
+      <ServiceContainer>  
       <div>  
           <img src={ service1 } /> 
           <h2>Explore Our Website</h2>  
