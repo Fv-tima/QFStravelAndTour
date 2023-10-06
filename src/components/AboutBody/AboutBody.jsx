@@ -8,9 +8,9 @@ import Rectangle34 from "../../assets/images/Rectangle34.png";
 import Rectangle35 from "../../assets/images/Rectangle35.png";
 import Rectangle36 from "../../assets/images/Rectangle36.png";
 export default function AboutBody () {
-  return (
+  return ( 
 
-    <About className="container">
+    <About >
       <img src={ serviceVector } />
       <h1>About QFS Travel and Tours</h1>
       <AboutContainer>

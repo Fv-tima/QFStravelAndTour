@@ -14,7 +14,7 @@ import { DestinationContainer, DestinationCon, DestinationImg, Eclipse } from ".
 export default function Destination() {
   return (
     <DestinationContainer>
-      <img src={serviceVector} />
+      <img src={serviceVector} /> 
       <h1>Popular Destinations</h1>
       <Eclipse>
         <div>

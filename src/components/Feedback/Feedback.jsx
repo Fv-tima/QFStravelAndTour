@@ -4,7 +4,7 @@ import com1 from "../../assets/images/Ellipse 4.png";
 import com2 from "../../assets/images/Ellipse 1.png";
 import com3 from "../../assets/images/Ellipse 2.png";
 import com4 from "../../assets/images/Ellipse 3.png";
-import com5 from "../../assets/images/Ellipse 5.png";
+import com5 from "../../assets/images/Ellipse 5.png"; 
 import com6 from "../../assets/images/Ellipse 6.png";
 import testimony1 from "../../assets/images/Picture1.png";
 import testimony2 from "../../assets/images/Picture2.png";
@@ -31,7 +31,7 @@ import {
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// import Swiper styles;
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -49,7 +49,7 @@ export default function Feedback() {
           provide you with services but also we provide you with valuable
           experiences for your valuable time.
         </p>
-          <ImgCon>
+        <ImgCon>
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               spaceBetween={50}
@@ -76,7 +76,7 @@ export default function Feedback() {
                   </div>
                 </SwiperSlide>
               ))}
-            </Swiper>
+            </Swiper> 
           </ImgCon>
         <MobileImageView>
           <FeedComment>
@@ -86,34 +86,26 @@ export default function Feedback() {
             </p>
           </FeedComment>
           <NextFeed>
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-            <img src={com2} />
+            <p>Through the support and guidance of Quickfix Travel and Tour, I was able to secure my tourist visa together with my wife</p>
+            <img src={ com2 } />
           </NextFeed>
           <FeedComment>
-            <img src={com3} />
+            <img src={ com3 } />
             <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
+              Quickfix Travel and Tour supported and guided myself and my husband in our application to secure a tourist visa to Canada</p>
+ 
           </FeedComment>
-          <NextFeed>
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-            <img src={com4} />
+          <NextFeed> 
+            <p>Quickfix Travel and Tour supported and guided with my application for a school in Canada as well as my visa application </p>
+            <img src={ com4 } />
           </NextFeed>
           <FeedComment>
-            <img src={com5} />
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
+            <img src={ com5 } />
+            <p>Quickfix Travel and Tour helped to obtain admission for me in Canada as well as supported with my visa application</p>
           </FeedComment>
           <NextFeed>
-            <p>
-              Quickfix Travel and Tour assisted me in securing a tourist visa
-            </p>
-            <img src={com6} />
+            <p>Quickfix Travel and Tour helped me in putting together my Canada visa application which turned out successfully </p>
+            <img src={ com6 } />
           </NextFeed>
         </MobileImageView>
       </FeedbackContainer>

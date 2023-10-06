@@ -3,15 +3,15 @@ import HLogo from "../../assets/images/Flogo.png";
 import group from "../../assets/svg/group.svg";
 import openIcon from "../../assets/svg/Vectorr.png";
 import closeIcon from "../../assets/svg/close2.png";
-import "./navstyle.css";
-import {
-  Header,
+
+import { 
+  Header, 
   HeaderLogo,
   Navbar,
   NavbarLinks, 
   MenuIcon,
   MenuButton,
-  MobileHeader,
+  MobileHeader, 
   MobileLogo,
   MobileNavbar,
   MobileNavContainer,
@@ -57,7 +57,7 @@ export default function Nav() {
       { isOpen && (
         <MobileHeader>
           <Backdrop />
-          <MobileNavbar>
+          <MobileNavbar> 
             
               <NavbarHeader> 
                 <MobileLogo>

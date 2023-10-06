@@ -6,17 +6,15 @@ export const Header = styled.header`
   column-gap:539px;
   align-items: center;
   justify-content:space-between;
-  width:90%;
   gap: 1rem;
   background:#fff;
   padding:1rem 6.25rem;
   overflow:hidden;
-  position: sticky;
+
 
   @media (max-width: 868px) {
     height: 60px;
     padding:20px ;
-    width:94%;
   }
 `;
 
@@ -88,7 +86,7 @@ export const MobileHeader = styled.header`
   display: flex;
   position: relative;
   z-index: 50;
-  ${ '' /* transition-duration: 300ms; */ }
+  transition-duration: 400ms;
 
   @media (min-width: 868px) {
     display: none;
@@ -112,15 +110,17 @@ export const MobileNavbar = styled.nav`
   top: 0;
   bottom: 0;
   left: 0;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 1rem;
   background-color: #fafafa;
   flex-direction: column;
   width: 100%;
   @media (max-width:868px){
-    max-width: 22rem;
+    max-width:22.9rem;
+    
+  }
+  @media (max-width:550px){
+  width:480px;
+    
   }
   
 
@@ -130,6 +130,7 @@ export const NavbarHeader = styled.div`
   display: flex;
   margin-bottom: 2rem;
   align-items: center;
+  justify-content: center;
 `;
 
 export const MobileLogo = styled.a`
@@ -158,7 +159,6 @@ export const MobileNavLinks = styled.a`
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: bold;
   a{
     color: #25282b;
   }

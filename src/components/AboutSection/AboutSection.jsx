@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   AboutContainer,
-  Abouts,
+  Abouts, 
   AboutContent,
   InnerContent,
 } from "./AboutSection.styled";
@@ -15,13 +15,13 @@ export default function AboutSection() {
     <Abouts> 
       <img src={serviceVector} />
       <h1>About QFS Travel and Tours</h1>
-      <AboutContainer>
+      <AboutContainer> 
         <img src={images} />
         <img id="mobile-btn" src={btn} />
         <AboutContent>
           <h1>At QFS Travel & Tours</h1>
-          <InnerContent>
-            <img src={btn} />
+          <InnerContent> 
+            <img src={btn} /> 
             <p> 
               we are passionate about providing our clients with the best
               possible travel experience. With over 10 years of experience in
