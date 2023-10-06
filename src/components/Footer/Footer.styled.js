@@ -4,7 +4,7 @@ export const FooterCon = styled.div`
   // padding: 3.75rem 7.5rem 5rem;
   padding: 80px 120px;
   background-color: #077fde;
-  @media (max-width: 868px) {
+  @media (max-width: 900px) {
     padding: 40px 16px;
     background-color: #077fde;
     display: flex;

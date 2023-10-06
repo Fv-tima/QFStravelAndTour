@@ -46,7 +46,7 @@ export const DestinationImg = styled.div`
     position:relative;
 }
     
-     @media(max-width:868px){
+     @media(max-width:1024px){
       display:flex;
         flex-direction:column;
         align-items:center;

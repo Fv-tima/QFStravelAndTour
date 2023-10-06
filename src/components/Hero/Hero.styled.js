@@ -4,10 +4,13 @@ export const HeroSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:auto;
   margin-top:3.75rem;
-  line-height:auto;
-
+ 
+  @media (max-width: 968px) {
+    img{
+      width:60%;
+    }
+  }
   
 
   @media (max-width: 868px) {
@@ -20,12 +23,8 @@ export const HeroSection = styled.div`
   img{
     width:50%;
   }
-
   }
 
-  img{
-    max-width:100%;
-  }
    @media (max-width: 500px) {
      flex-direction: column-reverse;
     img{
@@ -37,12 +36,12 @@ export const HeroSection = styled.div`
 export const SectionContent = styled.div`
 
   h1 {
-    margin-top:-0.5rem;
+  
     display:flex;
     flex-direction:column;
     font-family: "Poppins", sans-serif;
   width:auto;
-  max-height: 288px;
+  
     color: #077fde;
     font-size:64px;
 font-style: normal;
@@ -62,8 +61,8 @@ flex-shrink: 0;
     font-size: 18px;
     font-weight: 400;
     color:#25282B;
-    max-width:500px;
-    height: 81px;
+    width:90%;
+   
     line-height:27px;
   }
   #two,#mob{
@@ -74,7 +73,19 @@ flex-shrink: 0;
   }
 
   // media query
-    
+
+  @media (max-width: 1024px) {
+    img{
+      width:60%;
+    }
+    h1,#mob{
+       font-size: 38px;
+       line-height: normal;
+     }
+     p {
+ font-size: 20px;
+     }
+  }
  
   // Tablet !!
   @media (max-width: 868px) {

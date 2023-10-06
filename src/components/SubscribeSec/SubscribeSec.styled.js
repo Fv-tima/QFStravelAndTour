@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 export const SubscribeCon = styled.div`
   margin: 0;
-  padding: 147px 387px;
+  padding: 10% 30%;
  
   @media (max-width: 868px) {
     
@@ -27,7 +27,7 @@ export const SubscribeContainer = styled.div`
     color: #fff;
     text-align: center;
     font-family: "Poppins", san-serif;
-    font-size: 2.5rem ;
+    font-size: 2.5rem;
     font-weight: 600;
   }
 
@@ -44,7 +44,7 @@ export const SubscribeContainer = styled.div`
     
 
     input {
-      max-width: 570px;
+      width: 100%;
       border: none;
       outline: none;
       background: none;
@@ -89,7 +89,7 @@ export const SubscribeContainer = styled.div`
         font-size: 12.9px;
         background: #3685FB;
       display: flex;
-      width: 102.21px;
+      max-width: 102.21px;
   padding: 4.813px;
       justify-content: center;
       align-items: center;

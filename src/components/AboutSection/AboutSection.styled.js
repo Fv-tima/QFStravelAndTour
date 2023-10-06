@@ -27,7 +27,7 @@ export const AboutContainer = styled.div`
   #mobile-btn{
     display:none;
   }
-  @media(max-width:868px){
+  @media(max-width:968px){
     flex-direction:column;
     width:100%;
     
