@@ -12,6 +12,7 @@ export const About = styled.div`
     color: #514D59;
     }
     @media(max-width:868px){ 
+      padding: 20px 30px 0px;
     h1{
       font-size: 1.67rem;
     }
