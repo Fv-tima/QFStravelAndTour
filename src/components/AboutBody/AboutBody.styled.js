@@ -11,8 +11,7 @@ export const About = styled.div`
     font-weight: 600;
     color: #514D59;
     }
-    @media(max-width:868px){
-      padding: 20px 24px 30px;
+    @media(max-width:868px){ 
     h1{
       font-size: 1.67rem;
     }
@@ -248,12 +247,11 @@ export const BottomContainer = styled.div`
     transform: translateY(100px);
 
  @media (max-width: 868px) {
-    // flex-direction: column;
-    align-content:center;
-    justify-content:center;
+   display:grid;
+  grid-template-columns:1fr;
+  place-items:center;
     gap:1rem;
-    margin-bottom:20px;
-    // transform: translateY(10px);
+    transform: translateY(10px);
 
    }
 
@@ -275,21 +273,23 @@ export const BottomImgCon = styled.div`
 }
 
  @media (max-width: 868px) {
-    flex-direction: row;
-    justify-content:center;
-    align-content:center;
-    // gap:1rem;
+  display:grid;
+  grid-template-columns:1fr;
+  place-items:center;
+
+    gap:1rem;
 #img1,#img2,#img3{
-  max-width:150px;
+  // max-width:150px;
 }
 #img1{
-  margin-right:none;
+  margin-right:unset;
 }
-img2{
-  transform:none;
+#img2{
+  transform:unset;
 }
-img3{
-  margin-left:none;
+#img3{
+  margin-left:unset;
+  
 }
 
    }
@@ -330,19 +330,19 @@ transform: translateY(-14px);
  }
 
    @media (max-width: 868px) {
-    // flex-direction: column;
+    flex-direction: column;
     justify-content:center;
     align-content:center;
     Gap:1rem;
     #princess{
-    // padding-right:30px;
+    padding-right:unset;
   }
  #Jd{
-  // padding-right:40px;
+  padding-left:unset;
  }
  #Cyril{
-  padding-right:27px;
-    transform:translateY(-85px)
+  // padding-right:27px;
+    margin-top:150px;
  }
    }
 `

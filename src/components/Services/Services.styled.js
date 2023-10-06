@@ -140,8 +140,8 @@ div:nth-child(4){
 div{
 border-radius: 5.68px;
 display: flex;
-width: 100%;
-padding:28px auto 30px;
+max-width: 100%;
+padding:28px auto 28px;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;

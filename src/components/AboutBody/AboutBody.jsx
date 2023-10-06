@@ -10,7 +10,7 @@ import Rectangle36 from "../../assets/images/Rectangle36.png";
 export default function AboutBody () {
   return ( 
 
-    <About >
+    <About > 
       <img src={ serviceVector } />
       <h1>About QFS Travel and Tours</h1>
       <AboutContainer>
