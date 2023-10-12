@@ -6,12 +6,9 @@ import com3 from "../../assets/images/Ellipse 2.png";
 import com4 from "../../assets/images/Ellipse 3.png";
 import com5 from "../../assets/images/Ellipse 5.png"; 
 import com6 from "../../assets/images/Ellipse 6.png";
-import testimony1 from "../../assets/images/Picture1.png";
 import testimony2 from "../../assets/images/Picture2.png";
 import testimony3 from "../../assets/images/Picture3.png";
-import testimony4 from "../../assets/images/Picture4.png";
 import testimony5 from "../../assets/images/Picture5.png";
-import testimony6 from "../../assets/images/Picture6.png";
 import swiper from "../../assets/images/swiper.png";
 import star from "../../assets/images/star.png";
 import {
@@ -22,21 +19,7 @@ import {
   NextFeed,
 } from "./Feedback.styled";
 
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-} from "swiper/modules";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// import Swiper styles;
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import "swiper/css/virtual";
 
 export default function Feedback() {
   return (
@@ -49,16 +32,10 @@ export default function Feedback() {
           provide you with services but also we provide you with valuable
           experiences for your valuable time.
         </p>
+        <div className="testCon">
         <ImgCon>
-            <Swiper
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
-              spaceBetween={50}
-              slidesPerView={3}
-              pagination={{ clickable: true }}
-              navigation
-            >
               {testdata.map((item) => (
-                <SwiperSlide className="testimonial">
+                 <div className="testimonial">
                   <img className="testImg" src={item.img} />
                   <h1>{item.name}</h1>
                   <p>{item.info}</p>
@@ -74,10 +51,13 @@ export default function Feedback() {
                       <img src={star} />
                     </div>
                   </div>
-                </SwiperSlide>
+                  </div>
               ))}
-            </Swiper> 
           </ImgCon>
+          <div className="swiper">
+          <img src={swiper} />
+          </div>
+          </div>
         <MobileImageView>
           <FeedComment>
             <img src={com1} />
@@ -115,12 +95,6 @@ export default function Feedback() {
 
 const testdata = [
   {
-    img: testimony1,
-    name: "Thomas Boakye Apraku",
-    visa: "Tourist Visa",
-    info: "Quickfix Travel and Tour assisted me in securing a tourist visa",
-  },
-  {
     img: testimony2,
     name: "Degaulle Asare Baffour",
     visa: "Tourist Visa",
@@ -133,21 +107,9 @@ const testdata = [
     info: "Quickfix Travel and Tour supported and guided myself and my husband in our application to secure a tourist visa to Canada",
   },
   {
-    img: testimony4,
-    name: "Solomon Kofi Obeng",
-    visa: "Student Visa",
-    info: "Quickfix Travel and Tour supported and guided with my application for a school in Canada as well as my visa application ",
-  },
-  {
     img: testimony5,
     name: "Florence Donkor",
     visa: "Student Visa",
     info: "Quickfix Travel and Tour helped to obtain admission for me in Canada as well as supported with my visa application",
-  },
-  {
-    img: testimony6,
-    name: "Christiana Anagonou",
-    visa: "Tourist Visa",
-    info: "Quickfix Travel and Tour helped me in putting together my Canada visa application which turned out successfully well",
   },
 ];

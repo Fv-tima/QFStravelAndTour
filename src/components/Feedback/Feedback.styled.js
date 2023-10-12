@@ -18,6 +18,16 @@ export const FeedbackContainer = styled.div`
     max-width: 537.638px;
   }
 
+  .testCon{
+    margin:3.5rem 0 4.55rem;
+  }
+
+  .swiper{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
   @media (max-width: 968px) {
     margin-top: 40px;
     position: unset;
@@ -183,12 +193,14 @@ export const NextFeed = styled.div`
 export const ImgCon = styled.div`
 display:flex;
 column-gap:42px;
-margin:4.375rem 0 10.77rem;
+margin-bottom:3.8125rem;
+
 
 .testimonial{
   display: flex;
-padding: 20px 0px;
-height:390px;
+padding: 50.45px;
+width:384px;
+height:389px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -213,9 +225,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 22.702px;
 }
-
-
-
 
 .rate{
   display:flex;
