@@ -6,7 +6,7 @@ export const ContactsContainer = styled.div`
     font-family: "Poppins", san-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #25282b;
+    color: #514D59;
   }
   
 `;
@@ -51,7 +51,7 @@ export const ContactsCon = styled.div`
 export const ContactsInfo = styled.div`
   display: flex;
   justify-content:space-between;
-   padding: 50px;
+  padding: 50px;
   border-radius: 10px;
   border: 1px solid #d7d7d7;
   background: #fff;
@@ -103,7 +103,7 @@ export const ContactsForm = styled.div`
       color: #6e6e6e;
       font-family:"Poppins", sans-serif;
       font-size: 1.25rem;
-      font-weight: 600;
+      font-weight: 400;
       width:100%;
     }
 
@@ -112,13 +112,13 @@ export const ContactsForm = styled.div`
       color: #6e6e6e;
       font-family:"Poppins", sans-serif;
       font-size: 1.25rem;
-      font-weight: 600;
+      font-weight: 400;
     }
     span{
       color: #EF401F;
       font-family:"Poppins", sans-serif;
 font-size: 1.125rem;
-font-weight: 600;
+font-weight: 400;
     }
 
     textarea {
@@ -130,7 +130,7 @@ font-weight: 600;
       color: #6e6e6e;
       font-family:"Poppins", sans-serif;
       font-size: 1.25rem;
-      font-weight: 600;
+      font-weight: 400;
     }
     
     button {
@@ -141,7 +141,7 @@ font-weight: 600;
       text-align: center;
       font-family:"Poppins", san-serif;
       font-size: 1rem;
-      font-weight: 600;
+      font-weight: 500;
       border:none;
       outline:none;
     }
