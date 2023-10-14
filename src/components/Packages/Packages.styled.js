@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const PackagesCon = styled.div`
-  margin-top: 3.75rem;
-  h1{
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: #181818;
-    padding:0 1rem;
+  margin-top: 3rem;
+  h1 {
+    font-family: "Poppins", san-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #514D59;
   }
+
 `;
 
 export const PackagesImg = styled.div`
@@ -44,7 +44,7 @@ export const PackagesContainer = styled.div`
 
   button {
     border-radius: 8px;
-    background: #35aff4;
+    background: #077FDE;
     padding: 12px 24px;
     color: #fff; 
     text-align: center;

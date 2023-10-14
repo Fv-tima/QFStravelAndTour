@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const ContactsContainer = styled.div`
-  margin-top: 3.75rem;
+  margin-top: 3rem;
   h1 {
     font-family: "Poppins", san-serif;
     font-size: 2rem;

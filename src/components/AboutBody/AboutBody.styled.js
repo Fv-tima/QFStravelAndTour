@@ -1,26 +1,23 @@
 import styled from "styled-components";
 
-
 export const About = styled.div`
-     margin-top: 2.5rem; 
-       padding: 3rem 6.25rem;
-    h1{
-    margin:3.75rem 0 2rem 0;
+  margin-top: 3rem; 
+  padding: 3rem 6.25rem;
+  h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     color: #514D59;
-    }
+  }
     @media(max-width:868px){ 
       padding: 20px 30px 0px;
-    h1{
+      h1 {
       font-size: 1.67rem;
+      }
     }
-    }
-
-
    
 `;
+
 export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
@@ -273,77 +270,85 @@ export const BottomImgCon = styled.div`
   margin-left:48px;
 }
 
- @media (max-width: 868px) {
-  display:grid;
-  grid-template-columns:1fr;
-  place-items:center;
+@media (max-width: 868px) {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1rem;
+   #img1, #img2, #img3 {
+      // max-width: 150px;
+  }
 
-    gap:1rem;
-#img1,#img2,#img3{
-  // max-width:150px;
-}
-#img1{
-  margin-right:unset;
-}
-#img2{
-  transform:unset;
-}
-#img3{
-  margin-left:unset;
-  
-}
+  #img1 {
+    margin-right: unset;
+  }
 
-   }
-   
+  #img2 {
+    transform: unset;
+  }
 
- 
+  #img3 {
+    margin-left: unset;
+    
+  }
+
+}
 `;
+
 export const TeamNames = styled.div`
   display:flex;
-  justify-content:center;
+  justify-content: center;
 
-  h1{
-    font-size:16px;
-    font-weight:500;
-  color: #514D59;
+  h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #514D59;
     text-align: center;
     font-family: 'Poppins',sans-serif;
   }
-p{
-color: #898989;
-font-family: 'Poppins',sans-serif;
-font-size: 20px;
-font-weight: 500;
-transform: translateY(-14px);
+
+  p {
+    color: #898989;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    transform: translateY(-14px);
   }
-  #princess{
+
+  #princess {
     color: #514D59;
-    padding-right:32px;
-    font-weight:500;
+    padding-right: 32px;
+    font-weight: 500;
   }
- #Jd{
-  padding-left:40px;
-  font-weight:500;
-  color: #514D59;
- }
- #Cyril{
-  transform:translateY(-75px);
+
+ #Jd {
+    padding-left:40px;
+    font-weight:500;
+    color: #514D59;
  }
 
-   @media (max-width: 868px) {
+ #Cyril {
+    transform:translateY(-75px);
+ }
+
+  @media (max-width: 868px) {
     flex-direction: column;
-    justify-content:center;
-    align-content:center;
-    Gap:1rem;
-    #princess{
-    padding-right:unset;
+    justify-content: center;
+    align-content: center;
+    Gap: 1rem;
+
+    #princess {
+    padding-right: unset;
   }
- #Jd{
-  padding-left:unset;
- }
- #Cyril{
-  // padding-right:27px;
-    margin-top:150px;
- }
-   }
+
+  #Jd {
+      padding-left: unset;
+  }
+
+  #Cyril {
+      //padding-right: 27px;
+      margin-top: 100px;
+  }
+  
+}
 `
