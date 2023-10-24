@@ -263,11 +263,17 @@ export const BottomImgCon = styled.div`
 #img1{
   margin-right:48px;
 }
+
 #img2{
-  transform:translateY(-55px)
+  margin-left:8px;
 }
+
 #img3{
   margin-left:48px;
+}
+
+#img4{
+  margin-left:8px;
 }
 
 @media (max-width: 868px) {
@@ -275,8 +281,8 @@ export const BottomImgCon = styled.div`
   grid-template-columns: 1fr;
   place-items: center;
   gap: 1rem;
-   #img1, #img2, #img3 {
-      // max-width: 150px;
+  #img1, #img2, #img3, #img4 {
+    // max-width: 150px;
   }
 
   #img1 {
@@ -284,14 +290,16 @@ export const BottomImgCon = styled.div`
   }
 
   #img2 {
-    transform: unset;
+    margin-right: unset;
   }
 
   #img3 {
     margin-left: unset;
-    
   }
 
+  #img4 {
+    margin-left: unset;
+  }
 }
 `;
 
@@ -302,34 +310,44 @@ export const TeamNames = styled.div`
   h1 {
     font-size: 16px;
     font-weight: 500;
-    color: #514D59;
     text-align: center;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #514D59;
   }
 
   p {
-    color: #898989;
-    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
     transform: translateY(-14px);
+    font-family: 'Poppins', sans-serif;
+    color: #898989;
   }
 
   #princess {
-    color: #514D59;
     padding-right: 32px;
     font-weight: 500;
+    color: #514D59;
   }
 
- #Jd {
+  #victor {
     padding-left:40px;
     font-weight:500;
     color: #514D59;
- }
+  }
 
- #Cyril {
-    transform:translateY(-75px);
- }
+  #frank {
+    padding-left:40px;
+    font-weight:500;
+    color: #514D59;
+  }
+
+ #solo {
+    padding-left: unset;
+    font-weight:500;
+    color: #514D59;
+  }
+
+ 
 
   @media (max-width: 868px) {
     flex-direction: column;
@@ -337,17 +355,21 @@ export const TeamNames = styled.div`
     align-content: center;
     Gap: 1rem;
 
-    #princess {
+  #princess {
     padding-right: unset;
   }
 
-  #Jd {
-      padding-left: unset;
+  #victor {
+    padding-right: unset;
+    margin-top: 80px;
   }
 
-  #Cyril {
-      //padding-right: 27px;
-      margin-top: 100px;
+  #frank {
+    padding-left: unset;
+  }
+
+  #solo {
+    padding-left: unset;
   }
   
 }
