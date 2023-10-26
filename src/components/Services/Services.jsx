@@ -12,16 +12,6 @@ export default function Services() {
       <img src={serviceVector} />
       <h1>Our Services</h1>
       <ServiceContainer>  
-      <div>  
-          <img src={ service1 } /> 
-          <h2>Explore Our Website</h2>  
-        <p> 
-          At QFS Travel and Tours, we offer a wide range of services that cater
-          to all types of travelers. From families with young children to solo
-          adventurers, we have something for everyone. Here are some of the
-          services we offer:
-        </p> 
-      </div>
       <div>
         <img src={service3} />
         <h2>Tour Packages</h2>
@@ -41,6 +31,16 @@ export default function Services() {
           programs, including academic programs, language courses, and
           internships, in some of the world's most prestigious universities.
         </p>
+      </div>
+      <div>  
+          <img src={ service1 } /> 
+          <h2>Explore Our Website</h2>  
+        <p> 
+          At QFS Travel and Tours, we offer a wide range of services that cater
+          to all types of travelers. From families with young children to solo
+          adventurers, we have something for everyone. Here are some of the
+          services we offer:
+        </p> 
       </div>
       <div> 
         <img src={service2} />
