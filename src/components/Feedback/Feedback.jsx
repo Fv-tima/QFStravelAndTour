@@ -27,10 +27,7 @@ export default function Feedback() {
       <FeedbackContainer>
         <img src={serviceVector} />
         <h1>Client Testimonials</h1>
-        <p>
-          Take a look at what our customer’s are saying. At Nature we not only
-          provide you with services but also we provide you with valuable
-          experiences for your valuable time.
+        <p> At QFS, we do not only provide a service but an unforgettable experience curated with your best interest at heart.
         </p>
         <div className="testCon">
         <ImgCon>

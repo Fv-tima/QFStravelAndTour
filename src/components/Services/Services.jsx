@@ -22,19 +22,6 @@ export default function Services() {
           services we offer:
         </p> 
       </div>
-      <div> 
-        <img src={service2} />
-        <h2>Visa Assistance</h2>
-        <p>
-          We provide assistance in the form of two areas
-          <li>
-            Visa assistance for those who want to travel outside
-          </li>
-          <li>
-            Entry visas and work permits for expats who would be visiting Ghana
-          </li>
-        </p>
-      </div>
       <div>
         <img src={service3} />
         <h2>Tour Packages</h2>
@@ -53,6 +40,19 @@ export default function Services() {
           unique and immense educational experience. We offer a variety of
           programs, including academic programs, language courses, and
           internships, in some of the world's most prestigious universities.
+        </p>
+      </div>
+      <div> 
+        <img src={service2} />
+        <h2>Visa Assistance</h2>
+        <p>
+            Our visa support services cover the following areas :
+          <li>
+              Embassy Visa applications
+          </li>
+          <li>
+              Entry Visas and work permits for foreigners
+          </li>
         </p>
       </div>
     </ServiceContainer>
