@@ -359,7 +359,6 @@ export const TeamNames = styled.div`
 
     #victor {
       padding-left: unset;
-      //margin-top: 80px;
     }
 
     #frank {
