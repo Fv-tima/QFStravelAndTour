@@ -239,23 +239,21 @@ export const AboutLastInfoContents = styled.div`
 `;
 
 export const BottomContainer = styled.div`
-    display:flex;
-    justify-content:center;
-    gap:1rem;
-    transform: translateY(100px);
+display:flex;
+justify-content:center;
+gap:1rem;
+transform: translateY(100px);
 
- @media (max-width: 868px) {
-   display:grid;
-  grid-template-columns:1fr;
-  place-items:center;
+  @media (max-width: 868px) {
+    display:grid;
+    grid-template-columns:1fr;
+    place-items:center;
     gap:1rem;
     transform: translateY(10px);
 
-   }
+  } 
 
-   
-
-  
+}  
 `
 
 export const BottomImgCon = styled.div`
@@ -265,7 +263,7 @@ export const BottomImgCon = styled.div`
 }
 
 #img2{
-  margin-left:8px;
+  margin-left:0px;
 }
 
 #img3{
@@ -273,7 +271,7 @@ export const BottomImgCon = styled.div`
 }
 
 #img4{
-  margin-left:8px;
+  margin-left:48px;
 }
 
 @media (max-width: 868px) {
@@ -290,7 +288,7 @@ export const BottomImgCon = styled.div`
   }
 
   #img2 {
-    margin-right: unset;
+    margin-left: unset;
   }
 
   #img3 {
@@ -355,22 +353,22 @@ export const TeamNames = styled.div`
     align-content: center;
     Gap: 1rem;
 
-  #princess {
-    padding-right: unset;
-  }
+    #princess {
+      padding-right: unset;
+    }
 
-  #victor {
-    padding-right: unset;
-    margin-top: 80px;
-  }
+    #victor {
+      padding-left: unset;
+      //margin-top: 80px;
+    }
 
-  #frank {
-    padding-left: unset;
-  }
+    #frank {
+      padding-left: unset;
+    }
 
-  #solo {
-    padding-left: unset;
+    #solo {
+      padding-left: unset;
+    }
   }
-  
 }
 `

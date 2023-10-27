@@ -123,7 +123,7 @@ export default function AboutBody () {
           </BottomImgCon>
           <BottomImgCon>
             <img src={ Rectangle35 } id='img2' />
-            <TeamNames><h1 id='victor'>Victor Obour Gyan
+            <TeamNames><h1 id='victor'>Jerome Adzah
               <p>Director</p>
             </h1>
             </TeamNames>
@@ -136,7 +136,7 @@ export default function AboutBody () {
             </TeamNames>
           </BottomImgCon>
           <BottomImgCon>
-            <img src={ Rectangle36 } id='img4' />
+            <img src={ Rectangle37 } id='img4' />
             <TeamNames><h1 id='solo'>Solomon Sackey
                 <p>Digital Marketing Manager</p>
               </h1>
