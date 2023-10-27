@@ -242,7 +242,6 @@ export const BottomContainer = styled.div`
 display:flex;
 justify-content:center;
 gap:1rem;
-transform: translateY(100px);
 
   @media (max-width: 868px) {
     display:grid;
