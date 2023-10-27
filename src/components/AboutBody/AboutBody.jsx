@@ -60,7 +60,7 @@ export default function AboutBody () {
                 <h1>Our Mission
                   <p>
                     Our mission is to provide our clients with exceptional travel and study experiences
-                    that exceed their expextations. We are committed to offering personalized
+                    that exceed their expectations. We are committed to offering personalized
                     service, attention to detail, and a wide range of travel and study options
                     to suit every need and budget. We aim to inspire and enrich
                     the lives of our clients through travel, and to foster a love of
@@ -77,27 +77,42 @@ export default function AboutBody () {
             <AboutLastInfoContents>
               <p id="values">At QFS Travel and Tours, we believe in the following values:</p>
               <ul>
-                <li>Excellence: We strive for excellence in everything we do, from the quality
-                  of our travel packages to the level of service we provide.
+                <li>Excellence: We strive for excellence in all our areas of operations.
                 </li>
                 <br />
                 <li>
-                  Integrity: We operate with the highest level on integrity and transparency
-                  in all our dealings, building trust and confidence with our clients.
+                  Integrity: We operate with the highest level of integrity and transparency in all our dealings, building trust and confidence with our clients.
+
                 </li>
                 <br />
                 <li>
-                  Innovation: We are constantly seeking out new and innovative ways to
-                  improve our services and offerings, staying ahead of the curve in the
-                  travel industry.
+                  Innovation: We are constantly seeking new and innovative ways to improve our services thereby staying ahead of the curve in the travel industry.
+
                 </li>
                 <br />
                 <li>
-                  Customer Satisfaction: We are dedicated to ensuring that our fully
-                  satisfied with their travel experiences, and we go above and beyond
-                  to make sure that every trip is unforgettable.
+                  Customer Satisfaction: We are committed to exceeding our customers' expectations by providing exceptional service and personalized experiences.
+
+                </li>
+                <br />
+                <li>
+                  Transparency: We believe in open and honest communication, providing clear and accurate information to our customers at all times.
+
+
+                </li>
+                <br />
+                <li>
+                  Customer Empowerment: We empower our customers to customize their journeys, giving them the freedom to shape their adventures.
+
+                </li>
+                <br />
+                <li>
+                  Environmental Responsibility: We are committed to sustainable and eco-friendly travel practices, minimizing our impact on the environment.
+
                 </li>
               </ul>
+
+
             </AboutLastInfoContents>
           </div>
         </AboutLastInfo>
@@ -105,10 +120,7 @@ export default function AboutBody () {
           <h1 className="team">Our Team</h1>
           <AboutLastInfoContents>
             <p id='team'>
-              Our team professionals is made up experience and knowlegdeable
-              individuals who a passionate about travel. We provide ourselves on our friendly
-              and approachable service, and we are always available to answer questions or
-              concerns our client may have.
+              Our team is made up of experienced professionals well versed and knowledgeable in the Travel and Tour industry, and always ready and available to be of service to our clients
             </p>
           </AboutLastInfoContents>
         </AboutLastInfo>
