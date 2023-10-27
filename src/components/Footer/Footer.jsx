@@ -92,7 +92,7 @@ export default function Footer() {
           <p id="copyright">
             © 2023 QFS Travel and Tours. All Rights Reserved{" "}
           </p>
-          <p id="message">Designed with ❤️ by Fleet Labs Ghana</p>
+          <p id="message">Designed with ❤️ by <a href="https://fleetlabsgh.vercel.app/">Fleet Labs Ghana</a></p>
         </div>
         <Privacy>
           <a href="">Privacy Policy</a>
