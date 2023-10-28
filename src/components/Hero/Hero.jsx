@@ -19,7 +19,7 @@ export default function Hero() {
         <p> 
         Your journey begins here with our curated travel experiences. Discover new horizons, create lasting memories, and explore the world with our expertly crafted itineraries.
         </p>
-        <button>Apply to study abroad</button>
+        {/* <button>Apply to study abroad</button> */}
       </SectionContent>
       <img src={HeroImg} alt="Hero image" />
     </HeroSection>
