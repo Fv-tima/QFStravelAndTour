@@ -8,6 +8,7 @@ import Rectangle34 from "../../assets/images/Rectangle34.png";
 import Rectangle35 from "../../assets/images/Rectangle35.png";
 import Rectangle36 from "../../assets/images/Rectangle36.png";
 import Rectangle37 from "../../assets/images/Rectangle37.png";
+import Rectangle38 from "../../assets/images/Rectangle38.png";
 
 export default function AboutBody () {
   return ( 
@@ -148,9 +149,9 @@ export default function AboutBody () {
             </TeamNames>
           </BottomImgCon>
           <BottomImgCon>
-            <img src={ Rectangle37 } id='img4' />
-            <TeamNames><h1 id='solo'>Solomon Sackey
-                <p>Digital Marketing Manager</p>
+            <img src={ Rectangle38 } id='img5' />
+            <TeamNames><h1 id='victor'>Victor Obour Gyan
+                <p>Director</p>
               </h1>
             </TeamNames>
           </BottomImgCon>
