@@ -91,23 +91,22 @@ img {
     flex-direction: column;
     gap:1rem;
     
-    h1{
-      font-size: 32px;
-    }
-      p{
+   h1 {
+    font-size: 32px;
+   }
+    
+   p {
     width:342px;
     color: #514D59;
    }
-    img{
+
+   img {
     max-width:100%;
-  }
    }
+  }
   
- 
-  
-
-
 `;
+
 export const AboutUs = styled.div`
   display:flex;
 
@@ -134,9 +133,8 @@ export const AboutUs = styled.div`
   }
    }
 
-   
-
 `;
+
 export const Mission = styled.div`
 display: flex;
 align - items: center;
@@ -149,9 +147,8 @@ gap: 5.125rem;
     gap:1rem;
 }
 
-
-
 `;
+
 export const AboutLastInfo = styled.div`
 padding-top:70px;
  
@@ -162,43 +159,47 @@ padding-top:70px;
   column-gap: 8rem;
   flex-direction: column;
   padding:1.125rem 14.25rem;
-    font-family: 'Poppins',sans-serif;
-   color:#514D59;
+  font-family: 'Poppins',sans-serif;
+  color:#514D59;
   align-text: center;
-   .values,.team{
-transform: translateY(-50px);
-      
 
-   }
-   .values h1{
-text-align:center;
-   }
-   .values p{
+  .values, .team {
+    transform: translateY(-50px);
+  }
+
+  .values h1 {
+    text-align:center;
+  }
+  
+  .values p{
     width:695px;
-   }
+  }
  
-   h1 {
-      font-size: 48px;
-      color:#514D59;
-      line-height:60px;
-    }
+  h1 {
+    font-size: 48px;
+    color:#514D59;
+    line-height:60px;
+  }
     
 
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
     padding:1.125rem ;
     position:unset;
     padding:1.125rem 10.25rem;
-    .valuesheader,.team{
+    .valuesheader,.team {
       transform: translateY(-90px);
     }
+
     h1 {
       font-size: 2rem;
     }
+
     .values p {
       font-size: 16px;
       width:375px;
     }
-    p{
+
+    p {
       font-size: 16px;
       width:75px;
     }
@@ -208,18 +209,20 @@ text-align:center;
 export const AboutLastInfoContents = styled.div`
   
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   column-gap: 8rem;
-  flex-direction: column;
-  padding:1.15rem ;
+  padding:1.15rem;
+
   transform: translateY(-40px);
    #team {
       font-size: 16px;
       line-height: 22px;
-       width:650px;
-       height:88px;
-       text-align: center;
+      width:650px;
+      height:88px;
+      margin-bottom: 57px;
+      text-align: center;
     }
   #values {
       font-size: 16px;
@@ -257,19 +260,22 @@ gap:1rem;
 
 export const BottomImgCon = styled.div`
   
-#img1{
+#img1 {
   margin-right:48px;
 }
 
-#img2{
+#img2 {
   margin-left:0px;
 }
 
-#img3{
+#img3 {
   margin-left:48px;
 }
 
-#img4{
+#img4 {
+  margin-left:48px;
+}
+#img5 {
   margin-left:48px;
 }
 
@@ -278,7 +284,7 @@ export const BottomImgCon = styled.div`
   grid-template-columns: 1fr;
   place-items: center;
   gap: 1rem;
-  #img1, #img2, #img3, #img4 {
+  #img1, #img2, #img3, #img4, #img5 {
     // max-width: 150px;
   }
 
@@ -295,6 +301,10 @@ export const BottomImgCon = styled.div`
   }
 
   #img4 {
+    margin-left: unset;
+  }
+
+  #img5 {
     margin-left: unset;
   }
 }
@@ -323,6 +333,12 @@ export const TeamNames = styled.div`
   #princess {
     padding-right: 32px;
     font-weight: 500;
+    color: #514D59;
+  }
+
+  #jerome {
+    padding-left:0px;
+    font-weight:500;
     color: #514D59;
   }
 

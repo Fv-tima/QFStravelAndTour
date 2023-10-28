@@ -134,20 +134,15 @@ export default function AboutBody () {
               </h1>
             </TeamNames>
           </BottomImgCon>
+
           <BottomImgCon>
             <img src={ Rectangle35 } id='img2' />
-            <TeamNames><h1 id='victor'>Jerome Adzah
+            <TeamNames><h1 id='jerome'>Jerome Adzah
               <p>Director</p>
             </h1>
             </TeamNames>
           </BottomImgCon>
-          <BottomImgCon>
-            <img src={ Rectangle36 } id='img3' />
-            <TeamNames><h1 id='frank'>Frank Bonah
-                <p>Operations</p>
-              </h1>
-            </TeamNames>
-          </BottomImgCon>
+
           <BottomImgCon>
             <img src={ Rectangle38 } id='img5' />
             <TeamNames><h1 id='victor'>Victor Obour Gyan
@@ -155,6 +150,15 @@ export default function AboutBody () {
               </h1>
             </TeamNames>
           </BottomImgCon>
+
+          <BottomImgCon>
+            <img src={ Rectangle36 } id='img3' />
+            <TeamNames><h1 id='frank'>Frank Bonah
+                <p>Operations</p>
+              </h1>
+            </TeamNames>
+          </BottomImgCon>
+          
           <BottomImgCon>
             <img src={ Rectangle37 } id='img4' />
             <TeamNames><h1 id='solo'>Solomon Sackey
