@@ -154,6 +154,13 @@ export default function AboutBody () {
               </h1>
             </TeamNames>
           </BottomImgCon>
+          <BottomImgCon>
+            <img src={ Rectangle37 } id='img4' />
+            <TeamNames><h1 id='solo'>Solomon Sackey
+                <p>Digital Marketing Manager</p>
+              </h1>
+            </TeamNames>
+          </BottomImgCon>
         </BottomContainer>
       </AboutContainer>
     </About>
