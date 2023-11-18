@@ -27,7 +27,7 @@ export default function Feedback() {
       <FeedbackContainer>
         <img src={serviceVector} />
         <h1>Client Testimonials</h1>
-        <p> At QFS, we do not only provide a service but an unforgettable experience curated with your best interest at heart.
+        <p> At QFS, we do not only provide a service but an unforgettable experience curated with your best interest at heart.
         </p>
         <div className="testCon">
         <ImgCon>
