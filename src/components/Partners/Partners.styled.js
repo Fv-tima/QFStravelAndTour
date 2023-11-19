@@ -5,6 +5,10 @@ export const PartnersContainer = styled.div`
   align-items:center;
   justify-content: space-between;
   flex-wrap:wrap;
+  img {
+    height: 150px;
+  }
+
   @media (max-width: 768px) {
     align-items:center;
     justify-content: center;
@@ -19,10 +23,10 @@ export const Partner = styled.div`
     font-size: 2rem;
     font-weight: 600;
     line-height: 3rem;
-    color: #383b49;
+    color: #514d59;
   }
   span {
-    color: #115def;
+    color: #514d59;
   }
 
   @media (max-width: 768px) {
