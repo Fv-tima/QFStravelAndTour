@@ -219,19 +219,24 @@ export const SocialContainer = styled.div`
 export const Copy = styled.div`
   display: flex;
   justify-content: space-between;
- flex-direction:row;
+  flex-direction:row;
   align-items: center;
   align-self: stretch;
   color: #ffffff;
   margin-top: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-size:14px;
-  #copy{
+
+  a {
+    color: #ffffff;
+  }
+
+  #copy {
     display: flex;
-       flex-direction:row;
-        justify-content: space-between;
-        gap:5rem;
-        align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:5rem;
+    align-items: flex-start;
   }
 
   @media (max-width: 868px) {
@@ -239,16 +244,22 @@ export const Copy = styled.div`
     flex-direction: column-reverse;
     align-items: center;
     gap: 20px;
+
     #copy {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px;
     }
+
     #copyright,
     #message {
       text-align: center;
       font-size: 14px;
+
+      a {
+        color: #ffffff;
+      }
     }
   }
 `;
@@ -260,6 +271,7 @@ export const Privacy = styled.div`
     color: #ffffff;
     border-bottom: 1px solid #fff;
   }
+
   @media (max-width: 868px) {
     display: flex;
     justify-content: center;
