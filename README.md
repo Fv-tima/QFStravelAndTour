@@ -69,6 +69,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or feedback, feel free to reach out to our team at fleetlabs@yahoo.com.
 
-Visit the live website: [QFS Travel and Tour](https://qfstravelandtours.vercel.app/)
+Visit the live website: [QFS Travel and Tour](https://qfstravelandtour.vercel.app/)
 
 Happy traveling! 🌍✈️🌴
