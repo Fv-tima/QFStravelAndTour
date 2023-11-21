@@ -1,7 +1,7 @@
 import React from 'react'
 import { CertContainer, Cert } from './Cert.styled';
-import image1 from "../../assets/images/img1.png";
-import image2 from "../../assets/images/img2.png";
+import svg1 from "../../assets/svg/aeg.svg"
+import svg2 from "../../assets/svg/BritishCouncil.svg";
 
 function Partners() {
   return (
@@ -10,8 +10,8 @@ function Partners() {
         Certified by
       </h1>
       <CertContainer>
-        <img src={image1} alt="Cert 1" />
-        <img src={image2} alt="Cert 2" />
+        <img src={svg1} alt="Cert 1" />
+        <img src={svg2} alt="Cert 2" />
       </CertContainer>
     </Cert>
   );

@@ -2,31 +2,32 @@ import styled from "styled-components";
 
 export const CertContainer = styled.div`
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 5rem;
   padding-bottom: 40px;
+
   img {
-    height: 150px;
+    height: 100px;
   }
 
   @media (max-width: 768px) {
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 3rem;
   }
 `;
 
 export const Cert = styled.div`
   margin-top: 3.5rem;
+
   h1 {
     text-align: center;
-    font-family: "Poppins", san-serif;
-    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 3rem;
-    color: #514d59;
-  }
-  span {
     color: #514d59;
   }
 
