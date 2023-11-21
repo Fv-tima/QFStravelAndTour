@@ -18,14 +18,8 @@ export const FeedbackContainer = styled.div`
     max-width: 537.638px;
   }
 
-  .testCon{
+  .testWrap{
     margin:3.5rem 0 4.55rem;
-  }
-
-  .swiper{
-    display:flex;
-    justify-content: center;
-    align-items: center; 
   }
 
   @media (max-width: 968px) {
@@ -38,9 +32,93 @@ export const FeedbackContainer = styled.div`
       font-size: 1rem;
       line-height: 1.5rem;
     }
-   .testCon{display: none;|
+    .testCon {
+      display: none;
+    }
   }
 `;
+
+export const TestCon = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 42px;
+
+  .testimonial {
+    display: flex;
+    width: 385px;
+    height: 385px;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20.18px;
+    background: #077FDE;
+    box-shadow: 12.6124px 5.04496px 50.44959px 0px rgba(0, 0, 0, 0.16);
+
+    .testImg {
+      width: 100px;
+      height: 100.px;
+      border-radius: 100px;
+    }
+
+    h1 {
+      color:#fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 8px; 
+    }
+
+    p {
+      align-self: stretch;
+      color: #B9C8F3;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16.13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  }
+
+  .rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+    h1 {
+      color:  #FFFFFF;
+      font-family: Manrope;
+      font-size: 20.18px;
+      font-style: normal;
+      font-weight: 800;
+    }
+
+    span {
+      color: #B9C8F3;
+      font-family: Poppins;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 800;
+    }
+  }
+
+
+  @media (max-width: 968px) {
+    display: none;
+  }
+`
+export const MobileImageView = styled.div`
+  display: none;
+  @media (max-width: 868px) {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+`
+
 export const FeedComment = styled.div`
   display: none;
   @media (max-width: 868px) {
@@ -63,6 +141,7 @@ export const FeedComment = styled.div`
       width: 41.596px;
       height: 41.268px;
     }
+
     p {
       display: flex;
       width: 100%;
@@ -77,6 +156,7 @@ export const FeedComment = styled.div`
       line-height: normal;
     }
   }
+
   @media (max-width: 500px) {
     //  overflow-y: auto;
     border-radius: 7.739px;
@@ -97,6 +177,7 @@ export const FeedComment = styled.div`
       width: 41.596px;
       height: 41.268px;
     }
+
     p {
       display: flex;
       width: 100%;
@@ -111,7 +192,8 @@ export const FeedComment = styled.div`
       line-height: normal;
     }
   }
-`;
+`
+
 export const NextFeed = styled.div`
   display: none;
   @media (max-width: 868px) {
@@ -150,6 +232,7 @@ export const NextFeed = styled.div`
       line-height: normal;
     }
   }
+
   @media (max-width: 500px) {
     //#F6F4FF
     border-radius: 7.739px;
@@ -172,6 +255,7 @@ export const NextFeed = styled.div`
       width: 41.596px;
       height: 41.268px;
     }
+
     p {
       margin-right: -18px;
       display: flex;
@@ -188,85 +272,4 @@ export const NextFeed = styled.div`
       line-height: normal;
     }
   }
-`;
-export const ImgCon = styled.div`
-display:flex;
-column-gap:42px;
-margin-bottom:3.8125rem;
-
-
-.testimonial{
-  display: flex;
-padding: 50.45px;
-width:384px;
-height:389px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-  border-radius: 20.18px;
-background:#077FDE;
-box-shadow: 12.6124px 5.04496px 50.44959px 0px rgba(0, 0, 0, 0.16);
-
-h1{
-  color:#fff;
-  font-family: "Poppins",sans-serif;
-font-size: 25.225px;
-font-weight: 600;
-line-height: 25.225px; 
-}
-
-p{
-  padding:0 30px;
-  color:#B9C8F3;
-text-align: center;
-font-family: "Poppins",sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.702px;
-}
-
-.rate{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:15.13px;
-
-  h1{
-    color:#FFF;
-    font-family:"Manrope", sans-serif;
-font-size: 20.18px;
-font-style: normal;
-font-weight: 800;
-line-height: 25.225px;
-
-span{
-  color:#B9C8F3;
-font-family:"Manrope", sans-serif;
-font-size: 12.612px;
-font-style: normal;
-font-weight: 800;
-line-height: 25.225px;
-}
-  }
-}
-
-}
-.testImg{
-  width:101.138px;
-  height::100.309px;
-  border-radius:101.138px;
-}
-
-@media (max-width: 968px) {display: none;
-}
-`;
-
-export const MobileImageView = styled.div`
-  display: none;
-  @media (max-width: 868px) {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-`;
+`

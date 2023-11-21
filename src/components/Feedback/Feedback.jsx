@@ -9,52 +9,47 @@ import com6 from "../../assets/images/Ellipse 6.png";
 import testimony2 from "../../assets/images/Picture2.png";
 import testimony3 from "../../assets/images/Picture3.png";
 import testimony5 from "../../assets/images/Picture5.png";
-import swiper from "../../assets/images/swiper.png";
+
 import star from "../../assets/images/star.png";
 import {
   FeedbackContainer,
-  ImgCon,
+  TestCon,
   FeedComment,
   MobileImageView,
   NextFeed,
 } from "./Feedback.styled";
 
-
-
 export default function Feedback() {
   return (
-    <div>
+    <>
       <FeedbackContainer>
         <img src={serviceVector} />
         <h1>Client Testimonials</h1>
         <p> At QFS, we do not only provide a service but an unforgettable experience curated with your best interest at heart.
         </p>
-        <div className="testCon">
-        <ImgCon>
-              {testdata.map((item) => (
-                 <div className="testimonial">
-                  <img className="testImg" src={item.img} />
-                  <h1>{item.name}</h1>
-                  <p>{item.info}</p>
-                  <div className="rate">
-                    <h1>
-                      5.0<span>/5.0 rating</span>
-                    </h1>
-                    <div className="stars">
-                      <img src={star} />
-                      <img src={star} />
-                      <img src={star} />
-                      <img src={star} />
-                      <img src={star} />
-                    </div>
+
+        <div className="testWrap">
+          <TestCon>
+            {testdata.map((item, index) => (
+              <div className="testimonial" key={index}>
+                <img className="testImg" src={item.img} />
+                <h1>{item.name}</h1>
+                <p>{item.info}</p>
+                <div className="rate">
+                  <h1>5.0<span>/5.0 rating</span></h1>
+                  <div className="stars">
+                    <img src={star} />
+                    <img src={star} />
+                    <img src={star} />
+                    <img src={star} />
+                    <img src={star} />
                   </div>
-                  </div>
-              ))}
-          </ImgCon>
-          <div className="swiper">
-          <img src={swiper} />
-          </div>
-          </div>
+                </div>
+              </div>
+            ))}
+          </TestCon>
+        </div>
+          
         <MobileImageView>
           <FeedComment>
             <img src={com1} />
@@ -86,14 +81,14 @@ export default function Feedback() {
           </NextFeed>
         </MobileImageView>
       </FeedbackContainer>
-    </div>
+    </>
   );
 }
 
 const testdata = [
   {
     img: testimony2,
-    name: "Degaulle Asare Baffour",
+    name: "Degaulle A. Baffour",
     visa: "Tourist Visa",
     info: "Through the support and guidance of Quickfix Travel and Tour, I was able to secure my tourist visa together with my wife",
   },
@@ -107,6 +102,6 @@ const testdata = [
     img: testimony5,
     name: "Florence Donkor",
     visa: "Student Visa",
-    info: "Quickfix Travel and Tour helped to obtain admission for me in Canada as well as supported with my visa application",
+    info: "Quickfix Travel and Tour helped me to obtain admission in Canada as well as provided support with my visa application",
   },
 ];
