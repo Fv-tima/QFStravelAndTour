@@ -1,15 +1,17 @@
 import React from "react";
-import Abouthead from "../../components/About/About";
+import AboutHead from "../../components/AboutHead/AboutHead";
 import AboutBody from "../../components/AboutBody/AboutBody";
 import { MainAbout } from './About.styled'
-import { Nav, Footer } from "../../components";
+import { Nav, Footer, Cert } from "../../components";
+
 export default function About() {
   return (
     <div className="about">
       <Nav/>
         <MainAbout>
-          <Abouthead />
+          <AboutHead />
           <AboutBody />
+          <Cert />
         </MainAbout>
       <Footer/>
     </div>

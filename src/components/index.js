@@ -10,10 +10,11 @@ import Packages from "./Packages/Packages";
 import Program from "./Program/Program";
 import Checklist from "./Checklist/Checklist";
 import Destination from "./Destination/Destination";
-import About from "./About/About";
+import AboutHead from "./AboutHead/AboutHead";
 import AboutBody from "./AboutBody/AboutBody";
 import Contacts from "./Contacts/Contacts";
 import Faq from "./FAQ's/Faq";
+import Cert from "./Cert/Cert"
 
 export {
     Nav,
@@ -28,8 +29,9 @@ export {
     Program,
     Checklist,
     Destination,
-    About,
+    AboutHead,
     AboutBody,
     Contacts,
-    Faq
+    Faq,
+    Cert
 }
